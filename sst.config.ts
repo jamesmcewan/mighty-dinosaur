@@ -24,8 +24,8 @@ export default $config({
       domain:
         $app.stage === "main"
           ? {
-              name: "mighty-dinosaur.dev",
-              aliases: ["mighty-dinosaur.net"],
+              name: "mightydinosaur.dev",
+              aliases: ["mightydinosaur.net"],
               dns: sst.aws.dns(),
             }
           : undefined,
