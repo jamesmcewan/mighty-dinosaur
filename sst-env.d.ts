@@ -5,5 +5,9 @@ import "sst"
 export {}
 declare module "sst" {
   export interface Resource {
+    "mighty-dinosaur-astro": {
+      "type": "sst.aws.StaticSite"
+      "url": string
+    }
   }
 }
