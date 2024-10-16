@@ -25,7 +25,6 @@ export default $config({
         $app.stage === "main"
           ? {
               name: "mightydinosaur.dev",
-              aliases: ["mightydinosaur.net"],
               dns: sst.aws.dns(),
             }
           : undefined,
