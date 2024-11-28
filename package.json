@@ -7,13 +7,14 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
+    "update-dependencies": "bunx @astrojs/upgrade;bunx npm-check-updates --upgrade && bun install",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "astro": "4.16.14",
-    "prettier": "^3.3.3",
+    "astro": "4.16.16",
+    "prettier": "^3.4.1",
     "prettier-plugin-astro": "^0.14.1",
-    "typescript": "^5.6.3"
+    "typescript": "^5.7.2"
   }
 }
