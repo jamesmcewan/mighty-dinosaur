@@ -5,8 +5,8 @@
       "name": "mighty-dinosaur",
       "dependencies": {
         "@astrojs/check": "^0.9.4",
-        "astro": "^5.2.5",
-        "prettier": "^3.5.0",
+        "astro": "^5.3.0",
+        "prettier": "^3.5.1",
         "prettier-plugin-astro": "^0.14.1",
         "typescript": "^5.7.3",
       },
