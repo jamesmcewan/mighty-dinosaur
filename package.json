@@ -19,10 +19,12 @@
     "build": "astro build",
     "dev": "astro dev",
     "format": "prettier . --write",
-    "lint:md": "markdownlint **/**/**/*.md --ignore node_modules",
+    "prettier": "prettier .",
+    "markdownlint": "markdownlint **/**/**/*.md --ignore node_modules",
     "lint-staged": "lint-staged",
     "prepare": "is-ci || husky",
     "preview": "astro preview",
+    "test": "vitest",
     "update-dependencies": "bunx @astrojs/upgrade;bun update"
   },
   "dependencies": {
@@ -43,6 +45,7 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "sanitize-html": "^2.14.0",
-    "tailwindcss": "^4.0.8"
+    "tailwindcss": "^4.0.8",
+    "vitest": "^3.0.7"
   }
 }
