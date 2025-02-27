@@ -81,7 +81,7 @@ const siteConfig: SiteConfig = {
       url: 'https://letterboxd.com/mcwn/',
     },
     {
-      service: 'insta / jamesmcewan',
+      service: 'insta',
       handle: 'jamesmcewan',
       url: 'https://www.instagram.com/jamesmcewan/',
     },

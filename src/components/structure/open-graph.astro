@@ -7,7 +7,9 @@ export interface Props {
 }
 
 const { title, description, url } = Astro.props
-const { image, title: siteName } = siteConfig
+const { image, title: siteName, elsewhere } = siteConfig
+const mastoItem = elsewhere.find((item) => item.service === 'masto')
+const mastoUrl = mastoItem ? mastoItem.url : null
 ---
 
 <meta property="og:title" content={title} />
@@ -22,4 +24,4 @@ const { image, title: siteName } = siteConfig
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={image} />
-<link rel="me" href="https://social.lol/@mcwn" />
+<link rel="me" href={mastoUrl} />
