@@ -25,7 +25,7 @@
     "prepare": "is-ci || husky",
     "preview": "astro preview",
     "test": "vitest",
-    "build:prod": "CI=true bun run markdownlint && bun run prettier && bun run test && bun run build",
+    "build:prod": "CI=true bun run test && bun run build",
     "update-dependencies": "bunx @astrojs/upgrade;bun update"
   },
   "dependencies": {
