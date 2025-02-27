@@ -3,6 +3,12 @@ export interface Link {
   url: string
 }
 
+export interface SocialLink {
+  service: string
+  handle: string
+  url: string
+}
+
 export interface SiteConfig {
   baseURL: string
   languageCode: string
@@ -15,7 +21,7 @@ export interface SiteConfig {
   appletouch: number[]
   android: number[]
   pages: Link[]
-  elsewhere: Link[]
+  elsewhere: SocialLink[]
   maker: Link[]
   tooling: Link[]
 }
@@ -40,35 +46,43 @@ const siteConfig: SiteConfig = {
   ],
   elsewhere: [
     {
-      name: 'github / jamesmcewan',
+      service: 'github',
+      handle: 'jamesmcewan',
       url: 'https://github.com/jamesmcewan',
     },
     {
-      name: 'bsky / @mightydinosaur.dev',
+      service: 'bsky',
+      handle: '@mightydinosaur.dev',
       url: 'https://bsky.app/profile/mightydinosaur.dev',
     },
     {
-      name: 'makerworld / @mightydinosaur',
+      service: 'makerworld',
+      handle: '@mightydinosaur',
       url: 'https://makerworld.com/en/@mightydinosaur',
     },
     {
-      name: 'printables / @Mightydino_2075078',
+      service: 'printables',
+      handle: '@Mightydino_2075078',
       url: 'https://www.printables.com/@Mightydino_2075078',
     },
     {
-      name: 'masto / @mcwn@social.lol',
+      service: 'masto',
+      handle: '@mcwn@social.lol',
       url: 'https://social.lol/@mcwn',
     },
     {
-      name: 'linkedin / jamesmcewan',
+      service: 'linkedin',
+      handle: 'jamesmcewan',
       url: 'https://www.linkedin.com/in/jamesmcewan/',
     },
     {
-      name: 'letterboxd / mcwn',
+      service: 'letterboxd',
+      handle: 'mcwn',
       url: 'https://letterboxd.com/mcwn/',
     },
     {
-      name: 'insta / jamesmcewan',
+      service: 'insta / jamesmcewan',
+      handle: 'jamesmcewan',
       url: 'https://www.instagram.com/jamesmcewan/',
     },
   ],
