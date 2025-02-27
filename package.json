@@ -19,13 +19,13 @@
     "build": "astro build",
     "dev": "astro dev",
     "format": "prettier . --write",
-    "prettier": "prettier .",
+    "prettier": "prettier . --check",
     "markdownlint": "markdownlint **/**/**/*.md --ignore node_modules",
     "lint-staged": "lint-staged",
     "prepare": "is-ci || husky",
     "preview": "astro preview",
     "test": "vitest",
-    "build:prod": "bun -p run markdownlint run prettier run test run build",
+    "build:prod": "CI=true bun run markdownlint && bun run prettier && bun run test && bun run build",
     "update-dependencies": "bunx @astrojs/upgrade;bun update"
   },
   "dependencies": {
