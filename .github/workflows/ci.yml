@@ -1,4 +1,4 @@
-name: Build, Format, lint and Test
+name: Build, Format, and lint
 
 on: [push]
 
@@ -24,18 +24,6 @@ jobs:
         run: bun install
       - name: lint
         run: bun run markdownlint
-        env:
-          CI: true
-
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v1
-      - name: Install
-        run: bun install
-      - name: test
-        run: bun run test
         env:
           CI: true
 

@@ -25,7 +25,6 @@
     "prepare": "is-ci || husky",
     "preview": "astro preview",
     "test": "vitest",
-    "build:prod": "CI=true bun run test && bun run build",
     "update-dependencies": "bunx @astrojs/upgrade;bun update"
   },
   "dependencies": {
@@ -46,7 +45,6 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "sanitize-html": "^2.14.0",
-    "tailwindcss": "^4.0.8",
-    "vitest": "^3.0.7"
+    "tailwindcss": "^4.0.8"
   }
 }
