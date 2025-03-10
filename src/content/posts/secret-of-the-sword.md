@@ -1,7 +1,7 @@
 ---
 title: 'Secret of the Sword'
 pubDate: 2025-03-10
-description: 'Another in a series of excellent 80s and 90s anime (ahem.. yeah) themes.'
+description: 'Another in a series of excellent 80s and 90s (ahem.. yeah) anime themes.'
 category: 'Themes that slap'
 tags: ['anime', '80s', 'themes that slap']
 ---
