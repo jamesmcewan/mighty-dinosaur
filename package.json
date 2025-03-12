@@ -15,6 +15,7 @@
       "prettier --write"
     ]
   },
+  "type": "module",
   "scripts": {
     "build": "astro build",
     "dev": "astro dev",
