@@ -4,7 +4,6 @@ import MightyDinosaurBlock from '@/components/block/mighty-dinosaur-block.astro'
 import Body from '@/components/structure/body.astro'
 import GridBlock from '@/components/block/grid-block.astro'
 import DecorativeBlock from '@/components/block/decorative-block.astro'
-import StegoBlock from '@/components/block/stego-block.astro'
 import ColumnBlock from '@/components/block/column-block.astro'
 import WrapperBlock from '@/components/block/wrapper-block.astro'
 
@@ -21,7 +20,6 @@ const { title, decoration, description, url } = Astro.props
         <GridBlock>
           <MightyDinosaurBlock />
           <DecorativeBlock images={decoration} />
-          <StegoBlock />
         </GridBlock>
       </ColumnBlock>
       <FooterBlock />
