@@ -4,7 +4,7 @@ permalink: /
 lastmod: 2022-06-24T16:52:12.234Z
 type: default
 description: Creative engineering by Mighty Dinosaur.
-decoration: ['james', 'mighty']
+decoration: ['james']
 date: 2022-05-17T23:10:18.811Z
 ---
 
