@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 
+@import './fonts.css';
+@import './video.css';
+
 @plugin "@tailwindcss/typography";
 
 @theme {

@@ -1,7 +1,6 @@
 ---
 import siteConfig from '@/data/site-config'
 import Meta from '@/components/structure/meta.astro'
-import Styles from '@/components/structure/styles.astro'
 import Favicons from '@/components/structure/favicons.astro'
 import Rss from '@/components/structure/rss.astro'
 import OpenGraph from '@/components/structure/open-graph.astro'
@@ -16,7 +15,6 @@ const { title, description, url } = Astro.props
 ---
 
 <Favicons />
-<Styles />
 <Meta {description} />
 <OpenGraph {title} {description} {url} />
 <Rss />
