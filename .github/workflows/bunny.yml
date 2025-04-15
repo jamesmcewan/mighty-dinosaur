@@ -21,13 +21,15 @@ jobs:
 
       - name: Build site
         run: bun run build
-
-      - name: Deploy to Bunny Edge Storage
-        uses: niklaswallerstedt/bunny-action@v1.0.0
+      - name: Deploy to BunnyCDN
+        uses: ayeressian/bunnycdn-storage-deploy@v2.2.5
         with:
-          storage_zone: ${{ secrets.BUNNY_STORAGE_ZONE }}
-          storage_key: ${{ secrets.BUNNY_STORAGE_KEY }}
-          source_dir: 'dist'
-          destination_dir: '/'
-          pull_zone_id: ${{ secrets.BUNNY_PULL_ZONE_ID }}
-          purge_cache: true
+          source: 'dist'
+          destination: 'www'
+          storageZoneName: '${{ secrets.BUNNY_STORAGE_ZONE }}'
+          storagePassword: '${{ secrets.BUNNY_STORAGE_KEY }}'
+          accessKey: '${{ secrets.BUNNY_STORAGE_KEY }}'
+          pullZoneId: '${{ secrets.BUNNY_PULL_ZONE_ID }}'
+          upload: 'true'
+          remove: 'true'
+          purgePullZone: 'true'
