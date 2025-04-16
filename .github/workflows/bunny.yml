@@ -28,7 +28,7 @@ jobs:
           destination: 'www'
           storageZoneName: '${{ secrets.BUNNY_STORAGE_ZONE }}'
           storagePassword: '${{ secrets.BUNNY_STORAGE_KEY }}'
-          accessKey: '${{ secrets.BUNNY_STORAGE_KEY }}'
+          accessKey: '${{ secrets.BUNNY_ACCESS_KEY }}'
           pullZoneId: '${{ secrets.BUNNY_PULL_ZONE_ID }}'
           upload: 'true'
           remove: 'true'
