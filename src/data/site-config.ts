@@ -95,10 +95,6 @@ const siteConfig: SiteConfig = {
       name: 'comics',
       url: 'https://comics.mightydinosaur.dev/',
     },
-    {
-      name: 'mvl',
-      url: 'https://mvl.mightydinosaur.dev/',
-    },
   ],
   tooling: [
     {
