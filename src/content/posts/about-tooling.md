@@ -44,3 +44,5 @@ This site uses [Astro](https://astro.build) as the framework of choice. I love t
 Styling wise, I'm using [Tailwind CSS](https://tailwindcss.com), which I've been using for a while now. As an old CSS hand, it took me a while to get used to the utility-first approach, but now I find it a great way to work for me.
 
 Everything holds together with [Bun](https://bun.sh).
+
+Hosting, CDN, and DNS handled through [Bunny.net](https://bunny.net) - they're a fantastic EU based platform and great alternative to big tech. For any apps [fly.io](https://fly.io) is my provider of choice, they have a lovely cli tool for managing apps.
