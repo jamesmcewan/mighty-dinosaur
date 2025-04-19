@@ -1,0 +1,29 @@
+name: Branch checks
+
+on:
+  push:
+    branches:
+      - "**"
+      - "!main"
+  pull_request:
+    branches:
+      - "**"
+      - "!main"
+
+jobs:
+  branch-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+      - name: Install
+        run: bun install
+
+      - name: format
+        run: bun run format:check
+
+      - name: lint
+        run: bun run markdownlint
+
+      - name: Build
+        run: bun run build
