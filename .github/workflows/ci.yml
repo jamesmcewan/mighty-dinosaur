@@ -11,7 +11,7 @@ jobs:
       - name: Install
         run: bun install
       - name: lint
-        run: bun run prettier
+        run: bun run format:check
         env:
           CI: true
 
