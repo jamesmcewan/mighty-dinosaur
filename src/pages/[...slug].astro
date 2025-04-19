@@ -1,27 +1,27 @@
 ---
-import { getCollection } from 'astro:content'
-import PageLayout from '@/layouts/page-layout.astro'
-import MainBlock from '@/components/block/main-block.astro'
-import GridBlock from '@/components/block/grid-block.astro'
-import BackBlock from '@/components/block/back-block.astro'
+import { getCollection } from "astro:content";
+import BackBlock from "@/components/block/back-block.astro";
+import GridBlock from "@/components/block/grid-block.astro";
+import MainBlock from "@/components/block/main-block.astro";
+import PageLayout from "@/layouts/page-layout.astro";
 
 export async function getStaticPaths() {
-  const pages = await getCollection('pages')
-  return pages
-    .filter((page) => page.slug !== 'index' && page.data.permalink !== '/')
-    .map((page) => {
-      return {
-        params: {
-          slug: page.slug,
-        },
-        props: { page },
-      }
-    })
+	const pages = await getCollection("pages");
+	return pages
+		.filter((page) => page.slug !== "index" && page.data.permalink !== "/")
+		.map((page) => {
+			return {
+				params: {
+					slug: page.slug,
+				},
+				props: { page },
+			};
+		});
 }
 
-const { page } = Astro.props
-const { Content } = await page.render()
-const { title, description } = page.data
+const { page } = Astro.props;
+const { Content } = await page.render();
+const { title, description } = page.data;
 ---
 
 <PageLayout {description} {title}>

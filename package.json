@@ -1,50 +1,48 @@
 {
-  "name": "mighty-dinosaur",
-  "version": "10.4.11",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamesmcewan/mighty-dinosaur.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jamesmcewan/mighty-dinosaur/issues"
-  },
-  "homepage": "https://github.com/jamesmcewan/mighty-dinosaur",
-  "license": "MIT",
-  "lint-staged": {
-    "*.md|*.html|*.json|*.astro": [
-      "prettier --write"
-    ]
-  },
-  "type": "module",
-  "scripts": {
-    "build": "astro build",
-    "dev": "astro dev",
-    "format": "prettier . --write",
-    "prettier": "prettier . --check",
-    "markdownlint": "markdownlint **/**/**/*.md --ignore node_modules",
-    "lint-staged": "lint-staged",
-    "prepare": "is-ci || husky",
-    "preview": "astro preview",
-    "update-dependencies": "bunx @astrojs/upgrade;bun update"
-  },
-  "dependencies": {
-    "@astrojs/rss": "^4.0.11",
-    "@tailwindcss/postcss": "^4.1.3",
-    "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/vite": "^4.1.3",
-    "@types/markdown-it": "^14.1.2",
-    "@types/sanitize-html": "^2.15.0",
-    "astro": "^5.6.1",
-    "husky": "^9.1.7",
-    "is-ci": "^4.1.0",
-    "lint-staged": "^15.5.1",
-    "markdown-it": "^14.1.0",
-    "markdownlint-cli": "^0.44.0",
-    "postcss": "^8.5.3",
-    "prettier": "^3.5.3",
-    "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "sanitize-html": "^2.15.0",
-    "tailwindcss": "^4.1.3"
-  }
+	"name": "mighty-dinosaur",
+	"version": "10.4.11",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jamesmcewan/mighty-dinosaur.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jamesmcewan/mighty-dinosaur/issues"
+	},
+	"homepage": "https://github.com/jamesmcewan/mighty-dinosaur",
+	"license": "MIT",
+	"lint-staged": {
+		"*.md|*.html|*.json|*.astro": ["biome format --write"]
+	},
+	"type": "module",
+	"scripts": {
+		"build": "astro build",
+		"dev": "astro dev",
+		"format:write": "biome format --write",
+		"format:check": "biome format.",
+		"markdownlint": "markdownlint **/**/**/*.md --ignore node_modules",
+		"lint-staged": "lint-staged",
+		"prepare": "is-ci || husky",
+		"preview": "astro preview",
+		"update-dependencies": "bunx @astrojs/upgrade;bun update"
+	},
+	"dependencies": {
+		"@astrojs/rss": "^4.0.11",
+		"@tailwindcss/postcss": "^4.1.3",
+		"@tailwindcss/typography": "^0.5.16",
+		"@tailwindcss/vite": "^4.1.3",
+		"@types/markdown-it": "^14.1.2",
+		"@types/sanitize-html": "^2.15.0",
+		"astro": "^5.6.1",
+		"husky": "^9.1.7",
+		"is-ci": "^4.1.0",
+		"lint-staged": "^15.5.1",
+		"markdown-it": "^14.1.0",
+		"markdownlint-cli": "^0.44.0",
+		"postcss": "^8.5.3",
+		"sanitize-html": "^2.15.0",
+		"tailwindcss": "^4.1.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
 }

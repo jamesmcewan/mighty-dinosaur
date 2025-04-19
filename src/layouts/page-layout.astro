@@ -1,13 +1,13 @@
 ---
-import FooterBlock from '@/components/block/footer-block.astro'
-import MightyDinosaurBlock from '@/components/block/mighty-dinosaur-block.astro'
-import Body from '@/components/structure/body.astro'
-import GridBlock from '@/components/block/grid-block.astro'
-import DecorativeBlock from '@/components/block/decorative-block.astro'
-import ColumnBlock from '@/components/block/column-block.astro'
-import WrapperBlock from '@/components/block/wrapper-block.astro'
+import ColumnBlock from "@/components/block/column-block.astro";
+import DecorativeBlock from "@/components/block/decorative-block.astro";
+import FooterBlock from "@/components/block/footer-block.astro";
+import GridBlock from "@/components/block/grid-block.astro";
+import MightyDinosaurBlock from "@/components/block/mighty-dinosaur-block.astro";
+import WrapperBlock from "@/components/block/wrapper-block.astro";
+import Body from "@/components/structure/body.astro";
 
-const { title, decoration, description, url } = Astro.props
+const { title, decoration, description, url } = Astro.props;
 ---
 
 <Body {title} {description} {url}>
