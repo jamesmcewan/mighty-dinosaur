@@ -18,7 +18,7 @@
 		"build": "astro build",
 		"dev": "astro dev",
 		"format:write": "biome format --write",
-		"format:check": "biome format`",
+		"format:check": "biome format",
 		"markdownlint": "markdownlint **/**/**/*.md --ignore node_modules",
 		"lint-staged": "lint-staged",
 		"prepare": "is-ci || husky",
