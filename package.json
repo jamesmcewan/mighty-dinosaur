@@ -17,7 +17,7 @@
     ],
     "*.astro": [
       "oxlint --fix",
-      "prettier --write --parser=astro"
+      "prettier --plugin=prettier-plugin-astro --write"
     ]
   },
   "type": "module",
