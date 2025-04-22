@@ -1,13 +1,13 @@
-import { defineCollection, z } from "astro:content";
-import { rssSchema } from "@astrojs/rss";
+import { defineCollection, z } from 'astro:content'
+import { rssSchema } from '@astrojs/rss'
 
 const postSchema = rssSchema.extend({
   draft: z.boolean().optional(),
   category: z.string().optional(),
   tags: z.array(z.string()).optional(),
-});
+})
 
-export type Post = z.infer<typeof postSchema>;
+export type Post = z.infer<typeof postSchema>
 
 const pageSchema = z.object({
   title: z.string(),
@@ -17,16 +17,16 @@ const pageSchema = z.object({
   date: z.date().optional(),
   lastmod: z.date().optional(),
   permalink: z.string().optional(),
-});
+})
 
-export type Page = z.infer<typeof pageSchema>;
+export type Page = z.infer<typeof pageSchema>
 
 const posts = defineCollection({
   schema: postSchema,
-});
+})
 
 const pages = defineCollection({
   schema: pageSchema,
-});
+})
 
-export const collections = { posts, pages };
+export const collections = { posts, pages }

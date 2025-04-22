@@ -1,17 +1,17 @@
 ---
-import Favicons from "@/components/structure/favicons.astro";
-import Meta from "@/components/structure/meta.astro";
-import OpenGraph from "@/components/structure/open-graph.astro";
-import Rss from "@/components/structure/rss.astro";
-import siteConfig from "@/data/site-config";
+import Favicons from '@/components/structure/favicons.astro'
+import Meta from '@/components/structure/meta.astro'
+import OpenGraph from '@/components/structure/open-graph.astro'
+import Rss from '@/components/structure/rss.astro'
+import siteConfig from '@/data/site-config'
 
 interface Props {
-  title: string;
-  description: string;
-  url: string;
+  title: string
+  description: string
+  url: string
 }
 
-const { title, description, url }: Props = Astro.props;
+const { title, description, url }: Props = Astro.props
 ---
 
 <Favicons />
