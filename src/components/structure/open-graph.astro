@@ -1,14 +1,14 @@
 ---
-import siteConfig from '@/data/site-config'
+import siteConfig from "@/data/site-config"
 export interface Props {
-  title: string
-  description: string
-  url: string
+	title: string
+	description: string
+	url: string
 }
 
 const { title, description, url } = Astro.props
 const { image, title: siteName, elsewhere } = siteConfig
-const mastoItem = elsewhere.find((item) => item.service === 'masto')
+const mastoItem = elsewhere.find((item) => item.service === "masto")
 const mastoUrl = mastoItem ? mastoItem.url : null
 ---
 
