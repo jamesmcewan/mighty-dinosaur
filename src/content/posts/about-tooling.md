@@ -1,8 +1,8 @@
 ---
-title: 'About tooling'
+title: "About tooling"
 pubDate: 2022-12-24
-description: 'The tools and frameworks that I use to build websites and web apps.'
-tags: ['projects']
+description: "The tools and frameworks that I use to build websites and web apps."
+tags: ["projects"]
 ---
 
 ## Setup

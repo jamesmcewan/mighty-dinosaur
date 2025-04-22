@@ -1,9 +1,9 @@
 ---
-title: 'Kimagure Orange Road'
+title: "Kimagure Orange Road"
 pubDate: 2023-07-16
-description: 'First in a series of excellent 80s and 90s anime themes.'
-category: 'Anime themes that slap'
-tags: ['anime', '80s', 'Anime themes that slap']
+description: "First in a series of excellent 80s and 90s anime themes."
+category: "Anime themes that slap"
+tags: ["anime", "80s", "Anime themes that slap"]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sWSOzaXLotQ?si=-9CPDsweBeFUZ9M6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

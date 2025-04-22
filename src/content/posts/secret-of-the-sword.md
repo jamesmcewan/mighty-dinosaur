@@ -1,9 +1,9 @@
 ---
-title: 'Secret of the Sword'
+title: "Secret of the Sword"
 pubDate: 2025-03-10
-description: 'Another in a series of excellent 80s and 90s (ahem.. yeah) anime themes.'
-category: 'Themes that slap'
-tags: ['anime', '80s', 'themes that slap']
+description: "Another in a series of excellent 80s and 90s (ahem.. yeah) anime themes."
+category: "Themes that slap"
+tags: ["anime", "80s", "themes that slap"]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dbvHem94cPA?si=YH-WJ4jYftRlaPF1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

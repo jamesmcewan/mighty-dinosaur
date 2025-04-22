@@ -1,8 +1,8 @@
 ---
-title: 'Gameboy mods'
+title: "Gameboy mods"
 pubDate: 2022-12-23
-description: 'During lockdown I picked up the brilliantly maddening hobby of modifying Gameboys.'
-tags: ['projects']
+description: "During lockdown I picked up the brilliantly maddening hobby of modifying Gameboys."
+tags: ["projects"]
 ---
 
 ![Image of a DMG Gameboy, Gameboy Pocket, Gameboy Color, and Gameboy Advance](/images/posts/gameboys.avif)
