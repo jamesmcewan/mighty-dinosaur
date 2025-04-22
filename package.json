@@ -11,8 +11,13 @@
   "homepage": "https://github.com/jamesmcewan/mighty-dinosaur",
   "license": "MIT",
   "lint-staged": {
-    "*.md|*.html|*.json|*.astro": [
+    "*.{md,html,json}": [
+      "oxlint --fix",
       "prettier --write"
+    ],
+    "*.astro": [
+      "oxlint --fix",
+      "prettier --write --parser=astro"
     ]
   },
   "type": "module",
@@ -20,6 +25,8 @@
     "build": "astro build",
     "dev": "astro dev",
     "markdownlint": "markdownlint **/**/**/*.md --ignore node_modules",
+    "lint:check": "oxlint",
+    "lint:fix": "oxlint --fix",
     "format:write": "prettier --write . ",
     "format:check": "prettier --check . ",
     "lint-staged": "lint-staged",
@@ -45,6 +52,7 @@
     "tailwindcss": "^4.1.3"
   },
   "devDependencies": {
+    "oxlint": "^0.16.7",
     "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.11"
