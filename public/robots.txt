@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /
+Allow: /$
+Allow: /post/
+Allow: /uses/
+Allow: /index.html
+Allow: /404.html
