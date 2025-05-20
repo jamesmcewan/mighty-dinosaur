@@ -8,4 +8,4 @@ decoration: ["james"]
 date: 2022-05-17T23:10:18.811Z
 ---
 
-In the meantime he’s a developer, a designer, an illustrator, a photographer, a hardware hacker, a collector, and whatever else happens to take his fancy. (3D Printing these days!)
+In the meantime he’s a developer, a designer, an illustrator, a photographer, a maker, and whatever else happens to take his fancy.
