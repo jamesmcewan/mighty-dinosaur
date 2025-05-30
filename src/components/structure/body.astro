@@ -12,12 +12,12 @@ interface Props {
 const { title, description, url } = Astro.props
 ---
 
-<html lang="en" class="bg-tn-mantle">
+<html lang="en">
   <head>
     <Head {title} {description} {url} />
     <ClientRouter />
   </head>
-  <body class="from-tn-crust to-tn-mantle bg-linear-to-b">
+  <body class="bg-tn-mantle from-tn-crust to-tn-mantle bg-linear-to-b">
     <slot />
   </body>
 </html>
