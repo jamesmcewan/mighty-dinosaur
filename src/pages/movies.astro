@@ -1,0 +1,20 @@
+---
+import GridBlock from "@/components/block/grid-block.astro"
+import MediaGridBlock from "@/components/block/media-grid-block.astro"
+import getPage from "@/data/get-page"
+import PageLayout from "@/layouts/page-layout.astro"
+import { movies } from "@/data/movies"
+
+const { description, title, decoration } = await getPage("index")
+const url = "movies"
+
+---
+
+<PageLayout {description} {title} {decoration} {url}>
+  <GridBlock>
+    <main>
+      <h1 class="font-cartridgeboldrough text-3xl text-tn-text p-1.5">Movies</h1>
+      <MediaGridBlock media={movies} />
+    </main>
+  </GridBlock>
+</PageLayout>

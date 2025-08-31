@@ -3,13 +3,13 @@ const { media } = Astro.props
 ---
 
 <section>
-  <ul class="grid gap-6">
+  <ul class="grid grid-cols-2 md:grid-cols-4 gap-4">
     {
       media.map((item) => {
     const { title, image } = item
         return (
           <li>
-      <img class="rounded-3xl" src={`https://img.mightydinosaur.dev/movies/thumb/${image}.webp`} alt={title}>
+      <img class="h-auto max-w-full rounded-lg" src={`https://img.mightydinosaur.dev/movies/thumb/${image}`} alt={title}>
           </li>
         )
       })
