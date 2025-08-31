@@ -1,22 +1,24 @@
 ---
 import SectionHeadingBlock from "@/components/block/section-heading-block.astro";
-import CategoryInline from "@/components/inline/category-inline.astro";
-import getPosts from "@/data/get-posts";
+import getPages from "@/data/get-pages.ts";
 
-const posts = await getPosts(5);
+const pagess = [
+  { title: "Movies", description: "The films I love", url: "/movies/" },
+];
+
+const pages = await getPages();
 ---
 
 <section>
-  <SectionHeadingBlock> Recent posts </SectionHeadingBlock>
+  <SectionHeadingBlock> Pages </SectionHeadingBlock>
   <ul class="grid gap-6">
     {
-      posts.map((post) => {
-        const { title, category, description } = post.data;
+      pages.map((page) => {
+        const { title, description } = page.data;
         return (
           <li>
-            <a href={`/post/${post.slug}/`} class="block rounded-3xl">
+            <a href={`/${page.slug}/`} class="block rounded-3xl">
               <h2 class="font-cartridgerough text-tn-orange/90 hover:text-tn-orange text-lg transition-all duration-150 ease-in-out hover:brightness-110">
-                {category && <CategoryInline>{category}:</CategoryInline>}{" "}
                 {title}
               </h2>
               <p class="text-md font-rethink text-tn-text">{description}</p>

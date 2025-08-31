@@ -1,13 +1,14 @@
 ---
-import ElsewhereBlock from "@/components/block/elsewhere-block.astro"
-import GridBlock from "@/components/block/grid-block.astro"
-import MainBlock from "@/components/block/main-block.astro"
-import MakerBlock from "@/components/block/maker-block.astro"
-import RecentPostsBlock from "@/components/block/recent-posts-block.astro"
-import getPage from "@/data/get-page"
-import PageLayout from "@/layouts/page-layout.astro"
+import ElsewhereBlock from "@/components/block/elsewhere-block.astro";
+import GridBlock from "@/components/block/grid-block.astro";
+import MainBlock from "@/components/block/main-block.astro";
+import MakerBlock from "@/components/block/maker-block.astro";
+import PagesBlock from "@/components/block/pages-block.astro";
+import RecentPostsBlock from "@/components/block/recent-posts-block.astro";
+import getPage from "@/data/get-page";
+import PageLayout from "@/layouts/page-layout.astro";
 
-const { description, title, Content, decoration, url } = await getPage("index")
+const { description, title, Content, decoration, url } = await getPage("index");
 ---
 
 <PageLayout {description} {title} {decoration} {url}>
@@ -15,6 +16,7 @@ const { description, title, Content, decoration, url } = await getPage("index")
     <MainBlock {title}>
       <Content />
     </MainBlock>
+    <PagesBlock />
     <RecentPostsBlock />
     <MakerBlock />
     <ElsewhereBlock />
