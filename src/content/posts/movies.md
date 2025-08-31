@@ -39,5 +39,5 @@ So here's where my collection currently stands.
 - Lupin III: the First
 - Promare
 - Contact
-- Close Encounters of the Third Kind 
+- Close Encounters of the Third Kind
 - Raiders of the Lost Arc
