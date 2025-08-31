@@ -1,12 +1,12 @@
 ---
-import SectionHeadingBlock from "@/components/block/section-heading-block.astro";
-import getPages from "@/data/get-pages.ts";
+import SectionHeadingBlock from "@/components/block/section-heading-block.astro"
+import getPages from "@/data/get-pages.ts"
 
 const pagess = [
-  { title: "Movies", description: "The films I love", url: "/movies/" },
-];
+	{ title: "Movies", description: "The films I love", url: "/movies/" },
+]
 
-const pages = await getPages();
+const pages = await getPages()
 ---
 
 <section>
