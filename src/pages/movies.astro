@@ -4,13 +4,13 @@ import GridBlock from "@/components/block/grid-block.astro";
 import MainBlock from "@/components/block/main-block.astro"
 import MediaGridBlock from "@/components/block/media-grid-block.astro";
 import getPage from "@/data/get-page";
-import PostLayout from "@/layouts/post-layout.astro";
+import SingleColumnLayout from "@/layouts/single-column-layout.astro";
 import { movies } from "@/data/movies";
 
 const { description, title, url, Content } = await getPage("movies");
 ---
 
-<PostLayout {description} {title} {url}>
+<SingleColumnLayout {description} {title} {url}>
   <GridBlock>
    <MainBlock {title}>
      <Content />
@@ -19,4 +19,4 @@ const { description, title, url, Content } = await getPage("movies");
     </main>
   </GridBlock>
 <BackBlock />
-</PostLayout>
+</SingleColumnLayout>

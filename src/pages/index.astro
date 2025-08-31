@@ -6,12 +6,12 @@ import MakerBlock from "@/components/block/maker-block.astro";
 import PagesBlock from "@/components/block/pages-block.astro";
 import RecentPostsBlock from "@/components/block/recent-posts-block.astro";
 import getPage from "@/data/get-page";
-import PageLayout from "@/layouts/page-layout.astro";
+import TwoColumnLayout from "@/layouts/two-column-layout.astro";
 
 const { description, title, Content, decoration, url } = await getPage("index");
 ---
 
-<PageLayout {description} {title} {decoration} {url}>
+<TwoColumnLayout {description} {title} {decoration} {url}>
   <GridBlock>
     <MainBlock {title}>
       <Content />
@@ -21,4 +21,4 @@ const { description, title, Content, decoration, url } = await getPage("index");
     <MakerBlock />
     <ElsewhereBlock />
   </GridBlock>
-</PageLayout>
+</TwoColumnLayout>

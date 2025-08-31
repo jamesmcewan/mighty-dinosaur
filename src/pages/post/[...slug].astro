@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import ArticleBlock from "@/components/block/article-block.astro";
 import BackBlock from "@/components/block/back-block.astro";
-import PostLayout from "@/layouts/post-layout.astro";
+import SingleColumnLayout from "@/layouts/single-column-layout.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
@@ -19,9 +19,9 @@ const { title, category, description } = post.data;
 const url = `${import.meta.env.SITE}post/${post.slug}`;
 ---
 
-<PostLayout {description} {title} {url}>
+<SingleColumnLayout {description} {title} {url}>
   <ArticleBlock {title} {category}>
     <Content />
   </ArticleBlock>
   <BackBlock />
-</PostLayout>
+</SingleColumnLayout>

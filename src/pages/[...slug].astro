@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import BackBlock from "@/components/block/back-block.astro";
 import GridBlock from "@/components/block/grid-block.astro";
 import MainBlock from "@/components/block/main-block.astro";
-import PostLayout from "@/layouts/post-layout.astro";
+import SingleColumnLayout from "@/layouts/single-column-layout.astro";
 
 export async function getStaticPaths() {
   const pages = await getCollection("pages");
@@ -24,11 +24,11 @@ const { Content } = await page.render();
 const { title, description } = page.data;
 ---
 
-<PostLayout {description} {title}>
+<SingleColumnLayout {description} {title}>
   <GridBlock>
     <MainBlock {title}>
       <Content />
     </MainBlock>
     <BackBlock />
   </GridBlock>
-</PostLayout>
+</SingleColumnLayout>
