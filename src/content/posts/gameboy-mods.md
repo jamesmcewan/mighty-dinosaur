@@ -5,6 +5,6 @@ description: "During lockdown I picked up the brilliantly maddening hobby of mod
 tags: ["projects"]
 ---
 
-![Image of a DMG Gameboy, Gameboy Pocket, Gameboy Color, and Gameboy Advance](/images/posts/gameboys.avif)
+![Image of a DMG Gameboy, Gameboy Pocket, Gameboy Color, and Gameboy Advance](https://img.mightydinosaur.dev/posts/gameboys.avif)
 
 This was a lockdown hobby... I'll get around to writing more... maybe.

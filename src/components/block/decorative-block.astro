@@ -10,7 +10,7 @@ const { images = defaultImages } = Astro.props
 <GridBlock extendClass="grid-cols-2 md:grid-cols-1">
   {
     images.map((image: string) => (
-      <ImageBlock src={`/images/${image}.webp`} alt={image} />
+      <ImageBlock src={`https://img.mightydinosaur.dev/${image}.webp`} alt={image} />
     ))
   }
   <StegoBlock />

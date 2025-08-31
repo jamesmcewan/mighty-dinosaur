@@ -37,7 +37,7 @@ const siteConfig: SiteConfig = {
 	favicons: [16, 32, 96, 128, 196],
 	appletouch: [57, 60, 72, 76, 114, 120, 144, 152, 167, 180],
 	android: [192, 512],
-	image: "https://mightydinosaur.dev/images/mighty.webp",
+	image: "https://img.mightydinosaur.dev/mighty.webp",
 	pages: [
 		{
 			name: "Uses",

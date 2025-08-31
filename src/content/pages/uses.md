@@ -16,13 +16,13 @@ At the moment, I use a 13in M1 MacBook Pro for work and a 15in M2 MacBook Air pe
 
 I also keep a Dell laptop around when I want to play with Linux distros - these days, I'm using Fedora with Gnome. I love the idea of Arch and Nix, but time management is not my strong suit, and those are rabbit holes.
 
-![Macbook Air Laptop](/images/posts/macbook-air.avif)
+![Macbook Air Laptop](https://img.mightydinosaur.dev//images/posts/macbook-air.avif)
 
 Recently, I've been experimenting with a homelab setup, really just a couple of Raspberry Pi units with [Runtipi](https://runtipi.io) installed on them to manage Docker containers. I'm finding I like being able to run certain services in my own environment and using [Tailscale](https://tailscale.com) as a private VPN to access externally.
 
 ### Editor
 
-![Macintosh desktop with a terminal window containing the neovim editor](/images/posts/neovim-rose-pine.avif)
+![Macintosh desktop with a terminal window containing the neovim editor](https://img.mightydinosaur.dev//images/posts/neovim-rose-pine.avif)
 
 I live in the terminal these days. My editor of choice is Vim, more specifically Neovim.
 
