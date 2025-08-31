@@ -1,0 +1,18 @@
+---
+const { media } = Astro.props
+---
+
+<section>
+  <ul class="grid gap-6">
+    {
+      media.map((item) => {
+    const { title, image } = item
+        return (
+          <li>
+      <img class="rounded-3xl" src={`https://img.mightydinosaur.dev/movies/thumb/${image}.webp`} alt={title}>
+          </li>
+        )
+      })
+    }
+  </ul>
+</section>
