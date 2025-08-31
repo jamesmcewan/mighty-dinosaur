@@ -1,7 +1,7 @@
 ---
 title: "Movies"
 pubDate: 2025-08-30
-description: "The movies I truly love."
+description: "The films I truly love."
 tags: ["movies","tv","blu-ray"]
 ---
 
@@ -26,7 +26,7 @@ So here's where my collection currently stands.
 - Thief
 - It's a Mad, Mad, Mad, Mad World
 - Runaway Train
-- Sorceror
+- Sorcerer
 - Matinee
 - Police Story
 - Police Story 2
@@ -41,3 +41,5 @@ So here's where my collection currently stands.
 - Contact
 - Close Encounters of the Third Kind
 - Raiders of the Lost Arc
+- Spider-man
+- Spider-man 2
