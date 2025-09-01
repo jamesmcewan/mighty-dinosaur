@@ -140,11 +140,11 @@
 		"rank": 9999
 	},
 	{
-		"id": "promare",
-		"title": "Promare",
-		"poster": "promare.webp",
+		"id": "superman",
+		"title": "Superman",
+		"poster": "superman.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 4
 	},
 	{
 		"id": "contact",
@@ -166,6 +166,20 @@
 		"poster": "raiders-of-the-lost-ark.webp",
 		"description": "",
 		"rank": 9999
+	},
+	{
+		"id": "hackers",
+		"title": "Hackers",
+		"poster": "hackers.webp",
+		"description": "",
+		"rank": 3
+	},
+	{
+		"id": "jurassic-park",
+		"title": "Jurassic Park",
+		"poster": "jurassic-park.webp",
+		"description": "",
+		"rank": 2
 	},
 	{
 		"id": "spider-man",
