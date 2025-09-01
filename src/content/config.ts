@@ -1,4 +1,5 @@
 import { defineCollection, z } from "astro:content"
+import { glob, file } from "astro/loaders" // Not available with legacy API
 import { rssSchema } from "@astrojs/rss"
 
 const postSchema = rssSchema.extend({
@@ -22,11 +23,60 @@ const pageSchema = z.object({
 export type Page = z.infer<typeof pageSchema>
 
 const posts = defineCollection({
+	// loader: glob({ pattern: "**/*.md", base: "./src/content/posts" }),
 	schema: postSchema,
 })
 
 const pages = defineCollection({
+	// loader: glob({ pattern: "**/*.md", base: "./src/content/pages" }),
 	schema: pageSchema,
 })
 
-export const collections = { posts, pages }
+const movieSchema = z.object({
+	id: z.string(),
+	title: z.string(),
+	poster: z.string(),
+	description: z.string().optional(),
+	rank: z.number(),
+})
+
+export type Movie = z.infer<typeof movieSchema>
+
+const movies = defineCollection({
+	loader: file("src/content/movies/movies.json"),
+	schema: movieSchema,
+})
+
+const musicSchema = z.object({
+	id: z.string(),
+	title: z.string(),
+	cover: z.string(),
+	artist: z.string(),
+	description: z.string().optional(),
+	rank: z.number(),
+})
+
+export type Music = z.infer<typeof movieSchema>
+
+const music = defineCollection({
+	loader: file("src/content/music/music.json"),
+	schema: musicSchema,
+})
+
+const comicSchema = z.object({
+	id: z.string(),
+	title: z.string(),
+	cover: z.string(),
+	creativeTeam: z.array(z.string()),
+	description: z.string().optional(),
+	rank: z.number(),
+})
+
+export type Comic = z.infer<typeof movieSchema>
+
+const comics = defineCollection({
+	loader: file("src/content/comics/comics.json"),
+	schema: comicSchema,
+})
+
+export const collections = { posts, pages, movies, music, comics }
