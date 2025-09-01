@@ -2,9 +2,9 @@ pre-commit:
   commands:
     lint:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc,css,astro}"
-      run: bunx oxlint check --fix {staged_files}
+      run: bun run lint:fix
       stage_fixed: true
     format:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc,css, astro}"
-      run: npx @biomejs/biome format --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
+      run: bun run format:write
       stage_fixed: true
