@@ -7,7 +7,6 @@ import SingleColumnLayout from "@/layouts/single-column-layout.astro"
 
 export async function getStaticPaths() {
 	const pages = await getCollection("pages")
-
 	return pages
 		.filter((page) => page.data.permalink !== "/")
 		.map((page) => {

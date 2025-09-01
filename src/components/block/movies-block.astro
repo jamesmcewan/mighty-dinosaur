@@ -1,0 +1,22 @@
+---
+import { getCollection } from "astro:content"
+
+const movies = await getCollection('movies')
+
+---
+
+<section class="not-prose">
+  <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 list-none">
+    {
+      movies.map((item) => {
+    const { title, poster } = item.data
+        return (
+          <li>
+      <img class="h-auto max-w-full rounded-lg" src={`https://img.mightydinosaur.dev/movies/thumb/${poster}`} alt={title}>
+          </li>
+        )
+      })
+    }
+  </ul>
+</section>
+

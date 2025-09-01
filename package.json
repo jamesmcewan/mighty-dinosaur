@@ -25,6 +25,7 @@
 		"update-dependencies": "bunx @astrojs/upgrade;bun update"
 	},
 	"dependencies": {
+		"@astrojs/mdx": "^4.3.4",
 		"@astrojs/rss": "^4.0.12",
 		"@tailwindcss/postcss": "^4.1.12",
 		"@tailwindcss/typography": "^0.5.16",
@@ -38,10 +39,10 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
+		"@types/markdown-it": "^14.1.2",
+		"@types/sanitize-html": "^2.16.0",
 		"is-ci": "^4.1.0",
 		"lefthook": "^1.12.3",
-		"oxlint": "^0.16.12",
-		"@types/markdown-it": "^14.1.2",
-		"@types/sanitize-html": "^2.16.0"
+		"oxlint": "^0.16.12"
 	}
 }
