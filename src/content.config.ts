@@ -6,6 +6,7 @@ const postSchema = rssSchema.extend({
 	draft: z.boolean().optional(),
 	category: z.string().optional(),
 	tags: z.array(z.string()).optional(),
+	slug: z.string(),
 })
 
 export type Post = z.infer<typeof postSchema>
@@ -23,12 +24,12 @@ const pageSchema = z.object({
 export type Page = z.infer<typeof pageSchema>
 
 const posts = defineCollection({
-	// loader: glob({ pattern: "**/*.md", base: "./src/content/posts" }),
+	loader: glob({ pattern: "**/*.md", base: "./src/content/posts" }),
 	schema: postSchema,
 })
 
 const pages = defineCollection({
-	// loader: glob({ pattern: "**/*.md", base: "./src/content/pages" }),
+	loader: glob({ pattern: "**/*.md", base: "./src/content/pages" }),
 	schema: pageSchema,
 })
 
