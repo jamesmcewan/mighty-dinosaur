@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content"
+import { getCollection, render } from "astro:content"
 import BackBlock from "@/components/block/back-block.astro"
 import GridBlock from "@/components/block/grid-block.astro"
 import MainBlock from "@/components/block/main-block.astro"
@@ -7,12 +7,13 @@ import SingleColumnLayout from "@/layouts/single-column-layout.astro"
 
 export async function getStaticPaths() {
 	const pages = await getCollection("pages")
+
 	return pages
-		.filter((page) => page.slug !== "index" && page.data.permalink !== "/")
+		.filter((page) => page.data.permalink !== "/")
 		.map((page) => {
 			return {
 				params: {
-					slug: page.slug,
+					slug: page.data.permalink,
 				},
 				props: { page },
 			}
@@ -20,7 +21,7 @@ export async function getStaticPaths() {
 }
 
 const { page } = Astro.props
-const { Content } = await page.render()
+const { Content } = await render(page)
 const { title, description } = page.data
 ---
 

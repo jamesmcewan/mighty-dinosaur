@@ -1,4 +1,4 @@
-import { getEntry } from "astro:content"
+import { getEntry, render } from "astro:content"
 import type { CollectionEntry } from "astro:content"
 
 interface PageData {
@@ -27,7 +27,7 @@ async function getPage(page: string): Promise<PageResult> {
 		)
 	}
 
-	const { Content } = await contentPage.render()
+	const { Content } = await render(contentPage)
 	const { title, description, decoration, permalink } =
 		contentPage.data as PageData
 	const url = `${import.meta.env.SITE}${permalink.replace("/", "")}`

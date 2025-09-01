@@ -6,7 +6,7 @@ type Page = CollectionEntry<"page">
 async function getPages(): Promise<Page[]> {
 	const pagesCollection = await getCollection(
 		"pages",
-		(page) => page.slug !== "index" && page.slug !== "404",
+		(page) => page.data.permalink !== "/" && page.data.permalink !== "404",
 	)
 	if (!pagesCollection || pagesCollection.length === 0) {
 		throw new Error("No pages found. Make sure it exists.")

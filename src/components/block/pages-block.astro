@@ -10,10 +10,10 @@ const pages = await getPages()
   <ul class="grid md:grid-cols-4 gap-6">
     {
       pages.map((page) => {
-        const { title, description } = page.data;
+    const { title, description, permalink } = page.data;
         return (
           <li>
-            <a href={`/${page.slug}/`} class="block rounded-3xl">
+            <a href={`/${permalink}/`} class="block rounded-3xl">
               <h2 class="font-cartridgerough text-tn-orange/90 hover:text-tn-orange text-lg transition-all duration-150 ease-in-out hover:brightness-110">
                 {title}
               </h2>

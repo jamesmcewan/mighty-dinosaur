@@ -1,5 +1,6 @@
 ---
 title: "Gameboy mods"
+slug: "gameboy-mods"
 pubDate: 2022-12-23
 description: "During lockdown I picked up the brilliantly maddening hobby of modifying Gameboys."
 tags: ["projects"]

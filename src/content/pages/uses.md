@@ -1,6 +1,6 @@
 ---
 title: Uses
-permalink: /uses
+permalink: uses
 lastmod: 2022-06-24T16:52:12.234Z
 type: default
 description: Things I use to build this
