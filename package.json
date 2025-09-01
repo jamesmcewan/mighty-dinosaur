@@ -14,7 +14,6 @@
 	"scripts": {
 		"build": "astro build",
 		"dev": "astro dev",
-		"markdownlint": "markdownlint **/**/**/*.md --ignore node_modules",
 		"lint:check": "oxlint",
 		"lint:fix": "oxlint --fix",
 		"format:write": "biome format --write . ",
@@ -32,7 +31,6 @@
 		"@tailwindcss/vite": "^4.1.12",
 		"astro": "5.7.4",
 		"markdown-it": "^14.1.0",
-		"markdownlint-cli": "^0.44.0",
 		"postcss": "^8.5.6",
 		"sanitize-html": "^2.17.0",
 		"tailwindcss": "^4.1.12"

@@ -22,6 +22,7 @@ export async function getStaticPaths() {
 const { page } = Astro.props
 const { Content } = await render(page)
 const { title, description } = page.data
+
 ---
 
 <SingleColumnLayout {description} {title}>

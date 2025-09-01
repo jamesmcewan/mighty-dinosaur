@@ -2,12 +2,14 @@
 import { getCollection } from "astro:content"
 
 const movies = await getCollection("movies")
+
+const sortedMovies = movies.sort((a, b) => a.data.rank - b.data.rank)
 ---
 
 <section class="not-prose">
   <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 list-none">
     {
-      movies.map((item) => {
+      sortedMovies.map((item) => {
     const { title, poster } = item.data
         return (
           <li>
