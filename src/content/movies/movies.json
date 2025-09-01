@@ -28,6 +28,76 @@
 		"rank": 9999
 	},
 	{
+		"id": "terminator-2-judgement-day",
+		"title": "Terminator 2: Judgement Day",
+		"poster": "terminator-2-judgement-day.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "all-the-presidents-men",
+		"title": "All The President's Men",
+		"poster": "all-the-presidents-men.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "ant-man",
+		"title": "Ant Man",
+		"poster": "ant-man.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "batman",
+		"title": "Batman",
+		"poster": "batman.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "batman-returns",
+		"title": "Batman Returns",
+		"poster": "batman-returns.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "batman-forever",
+		"title": "Batman Forever",
+		"poster": "batman-forever.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "batman-and-robin",
+		"title": "Batman And Robin",
+		"poster": "batman-and-robin.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "sneakers",
+		"title": "Sneakers",
+		"poster": "sneakers.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "the-phantom",
+		"title": "The Phantom",
+		"poster": "the-phantom.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "the-shadow",
+		"title": "The Shadow",
+		"poster": "the-shadow.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
 		"id": "robocop",
 		"title": "Robocop",
 		"poster": "robocop.webp",
@@ -112,6 +182,13 @@
 		"rank": 9999
 	},
 	{
+		"id": "spider-man-into-the-spider-verse",
+		"title": "Spider-man: Into the Spider-Verse",
+		"poster": "spider-man-into-the-spider-verse.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
 		"id": "superman-the-movie",
 		"title": "Superman: The Movie",
 		"poster": "superman-the-movie.webp",
@@ -192,6 +269,20 @@
 		"id": "spider-man-2",
 		"title": "Spider-man 2",
 		"poster": "spider-man-2.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "akira",
+		"title": "Akira",
+		"poster": "akira.webp",
+		"description": "",
+		"rank": 9999
+	},
+	{
+		"id": "wargames",
+		"title": "Wargames",
+		"poster": "wargames.webp",
 		"description": "",
 		"rank": 9999
 	}
