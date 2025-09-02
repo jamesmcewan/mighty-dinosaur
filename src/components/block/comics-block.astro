@@ -1,0 +1,29 @@
+---
+import { getCollection } from "astro:content"
+
+const { category } = Astro.props
+
+const comics = await getCollection("comics")
+
+const filteredComics = comics.filter(
+	(comic) => comic.data.category === category,
+)
+
+const sortedComics = filteredComics.sort((a, b) => a.data.rank - b.data.rank)
+---
+
+<section class="not-prose">
+  <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 list-none">
+    {
+      sortedComics.map((item) => {
+    const { title, cover } = item.data
+        return (
+          <li>
+      <img class="h-auto max-w-full rounded-lg" src={`https://img.mightydinosaur.dev/comics/thumb/${cover}`} alt={title}>
+      <h2 class="font-cartridgerough text-base mt-1.5 text-tn-green">{title}</h2>
+          </li>
+        )
+      })
+    }
+  </ul>
+</section>

@@ -7,6 +7,7 @@ const comicSchema = z.object({
 	cover: z.string(),
 	creativeTeam: z.array(z.string()),
 	description: z.string().optional(),
+	category: z.string(),
 	rank: z.number(),
 })
 
