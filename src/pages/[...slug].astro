@@ -2,7 +2,7 @@
 import { getCollection, render } from "astro:content"
 import BackBlock from "@/components/block/back-block.astro"
 import GridBlock from "@/components/block/grid-block.astro"
-import MainBlock from "@/components/block/main-block.astro"
+import PageBlock from "@/components/block/page-block.astro"
 import SingleColumnLayout from "@/layouts/single-column-layout.astro"
 
 export async function getStaticPaths() {
@@ -26,9 +26,9 @@ const { title, description } = page.data
 
 <SingleColumnLayout {description} {title}>
   <GridBlock>
-    <MainBlock {title}>
+    <PageBlock {title}>
       <Content />
-    </MainBlock>
+    </PageBlock>
     <BackBlock />
   </GridBlock>
 </SingleColumnLayout>
