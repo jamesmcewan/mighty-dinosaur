@@ -1,5 +1,6 @@
 ---
 import siteConfig from "@/data/site-config"
+import { getCollection } from "astro:content"
 export interface Props {
 	title: string
 	description: string
@@ -7,9 +8,10 @@ export interface Props {
 }
 
 const { title, description, url } = Astro.props
-const { image, title: siteName, elsewhere } = siteConfig
-const mastoItem = elsewhere.find((item) => item.service === "masto")
-const mastoUrl = mastoItem ? mastoItem.url : null
+const { image, title: siteName } = siteConfig
+const elsewhere = await getCollection("elsewhere")
+const mastoItem = elsewhere.find((item) => item.id === "masto")
+const mastoUrl = mastoItem ? mastoItem.data.url : null
 ---
 
 <meta property="og:title" content={title} />

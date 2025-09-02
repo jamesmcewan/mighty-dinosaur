@@ -20,8 +20,6 @@ export interface SiteConfig {
 	favicons: number[]
 	appletouch: number[]
 	android: number[]
-	pages: Link[]
-	elsewhere: SocialLink[]
 	maker: Link[]
 	tooling: Link[]
 }
@@ -38,54 +36,6 @@ const siteConfig: SiteConfig = {
 	appletouch: [57, 60, 72, 76, 114, 120, 144, 152, 167, 180],
 	android: [192, 512],
 	image: "https://img.mightydinosaur.dev/mighty.webp",
-	pages: [
-		{
-			name: "Uses",
-			url: "/uses",
-		},
-	],
-	elsewhere: [
-		{
-			service: "github",
-			handle: "jamesmcewan",
-			url: "https://github.com/jamesmcewan",
-		},
-		{
-			service: "bsky",
-			handle: "@mightydinosaur.dev",
-			url: "https://bsky.app/profile/mightydinosaur.dev",
-		},
-		{
-			service: "makerworld",
-			handle: "@mightydinosaur",
-			url: "https://makerworld.com/en/@mightydinosaur",
-		},
-		{
-			service: "printables",
-			handle: "@Mightydino_2075078",
-			url: "https://www.printables.com/@Mightydino_2075078",
-		},
-		{
-			service: "masto",
-			handle: "@mcwn@social.lol",
-			url: "https://social.lol/@mcwn",
-		},
-		{
-			service: "linkedin",
-			handle: "jamesmcewan",
-			url: "https://www.linkedin.com/in/jamesmcewan/",
-		},
-		{
-			service: "letterboxd",
-			handle: "mcwn",
-			url: "https://letterboxd.com/mcwn/",
-		},
-		{
-			service: "insta",
-			handle: "jamesmcewan",
-			url: "https://www.instagram.com/jamesmcewan/",
-		},
-	],
 	maker: [
 		{
 			name: "draws",
