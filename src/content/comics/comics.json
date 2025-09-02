@@ -34,5 +34,14 @@
 		"description": "",
 		"category": "compact-comics",
 		"rank": 1
+	},
+	{
+		"id": "watchmen",
+		"title": "Watchmen",
+		"cover": "watchmen.webp",
+		"creativeTeam": ["Alan Moore", "Dave Gibbons", "John Higgins"],
+		"description": "",
+		"category": "compact-comics",
+		"rank": 1
 	}
 ]
