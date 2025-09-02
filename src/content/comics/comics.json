@@ -1,1 +1,38 @@
-{}
+[
+	{
+		"id": "all-star-superman",
+		"title": "All-Star Superman",
+		"cover": "all-star-superman.webp",
+		"creativeTeam": ["Grant Morrison", "Frank Quitely"],
+		"description": "",
+		"category": "compact-comics",
+		"rank": 1
+	},
+	{
+		"id": "dc-the-new-frontier",
+		"title": "DC: The New Frontier",
+		"cover": "dc-the-new-frontier.webp",
+		"creativeTeam": ["Darwyn Cooke"],
+		"description": "",
+		"category": "compact-comics",
+		"rank": 2
+	},
+	{
+		"id": "superman-birthright",
+		"title": "Superman Birthright",
+		"cover": "superman-birthright.webp",
+		"creativeTeam": ["Mark Waid", "Leinil Francis Yu", "Gerry Alanguilan"],
+		"description": "",
+		"category": "compact-comics",
+		"rank": 1
+	},
+	{
+		"id": "kingdom-come",
+		"title": "Kingdom Come",
+		"cover": "kingdom-come.webp",
+		"creativeTeam": ["Mark Waid", "Alex Ross"],
+		"description": "",
+		"category": "compact-comics",
+		"rank": 1
+	}
+]
