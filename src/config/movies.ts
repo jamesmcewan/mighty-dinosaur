@@ -7,6 +7,8 @@ const movieSchema = z.object({
 	poster: z.string(),
 	description: z.string().optional(),
 	rank: z.number(),
+	year: z.number(),
+	link: z.string(),
 })
 
 export type Movie = z.infer<typeof movieSchema>

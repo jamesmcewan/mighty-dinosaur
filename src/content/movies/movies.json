@@ -4,286 +4,368 @@
 		"title": "Alien",
 		"poster": "alien.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1979,
+		"link": ""
 	},
 	{
 		"id": "aliens",
 		"title": "Aliens",
 		"poster": "aliens.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1986,
+		"link": ""
 	},
 	{
 		"id": "alien-romulus",
 		"title": "Alien Romulus",
 		"poster": "alien-romulus.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 2024,
+		"link": ""
 	},
 	{
 		"id": "the-terminator",
 		"title": "The Terminator",
 		"poster": "the-terminator.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1984,
+		"link": ""
 	},
 	{
 		"id": "terminator-2-judgement-day",
 		"title": "Terminator 2: Judgement Day",
 		"poster": "terminator-2-judgement-day.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1991,
+		"link": ""
 	},
 	{
 		"id": "all-the-presidents-men",
 		"title": "All The President's Men",
 		"poster": "all-the-presidents-men.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1976,
+		"link": ""
 	},
 	{
 		"id": "ant-man",
 		"title": "Ant Man",
 		"poster": "ant-man.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 2015,
+		"link": ""
 	},
 	{
 		"id": "batman",
 		"title": "Batman",
 		"poster": "batman.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1989,
+		"link": ""
 	},
 	{
 		"id": "batman-returns",
 		"title": "Batman Returns",
 		"poster": "batman-returns.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1992,
+		"link": ""
 	},
 	{
 		"id": "batman-forever",
 		"title": "Batman Forever",
 		"poster": "batman-forever.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1995,
+		"link": ""
 	},
 	{
 		"id": "batman-and-robin",
 		"title": "Batman And Robin",
 		"poster": "batman-and-robin.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1997,
+		"link": ""
 	},
 	{
 		"id": "sneakers",
 		"title": "Sneakers",
 		"poster": "sneakers.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1992,
+		"link": ""
 	},
 	{
 		"id": "the-phantom",
 		"title": "The Phantom",
 		"poster": "the-phantom.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1996,
+		"link": ""
 	},
 	{
 		"id": "the-shadow",
 		"title": "The Shadow",
 		"poster": "the-shadow.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1994,
+		"link": ""
 	},
 	{
 		"id": "robocop",
 		"title": "Robocop",
 		"poster": "robocop.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1987,
+		"link": ""
 	},
 	{
 		"id": "escape-from-new-york",
 		"title": "Escape from New York",
 		"poster": "escape-from-new-york.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1981,
+		"link": ""
 	},
 	{
 		"id": "thief",
 		"title": "Thief",
 		"poster": "thief.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1981,
+		"link": ""
 	},
 	{
 		"id": "its-a-mad-mad-mad-mad-world",
 		"title": "It's a Mad, Mad, Mad, Mad World",
 		"poster": "its-a-mad-mad-mad-mad-world.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1963,
+		"link": ""
 	},
 	{
 		"id": "runaway-train",
 		"title": "Runaway Train",
 		"poster": "runaway-train.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1985,
+		"link": ""
 	},
 	{
 		"id": "sorcerer",
 		"title": "Sorcerer",
 		"poster": "sorcerer.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1977,
+		"link": ""
 	},
 	{
 		"id": "matinee",
 		"title": "Matinee",
 		"poster": "matinee.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1993,
+		"link": ""
 	},
 	{
 		"id": "police-story",
 		"title": "Police Story",
 		"poster": "police-story.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1985,
+		"link": ""
 	},
 	{
 		"id": "police-story-2",
 		"title": "Police Story 2",
 		"poster": "police-story-2.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1988,
+		"link": ""
 	},
 	{
 		"id": "police-story-iii-supercop",
 		"title": "Police Story III: Supercop",
 		"poster": "police-story-3.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1992,
+		"link": ""
 	},
 	{
 		"id": "the-iron-giant",
 		"title": "The Iron Giant",
 		"poster": "the-iron-giant.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1999,
+		"link": ""
 	},
 	{
 		"id": "spider-man-across-the-spider-verse",
 		"title": "Spider-man: Across the Spider-Verse",
 		"poster": "spider-man-across-the-spider-verse.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 2023,
+		"link": ""
 	},
 	{
 		"id": "spider-man-into-the-spider-verse",
 		"title": "Spider-man: Into the Spider-Verse",
 		"poster": "spider-man-into-the-spider-verse.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 2018,
+		"link": ""
 	},
 	{
 		"id": "superman-the-movie",
 		"title": "Superman: The Movie",
 		"poster": "superman-the-movie.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1978,
+		"link": ""
 	},
 	{
 		"id": "superman-ii",
 		"title": "Superman II",
 		"poster": "superman-ii.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1980,
+		"link": ""
 	},
 	{
 		"id": "memories",
 		"title": "Memories",
 		"poster": "memories.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1995,
+		"link": ""
 	},
 	{
 		"id": "lupin-iii-the-first",
 		"title": "Lupin III: the First",
 		"poster": "lupin-iii-the-first.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 2019,
+		"link": ""
 	},
 	{
 		"id": "superman",
 		"title": "Superman",
 		"poster": "superman.webp",
 		"description": "",
-		"rank": 4
+		"rank": 4,
+		"year": 2025,
+		"link": ""
 	},
 	{
 		"id": "contact",
 		"title": "Contact",
 		"poster": "contact.webp",
 		"description": "",
-		"rank": 1
+		"rank": 1,
+		"year": 1997,
+		"link": ""
 	},
 	{
 		"id": "close-encounters-of-the-third-kind",
 		"title": "Close Encounters of the Third Kind",
 		"poster": "close-encounters-of-the-third-kind.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1977,
+		"link": ""
 	},
 	{
 		"id": "raiders-of-the-lost-ark",
 		"title": "Raiders of the Lost Ark",
 		"poster": "raiders-of-the-lost-ark.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1981,
+		"link": ""
 	},
 	{
 		"id": "hackers",
 		"title": "Hackers",
 		"poster": "hackers.webp",
 		"description": "",
-		"rank": 3
+		"rank": 3,
+		"year": 1995,
+		"link": ""
 	},
 	{
 		"id": "jurassic-park",
 		"title": "Jurassic Park",
 		"poster": "jurassic-park.webp",
 		"description": "",
-		"rank": 2
+		"rank": 2,
+		"year": 1993,
+		"link": ""
 	},
 	{
 		"id": "spider-man",
 		"title": "Spider-man",
 		"poster": "spider-man.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 2002,
+		"link": ""
 	},
 	{
 		"id": "spider-man-2",
 		"title": "Spider-man 2",
 		"poster": "spider-man-2.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 2004,
+		"link": ""
 	},
 	{
 		"id": "akira",
 		"title": "Akira",
 		"poster": "akira.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1988,
+		"link": ""
 	},
 	{
 		"id": "wargames",
 		"title": "Wargames",
 		"poster": "wargames.webp",
 		"description": "",
-		"rank": 9999
+		"rank": 9999,
+		"year": 1983,
+		"link": ""
 	}
 ]
