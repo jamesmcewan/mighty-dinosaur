@@ -19,7 +19,7 @@ const sortedComics = filteredComics.sort((a, b) => a.data.rank - b.data.rank)
     const { title, cover } = item.data
         return (
           <li>
-      <img class="h-auto max-w-full rounded-lg" src={`https://img.mightydinosaur.dev/comics/thumb/${cover}`} alt={title}>
+      <img class="h-auto max-w-full rounded-lg hover:saturate-120" src={`https://img.mightydinosaur.dev/comics/thumb/${cover}`} alt={title}>
       <h2 class="font-cartridgerough text-base mt-1.5 text-tn-purple0">{title}</h2>
           </li>
         )
