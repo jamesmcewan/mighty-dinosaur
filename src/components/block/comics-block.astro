@@ -13,14 +13,14 @@ const sortedComics = filteredComics.sort((a, b) => a.data.rank - b.data.rank)
 ---
 
 <section class="not-prose">
-  <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 list-none">
+  <ul class="grid grid-cols-2 md:grid-cols-3 gap-5">
     {
       sortedComics.map((item) => {
     const { title, cover } = item.data
         return (
           <li>
       <img class="h-auto max-w-full rounded-lg hover:saturate-120" src={`https://img.mightydinosaur.dev/comics/thumb/${cover}`} alt={title}>
-      <h2 class="font-cartridgerough text-base mt-1.5 text-tn-purple0">{title}</h2>
+      <h2 class="font-cartridgerough text-lg mt-1.5 text-tn-purple0">{title}</h2>
           </li>
         )
       })
