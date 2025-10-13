@@ -19,9 +19,6 @@ jobs:
       - name: lint
         run: bun run lint:check
 
-      - name: Build
-        run: bun run build
-
       - name: Build site
         run: bun run build
 
