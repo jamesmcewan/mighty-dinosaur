@@ -7,7 +7,7 @@ const pages = await getPages()
 
 <section>
   <SectionHeadingBlock> Pages </SectionHeadingBlock>
-  <ul class="grid md:grid-cols-4 gap-6">
+  <ul class="grid md:grid-cols-3 gap-6">
     {
       pages.map((page) => {
     const { title, description, permalink } = page.data;
