@@ -21,12 +21,12 @@ export async function getStaticPaths() {
 
 const { page } = Astro.props
 const { Content } = await render(page)
-const { title, description } = page.data
+const { title, description, permalink } = page.data
 ---
 
 <SingleColumnLayout {description} {title}>
   <GridBlock>
-    <PageBlock {title}>
+    <PageBlock {title} {permalink}>
       <Content />
     </PageBlock>
     <BackBlock />

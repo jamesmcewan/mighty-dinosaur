@@ -11,13 +11,22 @@ const posts = await getPosts(5)
   <ul class="grid gap-6">
     {
       posts.map((post) => {
-        const { title, category, description } = post.data;
+        const { title, category, description, slug } = post.data;
+        const titleWords = title.split(" ");
         return (
           <li>
-            <a href={`/post/${post.data.slug}/`} class="block rounded-3xl">
+            <a href={`/post/${slug}/`} class="block rounded-3xl">
               <h2 class="font-cartridgerough text-tn-orange/90 hover:text-tn-orange text-lg transition-all duration-150 ease-in-out hover:brightness-110">
                 {category && <CategoryInline>{category}:</CategoryInline>}{" "}
-                {title}
+                {titleWords.map((word, index) => (
+                  <span
+                    style={{
+                      viewTransitionName: `title-${slug}-word-${index}`,
+                    }}
+                  >
+                    {word}{index < titleWords.length - 1 ? " " : ""}
+                  </span>
+                ))}
               </h2>
               <p class="text-md font-rethink text-tn-text">{description}</p>
             </a>
