@@ -5,6 +5,54 @@
 
 @plugin "@tailwindcss/typography";
 
+/* View transition animations for content */
+@keyframes slide-up {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes slide-down {
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Forward navigation - slide up */
+[data-astro-transition="forward"] [data-content="post"],
+[data-astro-transition="forward"] [data-content="page"] {
+	animation: slide-up 0.5s ease-out;
+}
+
+/* Back navigation - slide down */
+[data-astro-transition="back"] [data-content="post"],
+[data-astro-transition="back"] [data-content="page"] {
+	animation: slide-down 0.5s ease-out;
+}
+
+/* Fallback for initial page load (no data-astro-transition) */
+[data-content="post"],
+[data-content="page"] {
+	animation: slide-up 0.5s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	[data-content="post"],
+	[data-content="page"] {
+		animation: none;
+	}
+}
+
 @theme {
 	--font-cartridgerough: cartridgerough, sans-serif;
 	--font-cartridgeboldrough: cartridgebold_rough, sans-serif;

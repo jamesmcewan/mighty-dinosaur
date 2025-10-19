@@ -20,5 +20,7 @@ const titleWords = title ? title.split(" ") : []
       </span>
     ))}
   </h1>
-  <slot />
+  <div data-content="page">
+    <slot />
+  </div>
 </main>
