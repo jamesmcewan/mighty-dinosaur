@@ -13,11 +13,24 @@ const posts = await getPosts(5)
       posts.map((post) => {
         const { title, category, description, slug } = post.data;
         const titleWords = title.split(" ");
+        const categoryWords = category ? category.split(" ") : [];
         return (
           <li>
             <a href={`/post/${slug}/`} class="block rounded-3xl">
               <h2 class="font-cartridgerough text-tn-orange/90 hover:text-tn-orange text-lg transition-all duration-150 ease-in-out hover:brightness-110">
-                {category && <CategoryInline>{category}:</CategoryInline>}{" "}
+                {category && (
+                  <CategoryInline>
+                    {categoryWords.map((word, index) => (
+                      <span
+                        style={{
+                          viewTransitionName: `category-${slug}-word-${index}`,
+                        }}
+                      >
+                        {word}{index < categoryWords.length - 1 ? " " : ""}
+                      </span>
+                    ))}:
+                  </CategoryInline>
+                )}{" "}
                 {titleWords.map((word, index) => (
                   <span
                     style={{

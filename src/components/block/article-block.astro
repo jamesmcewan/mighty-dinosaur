@@ -2,15 +2,28 @@
 import Category from "@/components/inline/category-inline.astro"
 const { title, category, slug } = Astro.props
 
-// Split title into words for view transitions
+// Split title and category into words for view transitions
 const titleWords = title ? title.split(" ") : []
+const categoryWords = category ? category.split(" ") : []
 ---
 
 <article
   class="prose-lg prose font-rethink text-tn-text prose-headings:font-cartridgerough prose-headings:text-tn-text prose-h1:font-cartridgeboldrough prose-h1:text-4xl prose-h1:text-tn-orange prose-h2:text-tn-green prose-h3:text-tn-blue0 prose-a:text-tn-purple0/85 prose-a:hover:text-tn-purple0 prose-img:rounded-xl hover:brightness-110"
 >
   <header>
-    {category && <Category>{category}</Category>}
+    {category && (
+      <Category>
+        {categoryWords.map((word, index) => (
+          <span
+            style={{
+              viewTransitionName: slug ? `category-${slug}-word-${index}` : undefined,
+            }}
+          >
+            {word}{index < categoryWords.length - 1 ? " " : ""}
+          </span>
+        ))}
+      </Category>
+    )}
     {title && (
       <h1>
         {titleWords.map((word, index) => (
