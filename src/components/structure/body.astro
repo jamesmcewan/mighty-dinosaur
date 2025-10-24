@@ -21,3 +21,18 @@ const { title, description, url } = Astro.props
     <slot />
   </body>
 </html>
+
+<style>
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: var(--background-image-grain);
+  opacity: 0.08;
+  mix-blend-mode: overlay;
+  z-index: 9999;
+}
+
+</style>
