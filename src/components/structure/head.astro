@@ -14,8 +14,8 @@ interface Props {
 const { title, description, url }: Props = Astro.props
 ---
 
-<Favicons />
 <Meta {description} />
+<Favicons />
 <OpenGraph {title} {description} {url} />
 <Rss />
 <title>{title} - {siteConfig.title}</title>
