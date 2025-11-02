@@ -41,10 +41,6 @@ const siteConfig: SiteConfig = {
 			name: "draws",
 			url: "https://draws.mightydinosaur.dev/",
 		},
-		{
-			name: "mvl",
-			url: "https://mvl.mightydinosaur.dev/",
-		},
 	],
 	tooling: [
 		{
