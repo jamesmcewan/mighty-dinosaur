@@ -2,9 +2,9 @@
 const { title } = Astro.props
 ---
 
-<main
-  class="prose-md prose font-rethink text-tn-text prose-headings:font-cartridgeboldrough prose-headings:text-tn-text prose-h3:text-tn-orange prose-h3:text-tn-blue0 prose-a:text-tn-purple0 prose-a:hover:text-tn-purple1 prose-img:rounded-xl"
->
-  <h1>{title}</h1>
+<main>
+  <h1 class="font-cartridgeboldrough text-tn-text text-2xl lg:text-5xl mb-3 lg:mb-6">{title}</h1>
+  <div class="prose lg:prose-lg font-rethink text-tn-text">
   <slot />
+  </div>
 </main>
