@@ -1,6 +1,8 @@
 export interface Link {
 	name: string
 	url: string
+	image?: string
+	description?: string
 }
 
 export interface SocialLink {
@@ -38,8 +40,10 @@ const siteConfig: SiteConfig = {
 	image: "https://img.mightydinosaur.dev/mighty.webp",
 	maker: [
 		{
-			name: "draws",
+			name: "James McEwan draws!",
 			url: "https://draws.mightydinosaur.dev/",
+			image: "https://img.mightydinosaur.dev/draws-logo-background.svg",
+			description: "Some of my illustrations",
 		},
 	],
 	tooling: [

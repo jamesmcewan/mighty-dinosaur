@@ -1,5 +1,5 @@
 ---
-import LinkBlock from "@/components/block/link-block.astro"
+import TileBlock from "@/components/block/tile-block.astro"
 import SectionHeadingBlock from "@/components/block/section-heading-block.astro"
 import siteConfig from "@/data/site-config"
 ---
@@ -10,15 +10,16 @@ import siteConfig from "@/data/site-config"
     {
       siteConfig.maker.map((link) => (
         <li class="text-center">
-          <LinkBlock
+          <TileBlock
             href={link.url}
             cta
             rel="me"
-            color="text-tn-purple0/80"
+        color="text-tn-purple0/80"
             hover="hover:text-tn-purple0"
-          >
-            {link.name}
-          </LinkBlock>
+            image={link.image}
+            description={link.description}
+            name={link.name}
+      />
         </li>
       ))
     }

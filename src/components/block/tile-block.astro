@@ -1,0 +1,28 @@
+---
+const { href, cta, rel, center, color, hover, name, description, image } =
+	Astro.props
+const fontClasses = cta
+	? "font-cartridgeboldrough text-xl"
+	: "font-rethink text-md"
+
+const textAlign = center ? "text-center" : ""
+---
+
+<a
+  href={href}
+  class={`bg-tn-mantle ${textAlign} ${hover} ${color} block rounded-xl shadow-xl border-tn-base/50 border-2 overflow-hidden font-light transition-all duration-500 ease-in-out hover:brightness-110`}
+  rel={rel}
+>
+	{image && (
+		<img
+			src={image}
+			alt={name || "Card image"}
+			class="w-full"
+		/>
+	)}
+	<div class="p-6">
+		{description && (
+    <h3 class=`${fontClasses}`>{description}</h3>
+		)}
+	</div>
+</a>
