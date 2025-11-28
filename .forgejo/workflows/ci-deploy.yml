@@ -76,46 +76,46 @@ jobs:
           path: dist/
           retention-days: 1
 
-  # deploy:
-  #   name: Deploy to BunnyCDN
-  #   runs-on: codeberg-tiny
-  #   needs: [format-lint-check, build]
-  #   if: github.ref == 'refs/heads/main'
-  #   environment:
-  #     name: production
-  #     url: https://mightydinosaur.dev
-  #   steps:
-  #     - name: Download build artifacts
-  #       uses: actions/download-artifact@v3
-  #       with:
-  #         name: dist
-  #         path: dist
-  #
-  #     - name: Install dependencies
-  #       run: |
-  #         sudo apt-get update
-  #         sudo apt-get install -y curl jq
-  #
-  #     - name: Upload files to BunnyCDN Storage
-  #       env:
-  #         BUNNY_STORAGE_ENDPOINT: ${{ secrets.BUNNY_STORAGE_ENDPOINT }}
-  #         BUNNY_STORAGE_ZONE: ${{ secrets.BUNNY_STORAGE_ZONE }}
-  #         BUNNY_STORAGE_PASSWORD: ${{ secrets.BUNNY_STORAGE_PASSWORD }}
-  #       run: |
-  #         cd dist
-  #         find . -type f | while read file; do
-  #           filepath="${file#./}"
-  #           curl -X PUT \
-  #             "${BUNNY_STORAGE_ENDPOINT}/${BUNNY_STORAGE_ZONE}/${filepath}" \
-  #             -H "AccessKey: ${BUNNY_STORAGE_PASSWORD}" \
-  #             --data-binary "@${file}"
-  #         done
-  #
-  #     - name: Purge BunnyCDN cache
-  #       env:
-  #         BUNNY_PULL_ZONE_ID: ${{ secrets.BUNNY_PULL_ZONE_ID }}
-  #         BUNNY_API_KEY: ${{ secrets.BUNNY_API_KEY }}
-  #       run: |
-  #         curl -X POST \
-  #           "https://api.bunny.net/pullzone/${BUNNY_PULL_ZONE_ID}/purgeCache" \
-  #           -H "AccessKey: ${BUNNY_API_KEY}"
+  deploy:
+    name: Deploy to BunnyCDN
+    runs-on: codeberg-tiny
+    needs: [format-lint-check, build]
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: production
+      url: https://mightydinosaur.dev
+    steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: dist
+          path: dist
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl jq
+
+      - name: Upload files to BunnyCDN Storage
+        env:
+          BUNNY_STORAGE_ENDPOINT: ${{ secrets.BUNNY_STORAGE_ENDPOINT }}
+          BUNNY_STORAGE_ZONE: ${{ secrets.BUNNY_STORAGE_ZONE }}
+          BUNNY_STORAGE_PASSWORD: ${{ secrets.BUNNY_STORAGE_PASSWORD }}
+        run: |
+          cd dist
+          find . -type f | while read file; do
+            filepath="${file#./}"
+            curl -X PUT \
+              "${BUNNY_STORAGE_ENDPOINT}/${BUNNY_STORAGE_ZONE}/${filepath}" \
+              -H "AccessKey: ${BUNNY_STORAGE_PASSWORD}" \
+              --data-binary "@${file}"
+          done
+
+      - name: Purge BunnyCDN cache
+        env:
+          BUNNY_PULL_ZONE_ID: ${{ secrets.BUNNY_PULL_ZONE_ID }}
+          BUNNY_API_KEY: ${{ secrets.BUNNY_API_KEY }}
+        run: |
+          curl -X POST \
+            "https://api.bunny.net/pullzone/${BUNNY_PULL_ZONE_ID}/purgeCache" \
+            -H "AccessKey: ${BUNNY_API_KEY}"
