@@ -8,7 +8,7 @@ on:
 jobs:
   format-check:
     name: Format Check
-    runs-on: ubuntu-latest
+    runs-on: codeberg-tiny
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -36,7 +36,7 @@ jobs:
 
   lint-check:
     name: Lint Check
-    runs-on: ubuntu-latest
+    runs-on: codeberg-tiny
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -64,7 +64,7 @@ jobs:
 
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: codeberg-tiny
     needs: [format-check, lint-check]
     steps:
       - name: Checkout code
@@ -100,7 +100,7 @@ jobs:
 
   # deploy:
   #   name: Deploy to BunnyCDN
-  #   runs-on: ubuntu-latest
+  #   runs-on: codeberg-tiny
   #   needs: build
   #   environment:
   #     name: production
