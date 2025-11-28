@@ -14,8 +14,8 @@
 	"scripts": {
 		"build": "astro build",
 		"dev": "astro dev",
-		"lint:check": "oxlint",
-		"lint:fix": "oxlint --fix",
+		"lint:check": "oxlint --ignore-path=.gitignore",
+		"lint:fix": "oxlint --fix --ignore-path=.gitignore",
 		"format:write": "biome format --write . ",
 		"format:check": "biome format . ",
 		"lint-staged": "lint-staged",
