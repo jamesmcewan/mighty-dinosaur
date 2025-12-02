@@ -16,8 +16,8 @@
 		"dev": "astro dev",
 		"lint:check": "oxlint --ignore-path=.gitignore",
 		"lint:fix": "oxlint --fix --ignore-path=.gitignore",
-		"format:write": "biome format --write . ",
-		"format:check": "biome format . ",
+		"format:write": "oxfmt",
+		"format:check": "oxfmt --check",
 		"lint-staged": "lint-staged",
 		"prepare": "is-ci || lefthook install",
 		"preview": "astro preview",
@@ -42,6 +42,7 @@
 		"@types/sanitize-html": "^2.16.0",
 		"is-ci": "^4.1.0",
 		"lefthook": "^2.0.4",
+		"oxfmt": "0.15.0",
 		"oxlint": "^1.29.0"
 	}
 }

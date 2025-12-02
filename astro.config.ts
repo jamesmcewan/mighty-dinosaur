@@ -4,12 +4,12 @@ import { defineConfig } from "astro/config"
 import mdx from "@astrojs/mdx"
 
 export default defineConfig({
-	output: "static",
-	site: "https://mightydinosaur.dev/",
+  output: "static",
+  site: "https://mightydinosaur.dev/",
 
-	vite: {
-		plugins: [tailwindcss()],
-	},
+  vite: {
+    plugins: [tailwindcss()],
+  },
 
-	integrations: [mdx()],
+  integrations: [mdx()],
 })

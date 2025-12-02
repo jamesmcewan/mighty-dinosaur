@@ -1,0 +1,9 @@
+{
+	"$schema": "./node_modules/oxfmt/configuration_schema.json",
+	"printWidth": 80,
+	"ignorePatterns": ["dist", ".astro"],
+	"semi": false,
+	"singleQuote": false,
+	"trailingComma": "es5",
+	"tabWidth": 2
+}
