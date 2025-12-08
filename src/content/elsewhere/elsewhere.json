@@ -1,32 +1,42 @@
 [
-	{
-		"id": "codeberg",
-		"handle": "mcwn",
-		"url": "https://codeberg.org/mcwn"
-	},
-	{
-		"id": "bsky",
-		"handle": "@mightydinosaur.dev",
-		"url": "https://bsky.app/profile/mightydinosaur.dev"
-	},
-	{
-		"id": "makerworld",
-		"handle": "@mightydinosaur",
-		"url": "https://makerworld.com/en/@mightydinosaur"
-	},
-	{
-		"id": "printables",
-		"handle": "@Mightydino_2075078",
-		"url": "https://www.printables.com/@Mightydino_2075078"
-	},
-	{
-		"id": "masto",
-		"handle": "@mcwn@social.lol",
-		"url": "https://social.lol/@mcwn"
-	},
-	{
-		"id": "letterboxd",
-		"handle": "mcwn",
-		"url": "https://letterboxd.com/mcwn/"
-	}
+  {
+    "id": "codeberg",
+    "handle": "mcwn",
+    "url": "https://codeberg.org/mcwn"
+  },
+  {
+    "id": "source.tube",
+    "handle": "mcwn",
+    "url": "https://source.tube/mcwn"
+  },
+  {
+    "id": "github",
+    "handle": "jamesmcewan",
+    "url": "https://github.com/jamesmcewan"
+  },
+  {
+    "id": "bsky",
+    "handle": "@mightydinosaur.dev",
+    "url": "https://bsky.app/profile/mightydinosaur.dev"
+  },
+  {
+    "id": "masto",
+    "handle": "@mcwn@social.lol",
+    "url": "https://social.lol/@mcwn"
+  },
+  {
+    "id": "makerworld",
+    "handle": "@mightydinosaur",
+    "url": "https://makerworld.com/en/@mightydinosaur"
+  },
+  {
+    "id": "printables",
+    "handle": "@Mightydino_2075078",
+    "url": "https://www.printables.com/@Mightydino_2075078"
+  },
+  {
+    "id": "letterboxd",
+    "handle": "mcwn",
+    "url": "https://letterboxd.com/mcwn/"
+  }
 ]
