@@ -9,6 +9,7 @@ const comicSchema = z.object({
   description: z.string().optional(),
   category: z.string(),
   rank: z.number(),
+  link: z.string().optional(),
 })
 
 export type Comic = z.infer<typeof comicSchema>
