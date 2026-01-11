@@ -1,246 +1,390 @@
 [
-	{
-		"id": "all-star-superman",
-		"title": "All-Star Superman",
-		"cover": "all-star-superman.webp",
-		"creativeTeam": ["Grant Morrison", "Frank Quitely"],
-		"description": "",
-		"category": "compact-comics",
-		"rank": 1
-	},
-	{
-		"id": "dc-the-new-frontier",
-		"title": "DC: The New Frontier",
-		"cover": "dc-the-new-frontier.webp",
-		"creativeTeam": ["Darwyn Cooke"],
-		"description": "",
-		"category": "compact-comics",
-		"rank": 2
-	},
-	{
-		"id": "superman-birthright",
-		"title": "Superman Birthright",
-		"cover": "superman-birthright.webp",
-		"creativeTeam": ["Mark Waid", "Leinil Francis Yu", "Gerry Alanguilan"],
-		"description": "",
-		"category": "compact-comics",
-		"rank": 1
-	},
-	{
-		"id": "kingdom-come",
-		"title": "Kingdom Come",
-		"cover": "kingdom-come.webp",
-		"creativeTeam": ["Mark Waid", "Alex Ross"],
-		"description": "",
-		"category": "compact-comics",
-		"rank": 1
-	},
-	{
-		"id": "far-sector",
-		"title": "Far Sector",
-		"cover": "far-sector.webp",
-		"creativeTeam": ["Nora Keita Jemisin", "Jamal Campbell"],
-		"description": "",
-		"category": "compact-comics",
-		"rank": 1
-	},
-	{
-		"id": "watchmen",
-		"title": "Watchmen",
-		"cover": "watchmen.webp",
-		"creativeTeam": ["Alan Moore", "Dave Gibbons", "John Higgins"],
-		"description": "",
-		"category": "compact-comics",
-		"rank": 1
-	},
-	{
-		"id": "transformers",
-		"title": "Transformers",
-		"cover": "transformers.webp",
-		"creativeTeam": ["Daniel Warren Johnson"],
-		"description": "",
-		"category": "energon-universe",
-		"rank": 1
-	},
-	{
-		"id": "gi-joe",
-		"title": "GI Joe",
-		"cover": "gi-joe.webp",
-		"creativeTeam": ["Joshua Williamson", "Tom Reilly", "Jordie Bellaire"],
-		"description": "",
-		"category": "energon-universe",
-		"rank": 1
-	},
-	{
-		"id": "void-rivals",
-		"title": "Void Rivals",
-		"cover": "void-rivals.webp",
-		"creativeTeam": ["Robert Kirkman", "Lorenzo De Felici"],
-		"description": "",
-		"category": "energon-universe",
-		"rank": 1
-	},
-
-	{
-		"id": "absolute-batman",
-		"title": "Absolute Batman",
-		"cover": "absolute-batman.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 1
-	},
-	{
-		"id": "absolute-wonder-woman",
-		"title": "Absolute Wonder Woman",
-		"cover": "absolute-wonder-woman.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 2
-	},
-	{
-		"id": "ultimate-spider-man",
-		"title": "Ultimate Spider-man",
-		"cover": "ultimate-spider-man.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 3
-	},
-	{
-		"id": "batman",
-		"title": "Batman",
-		"cover": "batman.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 4
-	},
-	{
-		"id": "captain-america",
-		"title": "Captain America",
-		"cover": "captain-america.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 5
-	},
-	{
-		"id": "cruel-universe",
-		"title": "Cruel Universe",
-		"cover": "cruel-universe.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 6
-	},
-	{
-		"id": "exquisite-corpses",
-		"title": "Exquisite Corpses",
-		"cover": "exquisite-corpses.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 7
-	},
-	{
-		"id": "fml",
-		"title": "FML",
-		"cover": "fml.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 8
-	},
-	{
-		"id": "justice-league-unlimited",
-		"title": "Justice League Unlimited",
-		"cover": "justice-league-unlimited.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 9
-	},
-	{
-		"id": "hyde-street",
-		"title": "Hyde Street",
-		"cover": "hyde-street.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 10
-	},
-	{
-		"id": "the-power-fantasy",
-		"title": "The Power Fantasy",
-		"cover": "the-power-fantasy.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 11
-	},
-	{
-		"id": "the-rocketfellers",
-		"title": "The Rocketfellers",
-		"cover": "the-rocketfellers.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 12
-	},
-	{
-		"id": "the-seasons",
-		"title": "The Seasons",
-		"cover": "the-seasons.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 13
-	},
-	{
-		"id": "supergirl",
-		"title": "Supergirl",
-		"cover": "supergirl.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 14
-	},
-	{
-		"id": "uncanny-x-men",
-		"title": "Uncanny X-men",
-		"cover": "uncanny-x-men.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 15
-	},
-	{
-		"id": "w0rldtr33",
-		"title": "W0rldtr33",
-		"cover": "w0rldtr33.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 16
-	},
-	{
-		"id": "batman-and-robin-year-one",
-		"title": "Batman and Robin: Year One",
-		"cover": "batman-and-robin-year-one.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 1
-	},
-	{
-		"id": "the-new-history-of-the-dc-universe",
-		"title": "The New History of the DC Universe",
-		"cover": "the-new-history-of-the-dc-universe.webp",
-		"creativeTeam": [],
-		"description": "",
-		"category": "pull-list",
-		"rank": 2
-	}
+  {
+    "id": "all-star-superman",
+    "title": "All-Star Superman",
+    "cover": "all-star-superman.webp",
+    "creativeTeam": [
+      "Grant Morrison",
+      "Frank Quitely"
+    ],
+    "description": "",
+    "category": "compact-comics",
+    "rank": 1
+  },
+  {
+    "id": "dc-the-new-frontier",
+    "title": "DC: The New Frontier",
+    "cover": "dc-the-new-frontier.webp",
+    "creativeTeam": [
+      "Darwyn Cooke"
+    ],
+    "description": "",
+    "category": "compact-comics",
+    "rank": 2
+  },
+  {
+    "id": "superman-birthright",
+    "title": "Superman Birthright",
+    "cover": "superman-birthright.webp",
+    "creativeTeam": [
+      "Mark Waid",
+      "Leinil Francis Yu",
+      "Gerry Alanguilan"
+    ],
+    "description": "",
+    "category": "compact-comics",
+    "rank": 1
+  },
+  {
+    "id": "kingdom-come",
+    "title": "Kingdom Come",
+    "cover": "kingdom-come.webp",
+    "creativeTeam": [
+      "Mark Waid",
+      "Alex Ross"
+    ],
+    "description": "",
+    "category": "compact-comics",
+    "rank": 1
+  },
+  {
+    "id": "far-sector",
+    "title": "Far Sector",
+    "cover": "far-sector.webp",
+    "creativeTeam": [
+      "Nora Keita Jemisin",
+      "Jamal Campbell"
+    ],
+    "description": "",
+    "category": "compact-comics",
+    "rank": 1
+  },
+  {
+    "id": "watchmen",
+    "title": "Watchmen",
+    "cover": "watchmen.webp",
+    "creativeTeam": [
+      "Alan Moore",
+      "Dave Gibbons",
+      "John Higgins"
+    ],
+    "description": "",
+    "category": "compact-comics",
+    "rank": 1
+  },
+  {
+    "id": "absolute-batman",
+    "title": "Absolute Batman",
+    "cover": "absolute-batman.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 1
+  },
+  {
+    "id": "absolute-wonder-woman",
+    "title": "Absolute Wonder Woman",
+    "cover": "absolute-wonder-woman.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 2
+  },
+  {
+    "id": "ultimate-spider-man",
+    "title": "Ultimate Spider-man",
+    "cover": "ultimate-spider-man.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 4
+  },
+  {
+    "id": "batman",
+    "title": "Batman",
+    "cover": "batman.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 5
+  },
+  {
+    "id": "cruel-universe",
+    "title": "Cruel Universe",
+    "cover": "cruel-universe.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 7
+  },
+  {
+    "id": "exquisite-corpses",
+    "title": "Exquisite Corpses",
+    "cover": "exquisite-corpses.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 8
+  },
+  {
+    "id": "fml",
+    "title": "FML",
+    "cover": "fml.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 9
+  },
+  {
+    "id": "the-power-fantasy",
+    "title": "The Power Fantasy",
+    "cover": "the-power-fantasy.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 12
+  },
+  {
+    "id": "supergirl",
+    "title": "Supergirl",
+    "cover": "supergirl.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 15
+  },
+  {
+    "id": "uncanny-x-men",
+    "title": "Uncanny X-men",
+    "cover": "uncanny-x-men.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 16
+  },
+  {
+    "id": "w0rldtr33",
+    "title": "W0rldtr33",
+    "cover": "w0rldtr33.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 17
+  },
+  {
+    "id": "wrestle-heist",
+    "title": "Wrestle Heist",
+    "cover": "wrestle-heist.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 18
+  },
+  {
+    "id": "ultimate-endgame",
+    "title": "Ultimate Endgame",
+    "cover": "ultimate-endgame.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 19
+  },
+  {
+    "id": "absolute-martian-manhunter",
+    "title": "Absolute Martian Manhunter",
+    "cover": "absolute-martian-manhunter.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 20
+  },
+  {
+    "id": "invincible-universe-battle-beast",
+    "title": "Invincible Universe Battle Beast",
+    "cover": "invincible-universe-battle-beast.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 21
+  },
+  {
+    "id": "the-future-is",
+    "title": "The Future is ******",
+    "cover": "the-future-is.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 22
+  },
+  {
+    "id": "gi-joe",
+    "title": "GI Joe",
+    "cover": "gi-joe.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 23
+  },
+  {
+    "id": "void-rivals",
+    "title": "Void Rivals",
+    "cover": "void-rivals.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 24
+  },
+  {
+    "id": "transfomers",
+    "title": "Transfomers",
+    "cover": "transfomers.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 25
+  },
+  {
+    "id": "godzilla",
+    "title": "Godzilla",
+    "cover": "godzilla.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 26
+  },
+  {
+    "id": "starship-godzilla",
+    "title": "Starship Godzilla",
+    "cover": "starship-godzilla.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 27
+  },
+  {
+    "id": "inferno-girl-red",
+    "title": "Inferno Girl Red",
+    "cover": "inferno-girl-red.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 28
+  },
+  {
+    "id": "minor-threats",
+    "title": "Minor Threats",
+    "cover": "minor-threats.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 29
+  },
+  {
+    "id": "the-new-space-age",
+    "title": "The New Space Age",
+    "cover": "the-new-space-age.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 30
+  },
+  {
+    "id": "assorted-crisis-events",
+    "title": "Assorted Crisis Events",
+    "cover": "assorted-crisis-events.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 31
+  },
+  {
+    "id": "absolute-flash",
+    "title": "Absolute Flash",
+    "cover": "absolute-flash.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 3
+  },
+  {
+    "id": "spirit-of-the-shadows",
+    "title": "Spirit of the Shadows",
+    "cover": "spirit-of-the-shadows.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "upcoming",
+    "rank": 1
+  },
+  {
+    "id": "bleeding-hearts",
+    "title": "Bleeding Hearts",
+    "cover": "bleeding-hearts.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "upcoming",
+    "rank": 2
+  },
+  {
+    "id": "just-brutal",
+    "title": "Just Brutal",
+    "cover": "just-brutal.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "upcoming",
+    "rank": 3
+  },
+  {
+    "id": "muppets-noir",
+    "title": "Muppets Noir",
+    "cover": "muppets-noir.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "upcoming",
+    "rank": 4
+  },
+  {
+    "id": "end-of-life",
+    "title": "End of Life",
+    "cover": "end-of-life.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "upcoming",
+    "rank": 5
+  },
+  {
+    "id": "batwoman",
+    "title": "Batwoman",
+    "cover": "batwoman.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "upcoming",
+    "rank": 6
+  },
+  {
+    "id": "usagi-yojimbo-kaito-84",
+    "title": "Usagi Yojimbo: Kaito 84",
+    "cover": "usagi-yojimbo-kaito-84.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "upcoming",
+    "rank": 7
+  },
+  {
+    "id": "lobo",
+    "title": "Lobo",
+    "cover": "lobo.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "upcoming",
+    "rank": 8
+  },
+  {
+    "id": "deathstroke-the-terminator",
+    "title": "Deathstroke The Terminator",
+    "cover": "deathstroke-the-terminator.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "upcoming",
+    "rank": 9
+  }
 ]
