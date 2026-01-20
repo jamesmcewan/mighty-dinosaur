@@ -14,7 +14,7 @@ const sortedMovies = movies.sort((a, b) => a.data.rank - b.data.rank)
         return (
           <li>
       <img class="h-auto max-w-full rounded-lg hover:saturate-120" src={`https://img.mightydinosaur.dev/movies/thumb/${poster}`} alt={title}>
-      <h2 class="font-cartridgerough text-lg mt-1.5 text-tn-purple0">{title}</h2>
+      <h2 class="font-cartridgerough uppercase text-lg mt-1.5 text-tn-purple0">{title}</h2>
         <p class="text-sm mt-0.5">{year}</p>
           </li>
         )
