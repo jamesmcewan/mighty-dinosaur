@@ -2,6 +2,7 @@
 import FooterBlock from "@/components/block/footer-block.astro"
 import GridBlock from "@/components/block/grid-block.astro"
 import MightyDinosaurBlock from "@/components/block/mighty-dinosaur-block.astro"
+import ThemeToggleBlock from "@/components/block/theme-toggle-block.astro"
 import WrapperBlock from "@/components/block/wrapper-block.astro"
 import Body from "@/components/structure/body.astro"
 
@@ -11,7 +12,10 @@ const { title, description, url } = Astro.props
 <Body {title} {description} {url}>
   <WrapperBlock>
     <GridBlock>
-      <MightyDinosaurBlock />
+      <div class="flex items-start justify-between">
+        <MightyDinosaurBlock />
+        <ThemeToggleBlock />
+      </div>
       <slot />
       <FooterBlock />
     </GridBlock>
