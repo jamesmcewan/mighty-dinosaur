@@ -53,33 +53,33 @@
 	}
 }
 
-/* Tokyo Night Light (default) */
+/* Catppuccin Latte (default) */
 :root {
-	--tn-pink: #f52a65;
-	--tn-purple0: #7847bd;
-	--tn-purple1: #9854f1;
-	--tn-red0: #c64343;
-	--tn-red1: #942f2f;
-	--tn-orange: #b15c00;
-	--tn-yellow: #8c6c3e;
-	--tn-yellowgreen: #385f0d;
-	--tn-green: #587539;
-	--tn-teal0: #118c74;
-	--tn-teal1: #007197;
-	--tn-blue0: #2e7de9;
-	--tn-blue1: #2959aa;
-	--tn-blue2: #506d9c;
-	--tn-blue3: #68709a;
-	--tn-text: #343b59;
-	--tn-overlay0: #848cb5;
-	--tn-overlay1: #6e7191;
-	--tn-overlay2: #585b70;
-	--tn-surface0: #c4c5ca;
-	--tn-surface1: #b8b9be;
-	--tn-surface2: #acaeb3;
-	--tn-base: #b4b5b9;
-	--tn-mantle: #d5d6db;
-	--tn-crust: #e1e2e7;
+	--tn-pink: #ea76cb;
+	--tn-purple0: #8839ef;
+	--tn-purple1: #7287fd;
+	--tn-red0: #d20f39;
+	--tn-red1: #e64553;
+	--tn-orange: #fe640b;
+	--tn-yellow: #df8e1d;
+	--tn-yellowgreen: #df8e1d;
+	--tn-green: #179299;
+	--tn-teal0: #179299;
+	--tn-teal1: #209fb5;
+	--tn-blue0: #1e66f5;
+	--tn-blue1: #209fb5;
+	--tn-blue2: #7287fd;
+	--tn-blue3: #8c8fa1;
+	--tn-text: #4c4f69;
+	--tn-overlay0: #9ca0b0;
+	--tn-overlay1: #8c8fa1;
+	--tn-overlay2: #7c7f93;
+	--tn-surface0: #ccd0da;
+	--tn-surface1: #bcc0cc;
+	--tn-surface2: #acb0be;
+	--tn-base: #dce0e8;
+	--tn-mantle: #e6e9ef;
+	--tn-crust: #eff1f5;
 }
 
 /* Tokyo Night Dark */
