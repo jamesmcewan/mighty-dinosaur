@@ -21,12 +21,12 @@ const sortedComics = filteredComics.sort((a, b) => a.data.rank - b.data.rank)
           <li>
       {link ? (
         <a href={link} target="_blank" rel="noopener noreferrer">
-          <img class="h-auto max-w-full rounded-lg hover:saturate-120" src={`https://img.mightydinosaur.dev/comics/thumb/${cover}`} alt={title}>
+          <img class="h-auto max-w-full rounded-lg hover:saturate-120" src={`https://static.mightydinosaur.dev/comics/thumb/${cover}`} alt={title}>
           <h2 class="font-cartridgerough uppercase text-lg mt-1.5 text-tn-purple0">{title}</h2>
         </a>
       ) : (
         <>
-          <img class="h-auto max-w-full rounded-lg hover:saturate-120" src={`https://img.mightydinosaur.dev/comics/thumb/${cover}`} alt={title}>
+          <img class="h-auto max-w-full rounded-lg hover:saturate-120" src={`https://static.mightydinosaur.dev/comics/thumb/${cover}`} alt={title}>
           <h2 class="font-cartridgerough uppercase text-lg mt-1.5 text-tn-purple0">{title}</h2>
         </>
       )}

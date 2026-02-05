@@ -37,12 +37,12 @@ const siteConfig: SiteConfig = {
   favicons: [16, 32, 96, 128, 196],
   appletouch: [57, 60, 72, 76, 114, 120, 144, 152, 167, 180],
   android: [192, 512],
-  image: "https://img.mightydinosaur.dev/mighty.webp",
+  image: "https://static.mightydinosaur.dev/mighty.webp",
   maker: [
     {
       name: "James McEwan draws!",
       url: "https://draws.mightydinosaur.dev/",
-      image: "https://img.mightydinosaur.dev/draws-logo-background.svg",
+      image: "https://static.mightydinosaur.dev/draws-logo-background.svg",
       description: "Some of my illustrations",
     },
   ],

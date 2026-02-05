@@ -14,13 +14,13 @@ For the last twenty or so years, I've been a Mac person, prior to that, a die-ha
 
 At the moment, I use a MacBook Pro for work and a 15in M2 MacBook Air personally.
 
-![Macbook Air Laptop](https://img.mightydinosaur.dev/posts/macbook-air.avif)
+![Macbook Air Laptop](https://static.mightydinosaur.dev/posts/macbook-air.avif)
 
 Recently, I've been experimenting with a homelab setup, really just a couple of Raspberry Pi units with [Runtipi](https://runtipi.io) installed on them to manage Docker containers. I'm finding I like being able to run certain services in my own environment and using [Tailscale](https://tailscale.com) as a private VPN to access externally.
 
 ### Editor
 
-![Macintosh desktop with a terminal window containing the neovim editor](https://img.mightydinosaur.dev/posts/neovim-rose-pine.avif)
+![Macintosh desktop with a terminal window containing the neovim editor](https://static.mightydinosaur.dev/posts/neovim-rose-pine.avif)
 
 I live in the terminal these days. My editor of choice is Vim, more specifically Neovim.
 
