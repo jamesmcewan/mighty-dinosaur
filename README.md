@@ -47,8 +47,7 @@ bun run format:write
 ```
 
 ## Tech Stack
+
 [![Astro](https://img.shields.io/badge/Astro-5.15.4-FF5C00?logo=astro)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.17-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
 [![Bun](https://img.shields.io/badge/Bun-1.3.9-000000?logo=bun)](https://bun.sh)
-
-![made by mightydinosaur](https://raw.githubusercontent.com/jamesmcewan/mighty-dinosaur/refs/heads/main/public/images/badge.png)
