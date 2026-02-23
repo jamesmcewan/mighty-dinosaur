@@ -6,6 +6,10 @@ import mdx from "@astrojs/mdx"
 export default defineConfig({
   output: "static",
   site: "https://mightydinosaur.dev/",
+  compressHTML: true,
+  build: {
+    inlineStylesheets: "auto",
+  },
 
   vite: {
     plugins: [tailwindcss()],

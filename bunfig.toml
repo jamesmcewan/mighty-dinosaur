@@ -1,4 +1,5 @@
 [install]
+cache = true
 exact = true
 minimumReleaseAge = 604800
 
