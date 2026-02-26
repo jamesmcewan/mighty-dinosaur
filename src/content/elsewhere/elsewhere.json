@@ -1,10 +1,5 @@
 [
   {
-    "id": "codeberg",
-    "handle": "mcwn",
-    "url": "https://codeberg.org/mcwn"
-  },
-  {
     "id": "source.tube",
     "handle": "mcwn",
     "url": "https://source.tube/mcwn"
@@ -33,6 +28,11 @@
     "id": "printables",
     "handle": "@Mightydino_2075078",
     "url": "https://www.printables.com/@Mightydino_2075078"
+  },
+  {
+    "id": "teepublic",
+    "handle": "@mightydinosaur",
+    "url": "https://www.teepublic.com/user/mightydinosaur"
   },
   {
     "id": "letterboxd",
