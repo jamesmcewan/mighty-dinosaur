@@ -8,25 +8,26 @@ This file provides guidance to AI coding agents when working with code in this r
 - **Language**: TypeScript with strict null checks
 - **Styling**: TailwindCSS 4.x with @tailwindcss/vite plugin
 - **Content**: Astro Content Collections with JSON data sources
+- **Node.js**: 22+ (`engines.node: >=22.0.0`)
 - **Package Manager**: pnpm (preferred), npm (fallback)
 
 ## Quick Commands
 
 ### Development
-- Dev server: `pnpm run dev`
-- Build: `pnpm run build`
-- Preview: `pnpm run preview`
+- Dev server: `pnpm run dev` (fallback: `npm run dev`)
+- Build: `pnpm run build` (fallback: `npm run build`)
+- Preview: `pnpm run preview` (fallback: `npm run preview`)
 
 ### Code Quality
-- Lint check: `pnpm run lint:check` (uses oxlint)
-- Lint fix: `pnpm run lint:fix`
-- Format check: `pnpm run format:check` (uses oxfmt)
-- Format write: `pnpm run format:write`
-- Astro check: `pnpm run astro:check`
-- Markdown lint: `pnpm run markdownlint`
+- Lint check: `pnpm run lint:check` (fallback: `npm run lint:check`, uses oxlint)
+- Lint fix: `pnpm run lint:fix` (fallback: `npm run lint:fix`)
+- Format check: `pnpm run format:check` (fallback: `npm run format:check`, uses oxfmt)
+- Format write: `pnpm run format:write` (fallback: `npm run format:write`)
+- Astro check: `pnpm run astro:check` (fallback: `npm run astro:check`)
+- Markdown lint: `pnpm run markdownlint` (fallback: `npm run markdownlint`)
 
 ### Maintenance
-- Update dependencies: `pnpm run update-dependencies`
+- Update dependencies: `pnpm run update-dependencies` (fallback: `npm run update-dependencies`)
 
 ## Code Style (Enforced by oxfmt/oxlint)
 
@@ -113,6 +114,7 @@ Available collections: `posts`, `pages`, `movies`, `music`, `comics`, `elsewhere
 
 - `astro.config.ts` - Astro configuration (static output, site URL, integrations)
 - `tsconfig.json` - TypeScript paths and strict settings
+- `mise.toml` - Toolchain versions (Node.js, pnpm)
 - `lefthook.yml` - Git hook configuration
 - `.oxlintrc.json` - Lint rules (unused vars and triple-slash refs disabled)
 - `.oxfmtrc.json` - Formatter configuration

@@ -30,6 +30,11 @@ This site is hosted on [Bunny.net](https://bunny.net) - a fantastic EU-based pla
 ## Getting started
 
 ```bash
+# requires Node.js >= 22
+
+# optional: install pinned toolchain via mise
+mise install
+
 # install dependencies
 pnpm install
 
@@ -47,6 +52,34 @@ pnpm run format:write
 
 # Astro diagnostics
 pnpm run astro:check
+
+# update dependencies
+pnpm run update-dependencies
+```
+
+### npm fallback
+
+```bash
+# install dependencies
+npm install
+
+# run dev server
+npm run dev
+
+# build for production
+npm run build
+
+# lint and format
+npm run lint:check
+npm run lint:fix
+npm run format:check
+npm run format:write
+
+# Astro diagnostics
+npm run astro:check
+
+# update dependencies
+npm run update-dependencies
 ```
 
 ## Tech Stack
