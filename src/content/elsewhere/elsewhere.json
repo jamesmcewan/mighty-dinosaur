@@ -33,5 +33,10 @@
     "id": "letterboxd",
     "handle": "mcwn",
     "url": "https://letterboxd.com/mcwn/"
+  },
+  {
+    "id": "teepublic",
+    "handle": "mightydinosaur",
+    "url": "https://www.teepublic.com/user/mightydinosaur"
   }
 ]
