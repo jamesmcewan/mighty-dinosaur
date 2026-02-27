@@ -1,0 +1,15 @@
+[tools]
+node = "22"
+pnpm = "10.17.1"
+
+[tasks.setup]
+description = "Install project dependencies"
+run = "pnpm install"
+
+[tasks.check]
+description = "Run format, lint, and Astro checks"
+run = "pnpm run format:check && pnpm run lint:check && pnpm run astro:check"
+
+[tasks.build]
+description = "Build static site"
+run = "pnpm run build"
