@@ -1,12 +1,15 @@
 import { getCollection } from "astro:content"
 import type { CollectionEntry } from "astro:content"
 
-type Page = CollectionEntry<"page">
+type Page = CollectionEntry<"pages">
 
 async function getPages(): Promise<Page[]> {
   const pagesCollection = await getCollection(
     "pages",
-    (page) => page.data.permalink !== "/" && page.data.permalink !== "404"
+    (page) =>
+      page.data.permalink !== undefined &&
+      page.data.permalink !== "/" &&
+      page.data.permalink !== "404"
   )
   if (!pagesCollection || pagesCollection.length === 0) {
     throw new Error("No pages found. Make sure it exists.")

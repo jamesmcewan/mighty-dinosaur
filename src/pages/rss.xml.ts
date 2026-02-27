@@ -9,7 +9,7 @@ const parser = new MarkdownIt({
   breaks: true,
 })
 
-parser.renderer.rules.image = (tokens, idx, options, env, self) => {
+parser.renderer.rules.image = (tokens, idx, options, _env, self) => {
   const token = tokens[idx]
   const srcIndex = token.attrIndex("src")
   if (srcIndex === -1 || !token.attrs) {
@@ -26,19 +26,18 @@ parser.renderer.rules.image = (tokens, idx, options, env, self) => {
 }
 
 async function getItems(): Promise<RSSFeedItem[]> {
-  // Fix: Remove the type parameter from getCollection and cast the result
   const allPosts = await getCollection("posts")
   const publishedOnly = allPosts.filter((post) => post.data.draft !== true)
 
   const postItems = publishedOnly.map((post) => {
-    const content = parser.render(post.body)
+    const content = parser.render(post.body ?? "")
 
     return {
       title: post.data.title,
       pubDate: post.data.pubDate,
       description: post.data.description,
       content: content,
-      link: `/posts/${post.slug}/`,
+      link: `/post/${post.data.slug}/`,
     }
   })
 

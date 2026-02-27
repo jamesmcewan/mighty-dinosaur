@@ -1,21 +1,23 @@
 ---
 import LinkBlock from "@/components/block/link-block.astro"
-import siteConfig from "@/data/site-config"
+import getPages from "@/data/get-pages"
+
+const pages = await getPages()
 ---
 
 <nav>
   <ul class="grid gap-6">
     {
-      siteConfig.pages.map((link) => (
+      pages.map((page) => (
         <li>
           <LinkBlock
-            href={link.url}
+            href={`/${page.data.permalink}/`}
             cta
             center
             color="text-tn-blue0/80"
             hover="hover:text-tn-blue0"
           >
-            {link.name}
+            {page.data.title}
           </LinkBlock>
         </li>
       ))
