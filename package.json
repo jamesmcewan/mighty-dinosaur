@@ -29,11 +29,11 @@
 		"update-dependencies": "pnpm dlx @astrojs/upgrade && pnpm update"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "4.3.12",
-		"@astrojs/rss": "4.0.14",
+		"@astrojs/mdx": "4.3.13",
+		"@astrojs/rss": "4.0.15",
 		"@tailwindcss/typography": "0.5.19",
 		"@tailwindcss/vite": "4.1.17",
-		"astro": "5.15.4",
+		"astro": "5.18.0",
 		"markdown-it": "14.1.0",
 		"sanitize-html": "2.17.0",
 		"tailwindcss": "4.1.17"
