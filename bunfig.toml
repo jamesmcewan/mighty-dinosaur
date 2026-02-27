@@ -1,7 +1,0 @@
-[install]
-cache = true
-exact = true
-minimumReleaseAge = 604800
-
-[install.security]
-scanner = "@socketsecurity/bun-security-scanner"

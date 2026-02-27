@@ -8,24 +8,25 @@ This file provides guidance to AI coding agents when working with code in this r
 - **Language**: TypeScript with strict null checks
 - **Styling**: TailwindCSS 4.x with @tailwindcss/vite plugin
 - **Content**: Astro Content Collections with JSON data sources
-- **Package Manager**: Bun (preferred), npm (fallback)
+- **Package Manager**: pnpm (preferred), npm (fallback)
 
 ## Quick Commands
 
 ### Development
-- Dev server: `bun run dev`
-- Build: `bun run build`
-- Preview: `bun run preview`
+- Dev server: `pnpm run dev`
+- Build: `pnpm run build`
+- Preview: `pnpm run preview`
 
 ### Code Quality
-- Lint check: `bun run lint:check` (uses oxlint)
-- Lint fix: `bun run lint:fix`
-- Format check: `bun run format:check` (uses oxfmt)
-- Format write: `bun run format:write`
-- Markdown lint: `bun run markdownlint`
+- Lint check: `pnpm run lint:check` (uses oxlint)
+- Lint fix: `pnpm run lint:fix`
+- Format check: `pnpm run format:check` (uses oxfmt)
+- Format write: `pnpm run format:write`
+- Astro check: `pnpm run astro:check`
+- Markdown lint: `pnpm run markdownlint`
 
 ### Maintenance
-- Update dependencies: `bun run update-dependencies`
+- Update dependencies: `pnpm run update-dependencies`
 
 ## Code Style (Enforced by oxfmt/oxlint)
 
@@ -124,6 +125,7 @@ Available collections: `posts`, `pages`, `movies`, `music`, `comics`, `elsewhere
 3. Don't forget path aliases - always use `@/` prefix
 4. Don't modify files in `dist/` or `.astro/` - these are build outputs
 5. Don't skip pre-commit hooks - they ensure code quality
+6. Don't use Bun commands for project tasks - use pnpm scripts (npm is fallback)
 
 ## Build Output
 

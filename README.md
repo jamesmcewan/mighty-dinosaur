@@ -31,23 +31,27 @@ This site is hosted on [Bunny.net](https://bunny.net) - a fantastic EU-based pla
 
 ```bash
 # install dependencies
-bun install
+pnpm install
 
 # run dev server
-bun run dev
+pnpm run dev
 
 # build for production
-bun run build
+pnpm run build
 
 # lint and format
-bun run lint:check
-bun run lint:fix
-bun run format:check
-bun run format:write
+pnpm run lint:check
+pnpm run lint:fix
+pnpm run format:check
+pnpm run format:write
+
+# Astro diagnostics
+pnpm run astro:check
 ```
 
 ## Tech Stack
 
 [![Astro](https://img.shields.io/badge/Astro-5.15.4-FF5C00?logo=astro)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.17-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
-[![Bun](https://img.shields.io/badge/Bun-1.3.9-000000?logo=bun)](https://bun.sh)
+[![Node.js](https://img.shields.io/badge/Node.js-22-5FA04E?logo=nodedotjs)](https://nodejs.org)
+[![pnpm](https://img.shields.io/badge/pnpm-10.17.1-F69220?logo=pnpm)](https://pnpm.io)
