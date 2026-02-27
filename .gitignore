@@ -24,8 +24,7 @@ yarn-error.log*
 .netlify
 .vercel
 
-.bun-cache
 build
 .sst
 package-lock.json
-
+memory-bank.md
