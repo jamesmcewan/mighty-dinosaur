@@ -11,7 +11,8 @@ const posts = await getPosts(5)
   <ul class="grid gap-6">
     {
       posts.map((post) => {
-        const { title, category, description, slug } = post.data;
+        const { category, description, slug } = post.data;
+        const title = post.data.title ?? "Untitled";
         const titleWords = title.split(" ");
         const categoryWords = category ? category.split(" ") : [];
         return (
