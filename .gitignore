@@ -3,6 +3,8 @@ dist
 
 .astro/
 .claude/
+!.claude/commands
+!.claude/commands/**
 # dependencies
 node_modules/
 
