@@ -8,7 +8,8 @@ This file provides guidance to AI coding agents when working with code in this r
 - **Language**: TypeScript with strict null checks
 - **Styling**: TailwindCSS 4.x with @tailwindcss/vite plugin
 - **Content**: Astro Content Collections with JSON data sources
-- **Node.js**: 22+ (`engines.node: >=22.0.0`)
+- **Node.js**: 22+ (`engines.node: >=22.0.0`) — runtime requirement
+- **Bun**: 1.3.9 (`packageManager: bun@1.3.9`) — primary package manager and script runner
 - **Package Manager**: Bun (preferred), npm (fallback)
 
 ## Quick Commands
@@ -24,7 +25,6 @@ This file provides guidance to AI coding agents when working with code in this r
 - Format check: `bun run format:check` (fallback: `npm run format:check`, uses oxfmt)
 - Format write: `bun run format:write` (fallback: `npm run format:write`)
 - Astro check: `bun run astro:check` (fallback: `npm run astro:check`)
-- Markdown lint: `bun run markdownlint` (fallback: `npm run markdownlint`)
 
 ### Maintenance
 - Update dependencies: `bun run update-dependencies` (fallback: `npm run update-dependencies`)
@@ -60,8 +60,7 @@ src/
 │   └── posts/
 ├── config/         # Collection schemas (posts.ts, pages.ts, etc.)
 ├── data/           # Data utilities (get-posts.ts, get-pages.ts)
-├── styles/         # Global styles
-└── utils/          # Utility functions
+└── styles/         # Global styles
 ```
 
 ### Path Aliases (tsconfig.json)
@@ -70,7 +69,6 @@ Always use `@/` prefix for imports:
 - `@/layouts/*` → `src/layouts/*`
 - `@/content/*` → `src/content/*`
 - `@/data/*` → `src/data/*`
-- `@/utils/*` → `src/utils/*`
 - `@/styles/*` → `src/styles/*`
 - `@/pages/*` → `src/pages/*`
 
