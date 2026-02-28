@@ -36,25 +36,25 @@ This site is hosted on [Bunny.net](https://bunny.net) - a fantastic EU-based pla
 mise install
 
 # install dependencies
-pnpm install
+bun install
 
 # run dev server
-pnpm run dev
+bun run dev
 
 # build for production
-pnpm run build
+bun run build
 
 # lint and format
-pnpm run lint:check
-pnpm run lint:fix
-pnpm run format:check
-pnpm run format:write
+bun run lint:check
+bun run lint:fix
+bun run format:check
+bun run format:write
 
 # Astro diagnostics
-pnpm run astro:check
+bun run astro:check
 
 # update dependencies
-pnpm run update-dependencies
+bun run update-dependencies
 ```
 
 ### npm fallback
@@ -87,4 +87,4 @@ npm run update-dependencies
 [![Astro](https://img.shields.io/badge/Astro-5.15.4-FF5C00?logo=astro)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.17-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
 [![Node.js](https://img.shields.io/badge/Node.js-22-5FA04E?logo=nodedotjs)](https://nodejs.org)
-[![pnpm](https://img.shields.io/badge/pnpm-10.17.1-F69220?logo=pnpm)](https://pnpm.io)
+[![Bun](https://img.shields.io/badge/Bun-1.3.9-000000?logo=bun)](https://bun.sh)

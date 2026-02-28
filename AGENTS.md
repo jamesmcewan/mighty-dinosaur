@@ -9,25 +9,25 @@ This file provides guidance to AI coding agents when working with code in this r
 - **Styling**: TailwindCSS 4.x with @tailwindcss/vite plugin
 - **Content**: Astro Content Collections with JSON data sources
 - **Node.js**: 22+ (`engines.node: >=22.0.0`)
-- **Package Manager**: pnpm (preferred), npm (fallback)
+- **Package Manager**: Bun (preferred), npm (fallback)
 
 ## Quick Commands
 
 ### Development
-- Dev server: `pnpm run dev` (fallback: `npm run dev`)
-- Build: `pnpm run build` (fallback: `npm run build`)
-- Preview: `pnpm run preview` (fallback: `npm run preview`)
+- Dev server: `bun run dev` (fallback: `npm run dev`)
+- Build: `bun run build` (fallback: `npm run build`)
+- Preview: `bun run preview` (fallback: `npm run preview`)
 
 ### Code Quality
-- Lint check: `pnpm run lint:check` (fallback: `npm run lint:check`, uses oxlint)
-- Lint fix: `pnpm run lint:fix` (fallback: `npm run lint:fix`)
-- Format check: `pnpm run format:check` (fallback: `npm run format:check`, uses oxfmt)
-- Format write: `pnpm run format:write` (fallback: `npm run format:write`)
-- Astro check: `pnpm run astro:check` (fallback: `npm run astro:check`)
-- Markdown lint: `pnpm run markdownlint` (fallback: `npm run markdownlint`)
+- Lint check: `bun run lint:check` (fallback: `npm run lint:check`, uses oxlint)
+- Lint fix: `bun run lint:fix` (fallback: `npm run lint:fix`)
+- Format check: `bun run format:check` (fallback: `npm run format:check`, uses oxfmt)
+- Format write: `bun run format:write` (fallback: `npm run format:write`)
+- Astro check: `bun run astro:check` (fallback: `npm run astro:check`)
+- Markdown lint: `bun run markdownlint` (fallback: `npm run markdownlint`)
 
 ### Maintenance
-- Update dependencies: `pnpm run update-dependencies` (fallback: `npm run update-dependencies`)
+- Update dependencies: `bun run update-dependencies` (fallback: `npm run update-dependencies`)
 
 ## Code Style (Enforced by oxfmt/oxlint)
 
@@ -114,7 +114,7 @@ Available collections: `posts`, `pages`, `movies`, `music`, `comics`, `elsewhere
 
 - `astro.config.ts` - Astro configuration (static output, site URL, integrations)
 - `tsconfig.json` - TypeScript paths and strict settings
-- `mise.toml` - Toolchain versions (Node.js, pnpm)
+- `mise.toml` - Toolchain versions (Node.js, Bun)
 - `lefthook.yml` - Git hook configuration
 - `.oxlintrc.json` - Lint rules (unused vars and triple-slash refs disabled)
 - `.oxfmtrc.json` - Formatter configuration
@@ -127,7 +127,7 @@ Available collections: `posts`, `pages`, `movies`, `music`, `comics`, `elsewhere
 3. Don't forget path aliases - always use `@/` prefix
 4. Don't modify files in `dist/` or `.astro/` - these are build outputs
 5. Don't skip pre-commit hooks - they ensure code quality
-6. Don't use Bun commands for project tasks - use pnpm scripts (npm is fallback)
+6. Don't use pnpm commands for project tasks - use Bun scripts (npm is fallback)
 
 ## Build Output
 
