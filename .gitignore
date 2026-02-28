@@ -2,7 +2,7 @@
 dist
 
 .astro/
-.claude/
+.claude/*
 !.claude/commands
 !.claude/commands/**
 # dependencies
