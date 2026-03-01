@@ -36,7 +36,7 @@ From time to time I like an IDE and honestly [Nova](https://nova.app) from [Pani
 
 ## Other tools
 
-- browser: [Safari](https://apple.com/safari) - Honestly pretty much covers everything I need from a browser these days and features wise it's catching up.
+- browser: [Safari](https://apple.com/safari) - Covers everything I need from a browser, and it's catching up feature-wise.
 - graphics: [Sketch](https://sketch.com) and [Acorn](https://flyingmeat.com/acorn/)
 
 ## Built with
