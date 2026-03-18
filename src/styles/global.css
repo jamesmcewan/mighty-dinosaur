@@ -53,63 +53,63 @@
 	}
 }
 
-/* dawnfox (default) */
+/* Firewatch (default light) */
 :root {
-	--tn-pink: #c26d85;
-	--tn-purple0: #9a80b9;
-	--tn-purple1: #907aa9;
-	--tn-red0: #c26d85;
-	--tn-red1: #b4637a;
-  --tn-orange: #986621;
-	--tn-yellow: #91662a;
-	--tn-yellowgreen: #a7975d;
-	--tn-green: #629f81;
-	--tn-teal0: #5ca7b4;
-	--tn-teal1: #56949f;
-	--tn-blue0: #2d81a3;
-	--tn-blue1: #286983;
-	--tn-blue2: #22596f;
-	--tn-blue3: #1e4e62;
-	--tn-text: #575279;
-	--tn-overlay0: #595381;
-	--tn-overlay1: #5b5489;
-	--tn-overlay2: #5f5695;
-	--tn-surface0: #f3efe9;
-	--tn-surface1: #ebeae5;
-	--tn-surface2: #e2e4e1;
-	--tn-base: #faf4ed;
-	--tn-mantle: #f2ece5;
-	--tn-crust: #ebe5de;
+	--fw-ember:      #A85020;
+	--fw-ochre:      #8A6030;
+	--fw-amber:      #906020;
+	--fw-wheat:      #786848;
+	--fw-terracotta: #8A5040;
+	--fw-clay:       #7A4030;
+	--fw-umber:      #603020;
+	--fw-sienna:     #4A2018;
+	--fw-rust:       #8A5030;
+	--fw-mahogany:   #7A4020;
+	--fw-crimson:    #983828;
+	--fw-coral:      #A84030;
+	--fw-maroon:     #883020;
+	--fw-sand:       #8A6840;
+	--fw-dune:       #785830;
+	--fw-text:       #3A2E24;
+	--fw-overlay0:   #6A5848;
+	--fw-overlay1:   #907060;
+	--fw-overlay2:   #B8988A;
+	--fw-surface0:   #EDE5D8;
+	--fw-surface1:   #E5DAC8;
+	--fw-surface2:   #D8CABA;
+	--fw-base:       #D8C8B4;
+	--fw-mantle:     #F2EBE0;
+	--fw-crust:      #E8DDD0;
 }
 
-/* Tokyo Night Dark */
+/* Firewatch dark */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--tn-pink: #ff007c;
-		--tn-purple0: #bb9af7;
-		--tn-purple1: #9d7cd8;
-		--tn-red0: #ff757f;
-		--tn-red1: #c53b53;
-		--tn-orange: #ff9e64;
-		--tn-yellow: #ffc777;
-		--tn-yellowgreen: #c3e88d;
-		--tn-green: #b4f9f8;
-		--tn-teal0: #4fd6be;
-		--tn-teal1: #41a6b5;
-		--tn-blue0: #7dcfff;
-		--tn-blue1: #7aa2f7;
-		--tn-blue2: #3d59a1;
-		--tn-blue3: #394b70;
-		--tn-text: #c0caf5;
-		--tn-overlay0: #a9b1d6;
-		--tn-overlay1: #737aa2;
-		--tn-overlay2: #565f89;
-		--tn-surface0: #545c7e;
-		--tn-surface1: #414868;
-		--tn-surface2: #3b4261;
-		--tn-base: #292e42;
-		--tn-mantle: #15161e;
-		--tn-crust: #1a1b26;
+		--fw-ember:      #E07B3A;
+		--fw-ochre:      #D08040;
+		--fw-amber:      #D4914A;
+		--fw-wheat:      #B8A070;
+		--fw-terracotta: #C07860;
+		--fw-clay:       #B06850;
+		--fw-umber:      #8C5240;
+		--fw-sienna:     #6A3828;
+		--fw-rust:       #C0784A;
+		--fw-mahogany:   #A86838;
+		--fw-crimson:    #B04030;
+		--fw-coral:      #C86050;
+		--fw-maroon:     #A04030;
+		--fw-sand:       #C09060;
+		--fw-dune:       #A87848;
+		--fw-text:       #D4C9BA;
+		--fw-overlay0:   #A89880;
+		--fw-overlay1:   #7A6E62;
+		--fw-overlay2:   #5C5248;
+		--fw-surface0:   #2A2724;
+		--fw-surface1:   #3A3733;
+		--fw-surface2:   #4A4744;
+		--fw-base:       #2E2B28;
+		--fw-mantle:     #1C1917;
+		--fw-crust:      #211F1C;
 	}
 }
 
@@ -117,29 +117,29 @@
 	--font-cartridgerough: cartridgerough, sans-serif;
 	--font-cartridgeboldrough: cartridgebold_rough, sans-serif;
 	--font-rethink: Rethink Sans, sans-serif;
-	--color-tn-pink: var(--tn-pink);
-	--color-tn-purple0: var(--tn-purple0);
-	--color-tn-purple1: var(--tn-purple1);
-	--color-tn-red0: var(--tn-red0);
-	--color-tn-red1: var(--tn-red1);
-	--color-tn-orange: var(--tn-orange);
-	--color-tn-yellow: var(--tn-yellow);
-	--color-tn-yellowgreen: var(--tn-yellowgreen);
-	--color-tn-green: var(--tn-green);
-	--color-tn-teal0: var(--tn-teal0);
-	--color-tn-teal1: var(--tn-teal1);
-	--color-tn-blue0: var(--tn-blue0);
-	--color-tn-blue1: var(--tn-blue1);
-	--color-tn-blue2: var(--tn-blue2);
-	--color-tn-blue3: var(--tn-blue3);
-	--color-tn-text: var(--tn-text);
-	--color-tn-overlay0: var(--tn-overlay0);
-	--color-tn-overlay1: var(--tn-overlay1);
-	--color-tn-overlay2: var(--tn-overlay2);
-	--color-tn-surface0: var(--tn-surface0);
-	--color-tn-surface1: var(--tn-surface1);
-	--color-tn-surface2: var(--tn-surface2);
-	--color-tn-base: var(--tn-base);
-	--color-tn-mantle: var(--tn-mantle);
-	--color-tn-crust: var(--tn-crust);
+	--color-fw-ember: var(--fw-ember);
+	--color-fw-ochre: var(--fw-ochre);
+	--color-fw-amber: var(--fw-amber);
+	--color-fw-wheat: var(--fw-wheat);
+	--color-fw-terracotta: var(--fw-terracotta);
+	--color-fw-clay: var(--fw-clay);
+	--color-fw-umber: var(--fw-umber);
+	--color-fw-sienna: var(--fw-sienna);
+	--color-fw-rust: var(--fw-rust);
+	--color-fw-mahogany: var(--fw-mahogany);
+	--color-fw-crimson: var(--fw-crimson);
+	--color-fw-coral: var(--fw-coral);
+	--color-fw-maroon: var(--fw-maroon);
+	--color-fw-sand: var(--fw-sand);
+	--color-fw-dune: var(--fw-dune);
+	--color-fw-text: var(--fw-text);
+	--color-fw-overlay0: var(--fw-overlay0);
+	--color-fw-overlay1: var(--fw-overlay1);
+	--color-fw-overlay2: var(--fw-overlay2);
+	--color-fw-surface0: var(--fw-surface0);
+	--color-fw-surface1: var(--fw-surface1);
+	--color-fw-surface2: var(--fw-surface2);
+	--color-fw-base: var(--fw-base);
+	--color-fw-mantle: var(--fw-mantle);
+	--color-fw-crust: var(--fw-crust);
 }
