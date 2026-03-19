@@ -1,10 +1,15 @@
 ---
 import Category from "@/components/inline/category-inline.astro"
-const { title, category, slug } = Astro.props
 
-// Split title and category into words for view transitions
-const titleWords = title ? title.split(" ") : []
-const categoryWords = category ? category.split(" ") : []
+interface Props {
+  title: string
+  category?: string
+  slug?: string
+}
+
+const { title, category, slug }: Props = Astro.props
+const titleWords = title.split(" ")
+const categoryWords = category?.split(" ") ?? []
 ---
 
 <article
@@ -24,21 +29,19 @@ const categoryWords = category ? category.split(" ") : []
         ))}
       </Category>
     )}
-    {title && (
-      <h1>
-        {titleWords.map((word, index) => (
-          <span
-            style={{
-              viewTransitionName: slug ? `title-${slug}-word-${index}` : undefined,
-            }}
-          >
-            {word}{index < titleWords.length - 1 ? " " : ""}
-          </span>
-        ))}
-      </h1>
-    )}
+    <h1>
+      {titleWords.map((word, index) => (
+        <span
+          style={{
+            viewTransitionName: slug ? `title-${slug}-word-${index}` : undefined,
+          }}
+        >
+          {word}{index < titleWords.length - 1 ? " " : ""}
+        </span>
+      ))}
+    </h1>
   </header>
-    <div data-content="post">
-      <slot />
-    </div>
+  <div data-content="post">
+    <slot />
+  </div>
 </article>

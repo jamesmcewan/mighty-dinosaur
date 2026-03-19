@@ -6,6 +6,7 @@ import mdx from "@astrojs/mdx"
 export default defineConfig({
   output: "static",
   site: "https://mightydinosaur.dev/",
+  trailingSlash: "always",
   compressHTML: true,
   build: {
     inlineStylesheets: "auto",

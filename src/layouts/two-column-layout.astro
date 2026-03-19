@@ -7,7 +7,14 @@ import MightyDinosaurBlock from "@/components/block/mighty-dinosaur-block.astro"
 import WrapperBlock from "@/components/block/wrapper-block.astro"
 import Body from "@/components/structure/body.astro"
 
-const { title, decoration, description, url } = Astro.props
+interface Props {
+  title: string
+  decoration?: string[]
+  description: string
+  url: string
+}
+
+const { title, decoration, description, url }: Props = Astro.props
 ---
 
 <Body {title} {description} {url}>

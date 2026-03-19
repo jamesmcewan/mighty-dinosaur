@@ -5,12 +5,6 @@ export interface Link {
   description?: string
 }
 
-export interface SocialLink {
-  service: string
-  handle: string
-  url: string
-}
-
 export interface SiteConfig {
   baseURL: string
   languageCode: string
@@ -22,11 +16,14 @@ export interface SiteConfig {
   favicons: number[]
   appletouch: number[]
   android: number[]
+  social: {
+    mastodon: string
+  }
   maker: Link[]
   tooling: Link[]
 }
 
-const siteConfig: SiteConfig = {
+const siteConfig = {
   baseURL: "https://mightydinosaur.dev/",
   languageCode: "en-gb",
   title: "Mighty Dinosaur",
@@ -37,6 +34,9 @@ const siteConfig: SiteConfig = {
   favicons: [16, 32, 96, 128, 196],
   appletouch: [57, 60, 72, 76, 114, 120, 144, 152, 167, 180],
   android: [192, 512],
+  social: {
+    mastodon: "https://social.lol/@mcwn",
+  },
   image: "https://static.mightydinosaur.dev/mighty.webp",
   maker: [
     {
@@ -56,6 +56,6 @@ const siteConfig: SiteConfig = {
       url: "https://tailwindcss.com/",
     },
   ],
-}
+} satisfies SiteConfig
 
 export default siteConfig
