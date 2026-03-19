@@ -13,7 +13,8 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [tailwindcss()],
+    // Astro and Tailwind currently resolve Vite types from different module paths.
+    plugins: [tailwindcss() as any],
   },
 
   integrations: [mdx()],
