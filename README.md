@@ -30,7 +30,7 @@ This site is hosted on [Bunny.net](https://bunny.net) - a fantastic EU-based pla
 ## Getting started
 
 ```bash
-# requires Node.js >= 22.12
+# requires Bun >= 1.3.10
 
 # optional: install pinned toolchain via mise
 mise install
@@ -59,36 +59,8 @@ bun run astro:check
 bun run update-dependencies
 ```
 
-### npm fallback
-
-```bash
-# install dependencies
-npm install
-
-# run dev server
-npm run dev
-
-# build for production
-npm run build
-
-# lint and format
-npm run lint:check
-npm run lint:fix
-npm run format:check
-npm run format:write
-npm run check
-npm run fix
-
-# Astro diagnostics
-npm run astro:check
-
-# update dependencies
-npm run update-dependencies
-```
-
 ## Tech Stack
 
 [![Astro](https://img.shields.io/badge/Astro-6.0.7-FF5C00?logo=astro)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.17-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
-[![Node.js](https://img.shields.io/badge/Node.js-22-5FA04E?logo=nodedotjs)](https://nodejs.org)
 [![Bun](https://img.shields.io/badge/Bun-1.3.10-000000?logo=bun)](https://bun.sh)
