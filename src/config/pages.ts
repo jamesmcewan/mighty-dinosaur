@@ -3,12 +3,12 @@ import { glob } from "astro/loaders"
 
 const pageSchema = z.object({
   title: z.string(),
-  description: z.string().optional(),
-  decoration: z.array(z.string()).optional(),
+  description: z.string(),
+  decoration: z.array(z.string()).default(["james"]),
   type: z.string().optional(),
   date: z.date().optional(),
   lastmod: z.date().optional(),
-  permalink: z.string().optional(),
+  permalink: z.string(),
 })
 
 export type Page = z.infer<typeof pageSchema>

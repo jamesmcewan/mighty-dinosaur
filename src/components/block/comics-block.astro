@@ -1,7 +1,11 @@
 ---
 import { getCollection } from "astro:content"
 
-const { category } = Astro.props
+interface Props {
+  category: string
+}
+
+const { category }: Props = Astro.props
 
 const comics = await getCollection("comics")
 
@@ -9,7 +13,7 @@ const filteredComics = comics.filter(
 	(comic) => comic.data.category === category,
 )
 
-const sortedComics = filteredComics.sort((a, b) => a.data.rank - b.data.rank)
+const sortedComics = filteredComics.toSorted((a, b) => a.data.rank - b.data.rank)
 ---
 
 <section class="not-prose">
