@@ -13,20 +13,20 @@
 	"packageManager": "bun@1.3.10",
 	"type": "module",
 	"engines": {
-		"node": ">=22.12.0"
+		"bun": ">=1.3.10"
 	},
 	"scripts": {
-		"build": "astro build",
-		"dev": "astro dev",
-		"check": "oxfmt --check && oxlint --ignore-path=.gitignore && astro check",
+		"build": "bunx --bun astro build",
+		"dev": "bunx --bun astro dev",
+		"check": "oxfmt --check && oxlint --ignore-path=.gitignore && bunx --bun astro check",
 		"fix": "oxlint --fix --ignore-path=.gitignore && oxfmt",
-		"astro:check": "astro check",
+		"astro:check": "bunx --bun astro check",
 		"lint:check": "oxlint --ignore-path=.gitignore",
 		"lint:fix": "oxlint --fix --ignore-path=.gitignore",
 		"format:write": "oxfmt",
 		"format:check": "oxfmt --check",
 		"prepare": "is-ci || lefthook install",
-		"preview": "astro preview",
+		"preview": "bunx --bun astro preview",
 		"update-dependencies": "bunx @astrojs/upgrade && bun update"
 	},
 	"dependencies": {
