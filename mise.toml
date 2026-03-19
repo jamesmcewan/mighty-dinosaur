@@ -7,7 +7,7 @@ run = "bun install"
 
 [tasks.check]
 description = "Run format, lint, and Astro checks"
-run = "bun run format:check && bun run lint:check && bun run astro:check"
+run = "bun run check"
 
 [tasks.build]
 description = "Build static site"
