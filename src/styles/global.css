@@ -55,61 +55,61 @@
 
 /* Firewatch (default light) */
 :root {
-	--fw-ember:      #A85020;
-	--fw-ochre:      #8A6030;
-	--fw-amber:      #906020;
-	--fw-wheat:      #786848;
-	--fw-terracotta: #8A5040;
-	--fw-clay:       #7A4030;
-	--fw-umber:      #603020;
-	--fw-sienna:     #4A2018;
-	--fw-rust:       #8A5030;
-	--fw-mahogany:   #7A4020;
-	--fw-crimson:    #983828;
-	--fw-coral:      #A84030;
-	--fw-maroon:     #883020;
-	--fw-sand:       #8A6840;
-	--fw-dune:       #785830;
-	--fw-text:       #3A2E24;
-	--fw-overlay0:   #6A5848;
-	--fw-overlay1:   #907060;
-	--fw-overlay2:   #B8988A;
-	--fw-surface0:   #EDE5D8;
-	--fw-surface1:   #E5DAC8;
-	--fw-surface2:   #D8CABA;
-	--fw-base:       #D8C8B4;
-	--fw-mantle:     #F2EBE0;
-	--fw-crust:      #E8DDD0;
+	--fw-ember:      #BCB2A5;
+	--fw-ochre:      #A89F94;
+	--fw-amber:      #948D83;
+	--fw-wheat:      #A89F94;
+	--fw-terracotta: #948D83;
+	--fw-clay:       #807A72;
+	--fw-umber:      #6B6761;
+	--fw-sienna:     #575450;
+	--fw-rust:       #A89F94;
+	--fw-mahogany:   #807A72;
+	--fw-crimson:    #948D83;
+	--fw-coral:      #BCB2A5;
+	--fw-maroon:     #6B6761;
+	--fw-sand:       #A89F94;
+	--fw-dune:       #BCB2A5;
+	--fw-text:       #D4C9BA;
+	--fw-overlay0:   #807A72;
+	--fw-overlay1:   #6B6761;
+	--fw-overlay2:   #575450;
+	--fw-surface0:   #272627;
+	--fw-surface1:   #2F2E2E;
+	--fw-surface2:   #3B3938;
+	--fw-base:       #1F1F20;
+	--fw-mantle:     #0B0C0F;
+	--fw-crust:      #171719;
 }
 
 /* Firewatch dark */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--fw-ember:      #E07B3A;
-		--fw-ochre:      #D08040;
-		--fw-amber:      #D4914A;
-		--fw-wheat:      #B8A070;
-		--fw-terracotta: #C07860;
-		--fw-clay:       #B06850;
-		--fw-umber:      #8C5240;
-		--fw-sienna:     #6A3828;
-		--fw-rust:       #C0784A;
-		--fw-mahogany:   #A86838;
-		--fw-crimson:    #B04030;
-		--fw-coral:      #C86050;
-		--fw-maroon:     #A04030;
-		--fw-sand:       #C09060;
-		--fw-dune:       #A87848;
+		--fw-ember:      #BCB2A5;
+		--fw-ochre:      #A89F94;
+		--fw-amber:      #948D83;
+		--fw-wheat:      #A89F94;
+		--fw-terracotta: #948D83;
+		--fw-clay:       #807A72;
+		--fw-umber:      #6B6761;
+		--fw-sienna:     #575450;
+		--fw-rust:       #A89F94;
+		--fw-mahogany:   #807A72;
+		--fw-crimson:    #948D83;
+		--fw-coral:      #BCB2A5;
+		--fw-maroon:     #6B6761;
+		--fw-sand:       #A89F94;
+		--fw-dune:       #BCB2A5;
 		--fw-text:       #D4C9BA;
-		--fw-overlay0:   #A89880;
-		--fw-overlay1:   #7A6E62;
-		--fw-overlay2:   #5C5248;
-		--fw-surface0:   #2A2724;
-		--fw-surface1:   #3A3733;
-		--fw-surface2:   #4A4744;
-		--fw-base:       #2E2B28;
-		--fw-mantle:     #1C1917;
-		--fw-crust:      #211F1C;
+		--fw-overlay0:   #807A72;
+		--fw-overlay1:   #6B6761;
+		--fw-overlay2:   #575450;
+		--fw-surface0:   #272627;
+		--fw-surface1:   #2F2E2E;
+		--fw-surface2:   #3B3938;
+		--fw-base:       #1F1F20;
+		--fw-mantle:     #0B0C0F;
+		--fw-crust:      #171719;
 	}
 }
 
