@@ -49,6 +49,8 @@ bun run lint:check
 bun run lint:fix
 bun run format:check
 bun run format:write
+bun run check
+bun run fix
 
 # Astro diagnostics
 bun run astro:check
@@ -74,6 +76,8 @@ npm run lint:check
 npm run lint:fix
 npm run format:check
 npm run format:write
+npm run check
+npm run fix
 
 # Astro diagnostics
 npm run astro:check
@@ -84,7 +88,7 @@ npm run update-dependencies
 
 ## Tech Stack
 
-[![Astro](https://img.shields.io/badge/Astro-5.15.4-FF5C00?logo=astro)](https://astro.build)
+[![Astro](https://img.shields.io/badge/Astro-5.18.0-FF5C00?logo=astro)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.17-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
 [![Node.js](https://img.shields.io/badge/Node.js-22-5FA04E?logo=nodedotjs)](https://nodejs.org)
-[![Bun](https://img.shields.io/badge/Bun-1.3.9-000000?logo=bun)](https://bun.sh)
+[![Bun](https://img.shields.io/badge/Bun-1.3.10-000000?logo=bun)](https://bun.sh)
