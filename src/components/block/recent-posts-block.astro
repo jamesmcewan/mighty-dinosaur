@@ -18,7 +18,7 @@ const posts = await getPosts(5)
         return (
           <li>
             <a href={`/post/${slug}/`} class="block rounded-3xl">
-              <h2 class="font-cartridgerough text-fw-ember/90 hover:text-fw-ember text-lg lg:text-xl transition-all duration-150 ease-in-out hover:brightness-110">
+              <h2 class="font-cartridgerough text-fw-umber/90 hover:text-fw-sienna text-lg lg:text-xl transition-all duration-150 ease-in-out hover:brightness-110">
                 {category && (
                   <CategoryInline>
                     {categoryWords.map((word, index) => (
@@ -42,7 +42,7 @@ const posts = await getPosts(5)
                   </span>
                 ))}
               </h2>
-              <p class="text-md lg:text-lg font-rethink text-fw-text">{description}</p>
+              <p class="text-md lg:text-lg font-rethink text-fw-overlay0">{description}</p>
             </a>
           </li>
         );
