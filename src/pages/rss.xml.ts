@@ -1,7 +1,8 @@
-import { getCollection } from "astro:content"
 import rss from "@astrojs/rss"
 import type { RSSFeedItem } from "@astrojs/rss"
 import MarkdownIt from "markdown-it"
+import getPosts from "@/data/get-posts"
+import getSiteUrl from "@/data/get-site-url"
 
 const parser = new MarkdownIt({
   html: true,
@@ -20,14 +21,13 @@ parser.renderer.rules.image = (tokens, idx, options, _env, self) => {
 
   const absoluteSrc = src.startsWith("http")
     ? src
-    : new URL(src.replace(/^\.\.\//, ""), import.meta.env.SITE).toString()
+    : new URL(src.replace(/^\.\.\//, ""), getSiteUrl()).toString()
 
   return `<img src="${absoluteSrc}" alt="${alt}" />`
 }
 
 async function getItems(): Promise<RSSFeedItem[]> {
-  const allPosts = await getCollection("posts")
-  const publishedOnly = allPosts.filter((post) => post.data.draft !== true)
+  const publishedOnly = await getPosts()
 
   const postItems = publishedOnly.map((post) => {
     const content = parser.render(post.body ?? "")
@@ -50,7 +50,7 @@ export async function GET() {
   return rss({
     title: "Mighty Dinosaur",
     description: "James writes stuff",
-    site: import.meta.env.SITE,
+    site: getSiteUrl(),
     items: items,
     customData: `<language>en-gb</language>`,
     xmlns: {

@@ -1,0 +1,44 @@
+---
+import { render } from "astro:content"
+import type { CollectionEntry } from "astro:content"
+import type { GetStaticPaths } from "astro"
+import BackBlock from "@/components/block/back-block.astro"
+import GridBlock from "@/components/block/grid-block.astro"
+import PageBlock from "@/components/block/page-block.astro"
+import getPages from "@/data/get-pages"
+import getSiteUrl from "@/data/get-site-url"
+import SingleColumnLayout from "@/layouts/single-column-layout.astro"
+
+interface Props {
+  page: CollectionEntry<"pages">
+}
+
+export const getStaticPaths = (async () => {
+  const pages = await getPages()
+  return pages.map((page) => ({
+    params: {
+      slug: page.data.permalink,
+    },
+    props: { page },
+  }))
+}) satisfies GetStaticPaths
+
+const { page }: Props = Astro.props
+const { Content } = await render(page)
+const { title, description = "", permalink } = page.data
+
+if (!permalink) {
+  throw new Error("Page permalink is required")
+}
+
+const url = getSiteUrl(`/${permalink}/`)
+---
+
+<SingleColumnLayout {description} {title} {url}>
+  <GridBlock>
+    <PageBlock {title} {permalink}>
+      <Content />
+    </PageBlock>
+    <BackBlock />
+  </GridBlock>
+</SingleColumnLayout>

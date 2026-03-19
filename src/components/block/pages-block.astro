@@ -1,8 +1,12 @@
 ---
+import type { CollectionEntry } from "astro:content"
 import SectionHeadingBlock from "@/components/block/section-heading-block.astro"
-import getPages from "@/data/get-pages.ts"
 
-const pages = await getPages()
+interface Props {
+  pages: CollectionEntry<"pages">[]
+}
+
+const { pages }: Props = Astro.props
 ---
 
 <section>
@@ -11,9 +15,6 @@ const pages = await getPages()
     {
       pages.map((page) => {
         const { title, description, permalink } = page.data
-        if (!permalink) {
-          return null
-        }
         const titleWords = title.split(" ")
         return (
           <li>

@@ -1,0 +1,42 @@
+---
+import { render } from "astro:content"
+import type { CollectionEntry } from "astro:content"
+import type { GetStaticPaths } from "astro"
+import ArticleBlock from "@/components/block/article-block.astro"
+import BackBlock from "@/components/block/back-block.astro"
+import getPosts from "@/data/get-posts"
+import getSiteUrl from "@/data/get-site-url"
+import SingleColumnLayout from "@/layouts/single-column-layout.astro"
+
+interface Props {
+  post: CollectionEntry<"posts">
+}
+
+export const getStaticPaths = (async () => {
+  const posts = await getPosts()
+  return posts.map((post) => ({
+    params: { slug: post.data.slug },
+    props: { post },
+  }))
+}) satisfies GetStaticPaths
+
+const { post }: Props = Astro.props
+const { Content } = await render(post)
+const title = post.data.title ?? "Untitled"
+const description = post.data.description ?? ""
+const category = post.data.category
+const slug = post.data.slug
+
+if (!slug) {
+  throw new Error("Post slug is required")
+}
+
+const url = getSiteUrl(`/post/${slug}/`)
+---
+
+<SingleColumnLayout {description} {title} {url}>
+  <ArticleBlock {title} {category} {slug}>
+    <Content />
+  </ArticleBlock>
+  <BackBlock />
+</SingleColumnLayout>
