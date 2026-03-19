@@ -1,9 +1,13 @@
 ---
+import type { CollectionEntry } from "astro:content"
 import SectionHeadingBlock from "@/components/block/section-heading-block.astro"
 import CategoryInline from "@/components/inline/category-inline.astro"
-import getPosts from "@/data/get-posts"
 
-const posts = await getPosts(5)
+interface Props {
+  posts: CollectionEntry<"posts">[]
+}
+
+const { posts }: Props = Astro.props
 ---
 
 <section>

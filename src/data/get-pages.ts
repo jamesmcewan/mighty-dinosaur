@@ -6,25 +6,11 @@ type Page = CollectionEntry<"pages">
 async function getPages(): Promise<Page[]> {
   const pagesCollection = await getCollection(
     "pages",
-    (page) =>
-      page.data.permalink !== undefined &&
-      page.data.permalink !== "/" &&
-      page.data.permalink !== "404"
+    (page) => page.data.permalink !== "/" && page.data.permalink !== "404"
   )
-  if (!pagesCollection || pagesCollection.length === 0) {
-    throw new Error("No pages found. Make sure it exists.")
-  }
-
-  const pages = pagesCollection.sort((a, b) => {
-    const aTitle = a.data.title
-    const bTitle = b.data.title
-
-    if (!aTitle || !bTitle) {
-      throw new Error("Page missing title")
-    }
-
-    return aTitle.localeCompare(bTitle)
-  })
+  const pages = pagesCollection.toSorted((a, b) =>
+    a.data.title.localeCompare(b.data.title)
+  )
 
   return pages
 }
