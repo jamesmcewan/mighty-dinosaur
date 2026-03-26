@@ -367,5 +367,32 @@
 		"rank": 9999,
 		"year": 1983,
 		"link": ""
+	},
+	{
+		"id": "project-hail-mary",
+		"title": "Project Hail Mary",
+		"poster": "project-hail-mary.webp",
+		"description": "",
+		"rank": 9999,
+		"year": 2026,
+		"link": "https://letterboxd.com/film/project-hail-mary/"
+	},
+	{
+		"id": "arco",
+		"title": "Arco",
+		"poster": "arco.webp",
+		"description": "",
+		"rank": 9999,
+		"year": 2025,
+		"link": "https://letterboxd.com/film/arco/"
+	},
+	{
+		"id": "civil-war-2024",
+		"title": "Civil War",
+		"poster": "civil-war.webp",
+		"description": "",
+		"rank": 9999,
+		"year": 2024,
+		"link": "https://letterboxd.com/film/civil-war-2024/"
 	}
 ]
