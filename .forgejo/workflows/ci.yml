@@ -77,7 +77,7 @@ jobs:
     name: Deploy to BunnyCDN
     runs-on: codeberg-tiny
     needs: [format-lint-check, build]
-    if: github.ref == 'refs/heads/main' && !contains(github.event.head_commit.message, '[skip-ci]')
+    if: github.ref == 'refs/heads/main' && !contains(github.event.head_commit.message, '[skip-deploy]')
     environment:
       name: production
     steps:
