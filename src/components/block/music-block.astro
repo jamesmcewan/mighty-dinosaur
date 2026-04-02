@@ -1,0 +1,31 @@
+---
+import { getCollection } from "astro:content"
+
+const music = await getCollection("music")
+
+const sortedMusic = music.toSorted((a, b) => a.data.rank - b.data.rank)
+---
+
+<section class="not-prose">
+  <ul class="grid grid-cols-2 md:grid-cols-3 gap-5 list-none">
+    {
+      sortedMusic.map((item) => {
+        const { title, cover, artist } = item.data
+        return (
+          <li>
+            <img
+              class="h-auto max-w-full rounded-lg hover:saturate-120"
+              src={`https://static.mightydinosaur.dev/music/thumb/${cover}`}
+              alt={`${title} by ${artist}`}
+              loading="lazy"
+            />
+            <h2 class="font-cartridgerough uppercase text-lg mt-1.5 text-tn-purple0">
+              {title}
+            </h2>
+            <p class="text-sm mt-0.5">{artist}</p>
+          </li>
+        )
+      })
+    }
+  </ul>
+</section>

@@ -1,1 +1,1962 @@
-{}
+[
+  {
+    "id": "b21139922b7f4c185bbcac8115e81257",
+    "title": "Primate (Music from the Motion Picture)",
+    "cover": "adrian_johnston__primate_music_from_the_motion_picture.webp",
+    "artist": "Adrian Johnston",
+    "rank": 1
+  },
+  {
+    "id": "bdf5b84369f2cad2a1b4a35d3ccbd8ef",
+    "title": "The Classics + Sugar Rush",
+    "cover": "aests__the_classics_sugar_rush.webp",
+    "artist": "Aests",
+    "rank": 2
+  },
+  {
+    "id": "adb024bcad24fb8d7c57cf2c81b01ca0",
+    "title": "Aesthetic Love",
+    "cover": "aexion__aesthetic_love.webp",
+    "artist": "AEXION",
+    "rank": 3
+  },
+  {
+    "id": "17f10673e0dfb64308b3e1b411c7b00b",
+    "title": "Dream Fantasy",
+    "cover": "aexion__dream_fantasy.webp",
+    "artist": "Aexion",
+    "rank": 4
+  },
+  {
+    "id": "c7d1b9f2488047e2f2f6d57387d2678c",
+    "title": "Nightlife",
+    "cover": "alexis744__nightlife.webp",
+    "artist": "Alexis744",
+    "rank": 5
+  },
+  {
+    "id": "1a3aa1859aa356dbfd3bfa49ff470857",
+    "title": "The Nightlife: Final",
+    "cover": "alexis744__the_nightlife_final.webp",
+    "artist": "Alexis744",
+    "rank": 6
+  },
+  {
+    "id": "749ccb78f5b13d2bf7dd1e2cc1714057",
+    "title": "Social Networking Services",
+    "cover": "alleyy__social_networking_services.webp",
+    "artist": "alleyy",
+    "rank": 7
+  },
+  {
+    "id": "dd33505517c8db0fec201d329614ccc9",
+    "title": "ADORE ADORE ADORE",
+    "cover": "android52__adore_adore_adore.webp",
+    "artist": "Android52",
+    "rank": 8
+  },
+  {
+    "id": "ab7c6b9cf2b48bf8ad1af269449d936f",
+    "title": "Anime Wav Groove Vol. 1&2",
+    "cover": "android52__anime_wav_groove_vol_12.webp",
+    "artist": "Android52",
+    "rank": 9
+  },
+  {
+    "id": "f25c56f84252f7858dab6888b7b06136",
+    "title": "Future Groove Product",
+    "cover": "android52__future_groove_product.webp",
+    "artist": "Android52",
+    "rank": 10
+  },
+  {
+    "id": "f1fa007011117a6169ce51f4274ef497",
+    "title": "TYPE R-510",
+    "cover": "android52__type_r-510.webp",
+    "artist": "android52",
+    "rank": 11
+  },
+  {
+    "id": "cf1d04cdcf32bbbc8d5119346a0fe879",
+    "title": "Ultra Groove Product",
+    "cover": "android52__ultra_groove_product.webp",
+    "artist": "android52",
+    "rank": 12
+  },
+  {
+    "id": "31553eea4aab336a04cf587c7c3b14d3",
+    "title": "ANGINE DE POITRINE - VOL.1",
+    "cover": "angine_de_poitrine__angine_de_poitrine_-_vol1.webp",
+    "artist": "Angine de Poitrine",
+    "rank": 13
+  },
+  {
+    "id": "e25b8afed36b336be5cd15268987d1f5",
+    "title": "SHERPA",
+    "cover": "angine_de_poitrine__sherpa.webp",
+    "artist": "Angine de Poitrine",
+    "rank": 14
+  },
+  {
+    "id": "3b8d10a5808a3c427294b02837cf28da",
+    "title": "Night Tempo presents The Showa Groove",
+    "cover": "anri__night_tempo_presents_the_showa_groove.webp",
+    "artist": "Anri",
+    "rank": 15
+  },
+  {
+    "id": "3794c2d57b98a2d6c21217f9756d487e",
+    "title": "Road Trip",
+    "cover": "antgry__road_trip.webp",
+    "artist": "AnTgry",
+    "rank": 16
+  },
+  {
+    "id": "994bb0028f41f1eb3421287a8d42864b",
+    "title": "Virtues EP",
+    "cover": "aritus__virtues_ep.webp",
+    "artist": "Aritus",
+    "rank": 17
+  },
+  {
+    "id": "1b3a35dcdc93b0c0651049ee9fcec9d1",
+    "title": "Innocent",
+    "cover": "barbwalters__innocent.webp",
+    "artist": "BarbWalters",
+    "rank": 18
+  },
+  {
+    "id": "6d35b6d01de887b9f3a732373b7137fb",
+    "title": "No Fear of Time",
+    "cover": "black_star__no_fear_of_time.webp",
+    "artist": "Black Star",
+    "rank": 19
+  },
+  {
+    "id": "a9804e3fdf3dd4a6ace9c196bd08d71c",
+    "title": "Hearts",
+    "cover": "blackbird_blackbird__hearts.webp",
+    "artist": "Blackbird Blackbird",
+    "rank": 20
+  },
+  {
+    "id": "23e58c5f966c4608a85d8638cac7b53a",
+    "title": "Twilight",
+    "cover": "ba__twilight.webp",
+    "artist": "bôa",
+    "rank": 21
+  },
+  {
+    "id": "55a2607e531560ef76040feb841634fa",
+    "title": "Whiplash",
+    "cover": "ba__whiplash.webp",
+    "artist": "bôa",
+    "rank": 22
+  },
+  {
+    "id": "fd7487d6639928c2a65230d5b7c6a380",
+    "title": "Traffic Jams",
+    "cover": "cadet__traffic_jams.webp",
+    "artist": "Cadet",
+    "rank": 23
+  },
+  {
+    "id": "76a2e66d3af0dc5c8ce8b14d501217d6",
+    "title": "year of the slug",
+    "cover": "caroline_rose__year_of_the_slug.webp",
+    "artist": "Caroline Rose",
+    "rank": 24
+  },
+  {
+    "id": "e1e98e7eb41569621c5bf73907657824",
+    "title": "Blood Machines",
+    "cover": "carpenter_brut__blood_machines.webp",
+    "artist": "Carpenter Brut",
+    "rank": 25
+  },
+  {
+    "id": "b207c8b2d1b9d937b9e9743072ee7f78",
+    "title": "The Bestiary",
+    "cover": "castle_rat__the_bestiary.webp",
+    "artist": "Castle Rat",
+    "rank": 26
+  },
+  {
+    "id": "bdfa6ff852edd15ee475192595cb104b",
+    "title": "Grey Will Fade [Digital Download]",
+    "cover": "charlotte_hatherley__grey_will_fade_digital_download.webp",
+    "artist": "Charlotte Hatherley",
+    "rank": 27
+  },
+  {
+    "id": "c8682030ca32e54c52833745002b4a79",
+    "title": "Renaissance",
+    "cover": "chevron__renaissance.webp",
+    "artist": "Chevron",
+    "rank": 28
+  },
+  {
+    "id": "38ddf757a19dd1412decd9d34df7ccc7",
+    "title": "Firewatch Original Score",
+    "cover": "chris_remo__firewatch_original_score.webp",
+    "artist": "Chris Remo",
+    "rank": 29
+  },
+  {
+    "id": "330bd5c206863c3e3c5f47325ee52f77",
+    "title": "Firewatch Trailer 1 Soundtrack",
+    "cover": "chris_remo__firewatch_trailer_1_soundtrack.webp",
+    "artist": "Chris Remo",
+    "rank": 30
+  },
+  {
+    "id": "d51145367aca3b6a7b16ea5753cda680",
+    "title": "Set Sail for Campo Santo",
+    "cover": "chris_remo__set_sail_for_campo_santo.webp",
+    "artist": "Chris Remo",
+    "rank": 31
+  },
+  {
+    "id": "0779e5a901b52519a6b174db526ad5c1",
+    "title": "Umami",
+    "cover": "cmyk__umami.webp",
+    "artist": "cmyk!",
+    "rank": 32
+  },
+  {
+    "id": "8eaa92c7b75fbcad91ca132cd42d8185",
+    "title": "Pink Movie",
+    "cover": "crystal_tea__pink_movie.webp",
+    "artist": "Crystal Tea",
+    "rank": 33
+  },
+  {
+    "id": "0ba18676af32b9b92f6873558852d894",
+    "title": "Slice of Life",
+    "cover": "cute_girls_doing_cute_things__slice_of_life.webp",
+    "artist": "cute girls doing cute things",
+    "rank": 34
+  },
+  {
+    "id": "2285df65a69daeb378fe612f5b903474",
+    "title": "Slice of Life 2",
+    "cover": "cute_girls_doing_cute_things__slice_of_life_2.webp",
+    "artist": "cute girls doing cute things",
+    "rank": 35
+  },
+  {
+    "id": "0a01a729e9f4aef0747b07332f45ef7e",
+    "title": "Hong Kong City Days & Nights",
+    "cover": "daviouxx__hong_kong_city_days_nights.webp",
+    "artist": "Daviouxx",
+    "rank": 36
+  },
+  {
+    "id": "88bb6ddfa5e781a69e56d1e3a69d6cb0",
+    "title": "Escape",
+    "cover": "desire__escape.webp",
+    "artist": "Desire",
+    "rank": 37
+  },
+  {
+    "id": "47e5e7904e4df634c241b64f8aa23fc3",
+    "title": "BEST BEFORE 1998",
+    "cover": "desired__best_before_1998.webp",
+    "artist": "Desired",
+    "rank": 38
+  },
+  {
+    "id": "6f812757eb46cc4b8fb875bc4d2fc3f8",
+    "title": "Desired",
+    "cover": "desired__desired.webp",
+    "artist": "Desired",
+    "rank": 39
+  },
+  {
+    "id": "dd12603e63734189ee31676464a88b14",
+    "title": "FRESH",
+    "cover": "desired__fresh.webp",
+    "artist": "Desired",
+    "rank": 40
+  },
+  {
+    "id": "891ebd69d4874f2a6d76fbcde71d6856",
+    "title": "Lovestory",
+    "cover": "desired__lovestory.webp",
+    "artist": "Desired",
+    "rank": 41
+  },
+  {
+    "id": "cbda660c219610a8a8c810a7337cf4da",
+    "title": "Momo Club",
+    "cover": "desired__momo_club.webp",
+    "artist": "Desired",
+    "rank": 42
+  },
+  {
+    "id": "a7b5a40f7f397ce3e47045fd00c923df",
+    "title": "Nineteen + Memory Tape",
+    "cover": "desired__nineteen_memory_tape.webp",
+    "artist": "Desired",
+    "rank": 43
+  },
+  {
+    "id": "76997636ab2ae8b7b39b2241eb018978",
+    "title": "PLASTIC WHATEVER",
+    "cover": "desired__plastic_whatever.webp",
+    "artist": "Desired",
+    "rank": 44
+  },
+  {
+    "id": "6399cc600e378a0505812dab9d5488cb",
+    "title": "The Sweetest Dream",
+    "cover": "desired__the_sweetest_dream.webp",
+    "artist": "Desired",
+    "rank": 45
+  },
+  {
+    "id": "ae00caabe1af37143738867760c40999",
+    "title": "Timeless",
+    "cover": "desired__timeless.webp",
+    "artist": "Desired",
+    "rank": 46
+  },
+  {
+    "id": "9340faa793c1fcb336ab91560870c2b3",
+    "title": "Cherry Fortune",
+    "cover": "device_operator__cherry_fortune.webp",
+    "artist": "Device Operator",
+    "rank": 47
+  },
+  {
+    "id": "727a2c46232966629a6b913b27544e98",
+    "title": "Action Adventure",
+    "cover": "dj_shadow__action_adventure.webp",
+    "artist": "DJ Shadow",
+    "rank": 48
+  },
+  {
+    "id": "d497de8f0bfb744d68a5fd0ee7b31ca4",
+    "title": "Daydream",
+    "cover": "ducat__daydream.webp",
+    "artist": "DUCAT",
+    "rank": 49
+  },
+  {
+    "id": "406105c65857c36aa73dedc685dde222",
+    "title": "Sonor",
+    "cover": "enji__sonor.webp",
+    "artist": "Enji",
+    "rank": 50
+  },
+  {
+    "id": "fbe87b7914e4c1c9e2e9da8c4f258722",
+    "title": "Forget",
+    "cover": "evexi__forget.webp",
+    "artist": "ev.exi",
+    "rank": 51
+  },
+  {
+    "id": "54c1be7cd816143b5a4ab29462bf21b8",
+    "title": "Ultra.Love",
+    "cover": "farragol__ultralove.webp",
+    "artist": "FarragoL",
+    "rank": 52
+  },
+  {
+    "id": "a233f43c8cac4a4b685659d6659bee25",
+    "title": "810",
+    "cover": "fibre__810.webp",
+    "artist": "FIBRE",
+    "rank": 53
+  },
+  {
+    "id": "d6b01cf700a353ad16af3d9189dbed5c",
+    "title": "2014–2016",
+    "cover": "fibre__20142016.webp",
+    "artist": "FIBRE",
+    "rank": 54
+  },
+  {
+    "id": "6c4c17ae714f1baf43344ce49ebf4757",
+    "title": "Renaissance X",
+    "cover": "flammy__renaissance_x.webp",
+    "artist": "Flammy",
+    "rank": 55
+  },
+  {
+    "id": "942c2a8af49c3927937e6bc398c6249a",
+    "title": "Are Playing Where??? Vol. I",
+    "cover": "foo_fighters__are_playing_where_vol_i.webp",
+    "artist": "Foo Fighters",
+    "rank": 56
+  },
+  {
+    "id": "af111a81ac2c17050d735b0533045c64",
+    "title": "Through Space to See You",
+    "cover": "future_girlfriend__through_space_to_see_you.webp",
+    "artist": "Future Girlfriend",
+    "rank": 57
+  },
+  {
+    "id": "a9fc7ec5337dfd0a383ae044614d8eea",
+    "title": "Singles",
+    "cover": "future_islands__singles.webp",
+    "artist": "Future Islands",
+    "rank": 58
+  },
+  {
+    "id": "49ef7d57936e79295b424f2ba0815418",
+    "title": "VA-11 HALL-A - Second Round",
+    "cover": "garoad__va-11_hall-a_-_second_round.webp",
+    "artist": "Garoad",
+    "rank": 59
+  },
+  {
+    "id": "3471cf32f4c8ade43b98a6e86a2a818d",
+    "title": "VA-11 HALL-A Prologue OST - Sounds From the Future",
+    "cover": "garoad__va-11_hall-a_prologue_ost_-_sounds_from_the_future.webp",
+    "artist": "Garoad",
+    "rank": 60
+  },
+  {
+    "id": "f90044560ba54151b949e4bf6a465eb2",
+    "title": "Switcheroo",
+    "cover": "gelli_haha__switcheroo.webp",
+    "artist": "Gelli Haha",
+    "rank": 61
+  },
+  {
+    "id": "9cee81bb6fe885c2638d546464c44154",
+    "title": "Meliora",
+    "cover": "ghost__meliora.webp",
+    "artist": "Ghost",
+    "rank": 62
+  },
+  {
+    "id": "e14684cc037815128a555a96af9eb464",
+    "title": "Skeletá",
+    "cover": "ghost__skelet.webp",
+    "artist": "Ghost",
+    "rank": 63
+  },
+  {
+    "id": "87fde48d7ea7acf238970270281c4c16",
+    "title": "Super Taranta! (15 Year Anniversary Edition)",
+    "cover": "gogol_bordello__super_taranta_15_year_anniversary_edition.webp",
+    "artist": "Gogol Bordello",
+    "rank": 64
+  },
+  {
+    "id": "11a0fd0a21bed1dff2fd1e5ba8accc0c",
+    "title": "The Mountain",
+    "cover": "gorillaz__the_mountain.webp",
+    "artist": "Gorillaz",
+    "rank": 65
+  },
+  {
+    "id": "2c400be6690dff54984026f2bfa9f841",
+    "title": "drumshift",
+    "cover": "greyl__drumshift.webp",
+    "artist": "greyl",
+    "rank": 66
+  },
+  {
+    "id": "d34ba6e7ac597b06694095f2290f484c",
+    "title": "RE PAK 3",
+    "cover": "greyl__re_pak_3.webp",
+    "artist": "Greyl",
+    "rank": 67
+  },
+  {
+    "id": "c48897607558dafe65fc7b5d21267d95",
+    "title": "RE PAK 4",
+    "cover": "greyl__re_pak_4.webp",
+    "artist": "greyl",
+    "rank": 68
+  },
+  {
+    "id": "4f8859da63924796ad24b05bfe51dd3a",
+    "title": "RE PAK 05",
+    "cover": "greyl__re_pak_05.webp",
+    "artist": "greyl",
+    "rank": 69
+  },
+  {
+    "id": "6f6d44a13e8070b631a5f464146088d1",
+    "title": "Sweet Summer Party",
+    "cover": "greyl__sweet_summer_party.webp",
+    "artist": "greyl",
+    "rank": 70
+  },
+  {
+    "id": "eac1cd545c8b985b09ecf59b105fb0af",
+    "title": "SWEET SUMMER TRIP",
+    "cover": "greyl__sweet_summer_trip.webp",
+    "artist": "greyl",
+    "rank": 71
+  },
+  {
+    "id": "6567ef2b2ed46ed4b1573743fe8b7f3b",
+    "title": "Black Blood Red Kiss",
+    "cover": "gunship__black_blood_red_kiss.webp",
+    "artist": "GUNSHIP",
+    "rank": 72
+  },
+  {
+    "id": "2015fa60fd04f703ff9b248961988837",
+    "title": "Dark All Day",
+    "cover": "gunship__dark_all_day.webp",
+    "artist": "GUNSHIP",
+    "rank": 73
+  },
+  {
+    "id": "4342c98e299f5457bbfb7d788090aef2",
+    "title": "Dark All Day: Instrumentals",
+    "cover": "gunship__dark_all_day_instrumentals.webp",
+    "artist": "GUNSHIP",
+    "rank": 74
+  },
+  {
+    "id": "364e4a5d5f02fd477e5fd5ab53ef8eec",
+    "title": "The Drone Racing League",
+    "cover": "gunship__the_drone_racing_league.webp",
+    "artist": "GUNSHIP",
+    "rank": 75
+  },
+  {
+    "id": "5eccda96a2bfb9d0b1dd250b8cfb15f0",
+    "title": "GUNSHIP",
+    "cover": "gunship__gunship.webp",
+    "artist": "GUNSHIP",
+    "rank": 76
+  },
+  {
+    "id": "c5b0dab853ffb90c04d0d55707ff6285",
+    "title": "GUNSHIP: Instrumentals",
+    "cover": "gunship__gunship_instrumentals.webp",
+    "artist": "GUNSHIP",
+    "rank": 77
+  },
+  {
+    "id": "94d57b2f49719d329b461fc3629f1cf4",
+    "title": "Tech Noir Timelines",
+    "cover": "gunship__tech_noir_timelines.webp",
+    "artist": "GUNSHIP",
+    "rank": 78
+  },
+  {
+    "id": "2d38e729b749fdeaa9d33ae25b1da558",
+    "title": "UNICORN",
+    "cover": "gunship__unicorn.webp",
+    "artist": "GUNSHIP",
+    "rank": 79
+  },
+  {
+    "id": "d7129d29b712da09eb42a4e35f6876ed",
+    "title": "Big Disgrace",
+    "cover": "haute_freddy__big_disgrace.webp",
+    "artist": "Haute & Freddy",
+    "rank": 80
+  },
+  {
+    "id": "858ea0ef16f267a7576e8b889867f88e",
+    "title": "The NeoKobe Nightly Selecta",
+    "cover": "hiro_tadomatsu__the_neokobe_nightly_selecta.webp",
+    "artist": "Hiro Tadomatsu",
+    "rank": 81
+  },
+  {
+    "id": "80b224405662d7f6ccd35a0a13240a62",
+    "title": "The Age of the Saucers",
+    "cover": "hollywood_burns__the_age_of_the_saucers.webp",
+    "artist": "Hollywood Burns",
+    "rank": 82
+  },
+  {
+    "id": "74afa5b3182d9f32c3a47c275c4caa31",
+    "title": "Invaders",
+    "cover": "hollywood_burns__invaders.webp",
+    "artist": "Hollywood Burns",
+    "rank": 83
+  },
+  {
+    "id": "8b251c24c687c8864647397c1c99e7c0",
+    "title": "Disco Fortuna",
+    "cover": "iden_kai__disco_fortuna.webp",
+    "artist": "Iden Kai",
+    "rank": 84
+  },
+  {
+    "id": "837f7a19b78a5888d48555e3711223a9",
+    "title": "Magallánica Thunderlove",
+    "cover": "iden_kai__magallnica_thunderlove.webp",
+    "artist": "Iden Kai",
+    "rank": 85
+  },
+  {
+    "id": "ea4a593aacd14510d5c1ff45d4c1897c",
+    "title": "For Melancholy Brunettes (& sad women)",
+    "cover": "japanese_breakfast__for_melancholy_brunettes_sad_women.webp",
+    "artist": "Japanese Breakfast",
+    "rank": 86
+  },
+  {
+    "id": "cc26bb44452a84b8414e5689abce3013",
+    "title": "Jelly BonBon",
+    "cover": "jelly_bonbon__jelly_bonbon.webp",
+    "artist": "Jelly BonBon",
+    "rank": 87
+  },
+  {
+    "id": "0bd5996cab1e713f6679cf8958f48984",
+    "title": "Kiss Me in the Rain",
+    "cover": "jessie_frye__kiss_me_in_the_rain.webp",
+    "artist": "Jessie Frye",
+    "rank": 88
+  },
+  {
+    "id": "86489c0eb252276bbaa5bd42659448e0",
+    "title": "Otherworld",
+    "cover": "jessie_frye__otherworld.webp",
+    "artist": "Jessie Frye",
+    "rank": 89
+  },
+  {
+    "id": "dca40d0d87f33fa637b9091966907cc0",
+    "title": "Anthology: Movie Themes 1974-1998",
+    "cover": "john_carpenter__anthology_movie_themes_1974-1998.webp",
+    "artist": "John Carpenter",
+    "rank": 90
+  },
+  {
+    "id": "b7e507dfc801383a9cd859a491ade120",
+    "title": "Superman (Original Motion Picture Soundtrack)",
+    "cover": "john_murphy_david_fleming__superman_original_motion_picture_soundtrack.webp",
+    "artist": "John Murphy & David Fleming",
+    "rank": 91
+  },
+  {
+    "id": "33e1561b4129921acfa3671264d361bd",
+    "title": "Themes For Television",
+    "cover": "johnny_jewel__themes_for_television.webp",
+    "artist": "Johnny Jewel",
+    "rank": 92
+  },
+  {
+    "id": "d110ad4e22ec6c347be0715fcaafb13d",
+    "title": "Windswept",
+    "cover": "johnny_jewel__windswept.webp",
+    "artist": "Johnny Jewel",
+    "rank": 93
+  },
+  {
+    "id": "a97ff02f38d84386eeaf28d7ae3f4731",
+    "title": "Take Me to Your Leader",
+    "cover": "king_geedorah__take_me_to_your_leader.webp",
+    "artist": "King Geedorah",
+    "rank": 94
+  },
+  {
+    "id": "b81658cffeadc5a7e964af129d951fad",
+    "title": "12 Bar Bruise",
+    "cover": "king_gizzard_the_lizard_wizard__12_bar_bruise.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 95
+  },
+  {
+    "id": "59fc3a3da9bce13ab8accf8d3d570210",
+    "title": "Butterfly 3000",
+    "cover": "king_gizzard_the_lizard_wizard__butterfly_3000.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 96
+  },
+  {
+    "id": "449a54fd0f1e1cfaf0d92687276c3c20",
+    "title": "Butterfly 3001",
+    "cover": "king_gizzard_the_lizard_wizard__butterfly_3001.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 97
+  },
+  {
+    "id": "29d582d7a12fbc2e7118a40f7afe3989",
+    "title": "Changes",
+    "cover": "king_gizzard_the_lizard_wizard__changes.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 98
+  },
+  {
+    "id": "33bb80ccd891ecfd67c78be836d0b1f4",
+    "title": "Chunky Shrapnel",
+    "cover": "king_gizzard_the_lizard_wizard__chunky_shrapnel.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 99
+  },
+  {
+    "id": "8678288b532637118b44e3d2a5092fa6",
+    "title": "Eyes Like The Sky",
+    "cover": "king_gizzard_the_lizard_wizard__eyes_like_the_sky.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 100
+  },
+  {
+    "id": "0f412496fbe40d0da15ca78fa8d1eea7",
+    "title": "Fishing For Fishies",
+    "cover": "king_gizzard_the_lizard_wizard__fishing_for_fishies.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 101
+  },
+  {
+    "id": "3951299bdf5e71923177b13213e9cd34",
+    "title": "Flight b741",
+    "cover": "king_gizzard_the_lizard_wizard__flight_b741.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 102
+  },
+  {
+    "id": "5635d9a070ad3903bd83ef0fa0bac1b6",
+    "title": "Float Along - Fill Your Lungs",
+    "cover": "king_gizzard_the_lizard_wizard__float_along_-_fill_your_lungs.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 103
+  },
+  {
+    "id": "dca35198b4e5455ea5b4e998cd968ad1",
+    "title": "Flying Microtonal Banana",
+    "cover": "king_gizzard_the_lizard_wizard__flying_microtonal_banana.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 104
+  },
+  {
+    "id": "9820a034adf79e40869662da7a293f77",
+    "title": "Gumboot Soup",
+    "cover": "king_gizzard_the_lizard_wizard__gumboot_soup.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 105
+  },
+  {
+    "id": "47592a294cc67fa1f6b51734985ab367",
+    "title": "Ice, Death, Planets, Lungs, Mushrooms and Lava",
+    "cover": "king_gizzard_the_lizard_wizard__ice_death_planets_lungs_mushrooms_and_lava.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 106
+  },
+  {
+    "id": "900153d65c79f600e663bd964a9ab163",
+    "title": "I'm In Your Mind Fuzz",
+    "cover": "king_gizzard_the_lizard_wizard__im_in_your_mind_fuzz.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 107
+  },
+  {
+    "id": "f920278f324363614e40495bc611ba0d",
+    "title": "Infest The Rats' Nest",
+    "cover": "king_gizzard_the_lizard_wizard__infest_the_rats_nest.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 108
+  },
+  {
+    "id": "2c30f5681c947e07378e52358e432196",
+    "title": "K.G.",
+    "cover": "king_gizzard_the_lizard_wizard__kg.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 109
+  },
+  {
+    "id": "8761b560535a835ce8aa7547c38e3cc9",
+    "title": "L.W.",
+    "cover": "king_gizzard_the_lizard_wizard__lw.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 110
+  },
+  {
+    "id": "57f488ae1bb8e7730ddac23b0ee5c7c2",
+    "title": "Laminated Denim",
+    "cover": "king_gizzard_the_lizard_wizard__laminated_denim.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 111
+  },
+  {
+    "id": "0e7c6869da00dad5ffa3e88e926e0b98",
+    "title": "Live In San Francisco '16",
+    "cover": "king_gizzard_the_lizard_wizard__live_in_san_francisco_16.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 112
+  },
+  {
+    "id": "acc95b89ad771da00b09d5887fc36a5e",
+    "title": "Made In Timeland",
+    "cover": "king_gizzard_the_lizard_wizard__made_in_timeland.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 113
+  },
+  {
+    "id": "c99701a7da17d7ecc95df964fc959cd1",
+    "title": "Murder Of The Universe",
+    "cover": "king_gizzard_the_lizard_wizard__murder_of_the_universe.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 114
+  },
+  {
+    "id": "a5a4f60430e57f6bef0843d2199c05fe",
+    "title": "Nonagon Infinity",
+    "cover": "king_gizzard_the_lizard_wizard__nonagon_infinity.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 115
+  },
+  {
+    "id": "853aadc641e44f5927aade2ac7bc83f3",
+    "title": "Oddments",
+    "cover": "king_gizzard_the_lizard_wizard__oddments.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 116
+  },
+  {
+    "id": "2a9fedbddc9f40e4145b97a5353ad537",
+    "title": "Omnium Gatherum",
+    "cover": "king_gizzard_the_lizard_wizard__omnium_gatherum.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 117
+  },
+  {
+    "id": "8cd2f98ad4b82579fbca82187019c537",
+    "title": "Paper Mâché Dream Balloon",
+    "cover": "king_gizzard_the_lizard_wizard__paper_mch_dream_balloon.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 118
+  },
+  {
+    "id": "f80af62dc593cfe23aaaac3099c017e4",
+    "title": "PetroDragonic Apocalypse;  or,  Dawn of Eternal Night:  An Annihilation of Planet Earth and the Beginning of Merciless Damnation",
+    "cover": "king_gizzard_the_lizard_wizard__petrodragonic_apocalypse_or_dawn_of_eternal_night_an_annihilation_of_planet_earth_and_the_beginning_of_merciless_damnation.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 119
+  },
+  {
+    "id": "5d9fa81baca5eb30dc2de10db068e333",
+    "title": "Phantom Island",
+    "cover": "king_gizzard_the_lizard_wizard__phantom_island.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 120
+  },
+  {
+    "id": "2bda8805eaee336c245fd8e1c1ed2ba4",
+    "title": "Polygondwanaland",
+    "cover": "king_gizzard_the_lizard_wizard__polygondwanaland.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 121
+  },
+  {
+    "id": "5a0e47542d4a5c50c14efeeaaf023e6a",
+    "title": "Quarters!",
+    "cover": "king_gizzard_the_lizard_wizard__quarters.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 122
+  },
+  {
+    "id": "3e2421c804007289026db01bed5f97e6",
+    "title": "The Silver Cord",
+    "cover": "king_gizzard_the_lizard_wizard__the_silver_cord.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 123
+  },
+  {
+    "id": "f4391fca1fb13972bed2926114073100",
+    "title": "Willoughby's Beach EP",
+    "cover": "king_gizzard_the_lizard_wizard__willoughbys_beach_ep.webp",
+    "artist": "King Gizzard & The Lizard Wizard",
+    "rank": 124
+  },
+  {
+    "id": "419920d35fab3a4522043d85d78f6da6",
+    "title": "Sketches Of Brunswick East",
+    "cover": "king_gizzard_the_lizard_wizard_with_mild_high_club__sketches_of_brunswick_east.webp",
+    "artist": "King Gizzard & The Lizard Wizard with Mild High Club",
+    "rank": 125
+  },
+  {
+    "id": "c20107534dcb7856972058d193906151",
+    "title": "Superwave",
+    "cover": "kouek__superwave.webp",
+    "artist": "Kouek",
+    "rank": 126
+  },
+  {
+    "id": "74b340dcf8d0ab3b15a2501eb61ffd1d",
+    "title": "Family Business",
+    "cover": "lawrence__family_business.webp",
+    "artist": "Lawrence",
+    "rank": 127
+  },
+  {
+    "id": "fc3404e258954347f5d824c6640187a0",
+    "title": "Black Hole",
+    "cover": "le_metroid__black_hole.webp",
+    "artist": "Le Metroid",
+    "rank": 128
+  },
+  {
+    "id": "d99ecce6f5a7a1d4057cdebb95d76146",
+    "title": "Blackhole, Pt. 2",
+    "cover": "le_metroid__blackhole_pt_2.webp",
+    "artist": "Le Metroid",
+    "rank": 129
+  },
+  {
+    "id": "ddf6d4a8d9aa3ae671e0822c5199ea3f",
+    "title": "ちょっくらCHARMER + Prose ザ•リズム Double EP",
+    "cover": "literature__charmer_prose_double_ep.webp",
+    "artist": "Literature",
+    "rank": 130
+  },
+  {
+    "id": "a143b0a77098a7b4a351a6cf0c21a6c3",
+    "title": "LC-4",
+    "cover": "lizard_clit__lc-4.webp",
+    "artist": "Lizard Clit",
+    "rank": 131
+  },
+  {
+    "id": "6c698ecf08690c16d315b15a53e8e140",
+    "title": "Lofi Girl: Spring Collection 2026",
+    "cover": "lofi_girl__lofi_girl_spring_collection_2026.webp",
+    "artist": "Lofi Girl",
+    "rank": 132
+  },
+  {
+    "id": "88f78fcc15ace14b888f0537e922f0c3",
+    "title": "Evening",
+    "cover": "luanmer__evening.webp",
+    "artist": "Luanmer",
+    "rank": 133
+  },
+  {
+    "id": "ec60d13612945aebae10f73b8eb66507",
+    "title": "Midnight",
+    "cover": "luanmer__midnight.webp",
+    "artist": "Luanmer",
+    "rank": 134
+  },
+  {
+    "id": "800d103088257bd80c908edd0dbc5835",
+    "title": "Sunrise",
+    "cover": "luanmer__sunrise.webp",
+    "artist": "Luanmer",
+    "rank": 135
+  },
+  {
+    "id": "2987d05fee35d099b1f09dbb8fd5be48",
+    "title": "10 Million Miles Away",
+    "cover": "macross_8299__10_million_miles_away.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 136
+  },
+  {
+    "id": "8dd7b54f8c18cd14a5a42ab5e4ef1a14",
+    "title": "CHAM!",
+    "cover": "macross_8299__cham.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 137
+  },
+  {
+    "id": "9fcaa58ae6ad17e45e6bd4defd752633",
+    "title": "Idols, Sakura",
+    "cover": "macross_8299__idols_sakura.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 138
+  },
+  {
+    "id": "209ceb44cae1b0637dba5449f023f832",
+    "title": "Love 4 You",
+    "cover": "macross_8299__love_4_you.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 139
+  },
+  {
+    "id": "a6d80d4021f24cc66468c0304b2809bb",
+    "title": "A Million Miles Away",
+    "cover": "macross_8299__a_million_miles_away.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 140
+  },
+  {
+    "id": "200009313796fdbc113974f5d97b95bd",
+    "title": "Nakatomi Tower ( A Xmas Album )",
+    "cover": "macross_8299__nakatomi_tower_a_xmas_album_.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 141
+  },
+  {
+    "id": "c5779cc52653be2b28cf51bd0fdf9247",
+    "title": "ネオ東京 (Neo Tokyo)",
+    "cover": "macross_8299___neo_tokyo.webp",
+    "artist": "Macross 82–99",
+    "rank": 142
+  },
+  {
+    "id": "a044ac3daa70a3c6db0a609d97930466",
+    "title": "Neoncity Hits!",
+    "cover": "macross_8299__neoncity_hits.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 143
+  },
+  {
+    "id": "f71ef8c8f14000eca72af7ccf413a19d",
+    "title": "SAILORWAVE",
+    "cover": "macross_8299__sailorwave.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 144
+  },
+  {
+    "id": "1ee1da87259b4cc0ea33949763e22788",
+    "title": "SAILORWAVE II",
+    "cover": "macross_8299__sailorwave_ii.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 145
+  },
+  {
+    "id": "16e0f397c5b1699eaf1385b32c6c4ac3",
+    "title": "SAILORWAVE III",
+    "cover": "macross_8299__sailorwave_iii.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 146
+  },
+  {
+    "id": "51e45f073e42bb57c0605b70b3a374c0",
+    "title": "Sendagi Collection",
+    "cover": "macross_8299__sendagi_collection.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 147
+  },
+  {
+    "id": "8eaf10d2c28640b6f65680a4fc9a4181",
+    "title": "Shibuya Meltdown",
+    "cover": "macross_8299__shibuya_meltdown.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 148
+  },
+  {
+    "id": "cf4fd3e924911260a71a355d11b7fda8",
+    "title": "Summer Touch",
+    "cover": "macross_8299__summer_touch.webp",
+    "artist": "MACROSS 82–99",
+    "rank": 149
+  },
+  {
+    "id": "e7475978310c7c191e3ad679fa510340",
+    "title": "Neutropical",
+    "cover": "mark_redito__neutropical.webp",
+    "artist": "Mark Redito",
+    "rank": 150
+  },
+  {
+    "id": "b1e9c5da4ff25c807d15521dde6688b6",
+    "title": "Equus Asinus",
+    "cover": "men_i_trust__equus_asinus.webp",
+    "artist": "Men I Trust",
+    "rank": 151
+  },
+  {
+    "id": "4eed1de431fa39aff7a11ca3d56e3e87",
+    "title": "Equus Caballus",
+    "cover": "men_i_trust__equus_caballus.webp",
+    "artist": "Men I Trust",
+    "rank": 152
+  },
+  {
+    "id": "1ced48172292a2ff203a15b68529d6e6",
+    "title": "Headroom",
+    "cover": "men_i_trust__headroom.webp",
+    "artist": "Men I Trust",
+    "rank": 153
+  },
+  {
+    "id": "3227e942f21a24d04bcc642b985a87e9",
+    "title": "Men I Trust",
+    "cover": "men_i_trust__men_i_trust.webp",
+    "artist": "Men I Trust",
+    "rank": 154
+  },
+  {
+    "id": "d39927d2c1606ce964bfab86fc448595",
+    "title": "Oncle Jazz",
+    "cover": "men_i_trust__oncle_jazz.webp",
+    "artist": "Men I Trust",
+    "rank": 155
+  },
+  {
+    "id": "eece78e0192f5bc121ba6e91a6c86ba6",
+    "title": "Untourable Album",
+    "cover": "men_i_trust__untourable_album.webp",
+    "artist": "Men I Trust",
+    "rank": 156
+  },
+  {
+    "id": "ba2dc2b38c5499fa2e713f2bee4c3a71",
+    "title": "Cool Songs",
+    "cover": "mere_notilde__cool_songs.webp",
+    "artist": "Mere Notilde",
+    "rank": 157
+  },
+  {
+    "id": "23b9ab02525a3fec67229c8994e7b2b9",
+    "title": "MM..FOOD",
+    "cover": "mf_doom__mmfood.webp",
+    "artist": "MF DOOM",
+    "rank": 158
+  },
+  {
+    "id": "631fc9fc8881b7d9f95d533b35315d3c",
+    "title": "Exotic Themes for the Silver Screen, Vol. 1",
+    "cover": "michael_giacchino__exotic_themes_for_the_silver_screen_vol_1.webp",
+    "artist": "Michael Giacchino",
+    "rank": 159
+  },
+  {
+    "id": "f903b0cdaf88541f41ec0269ba6ca304",
+    "title": "Exotic Themes for the Silver Screen, Vol. 2",
+    "cover": "michael_giacchino__exotic_themes_for_the_silver_screen_vol_2.webp",
+    "artist": "Michael Giacchino",
+    "rank": 160
+  },
+  {
+    "id": "873ae504f2006910fab0918a11d4e5cf",
+    "title": "The Fantastic Four: First Steps (Original Motion Picture Soundtrack)",
+    "cover": "michael_giacchino__the_fantastic_four_first_steps_original_motion_picture_soundtrack.webp",
+    "artist": "Michael Giacchino",
+    "rank": 161
+  },
+  {
+    "id": "b97064df69b775bd1d55528bec9216ac",
+    "title": "Million Miles Away",
+    "cover": "milk_talk__million_miles_away.webp",
+    "artist": "Milk Talk",
+    "rank": 162
+  },
+  {
+    "id": "f253cec47448a8a0515215b8d9600a71",
+    "title": "After Hours EP",
+    "cover": "mitch_murder__after_hours_ep.webp",
+    "artist": "Mitch Murder",
+    "rank": 163
+  },
+  {
+    "id": "dec1af4118892b04b39a585024b96d3f",
+    "title": "At Doom's Gate",
+    "cover": "mitch_murder__at_dooms_gate.webp",
+    "artist": "Mitch Murder",
+    "rank": 164
+  },
+  {
+    "id": "47191b8a7ea0eb3fdbe1ae111ca760c9",
+    "title": "Burning Chrome",
+    "cover": "mitch_murder__burning_chrome.webp",
+    "artist": "Mitch Murder",
+    "rank": 165
+  },
+  {
+    "id": "b38fc63fe939ffd9f7d90186a754d9f2",
+    "title": "City Wars: Tokyo Reign (Original Soundtrack)",
+    "cover": "mitch_murder__city_wars_tokyo_reign_original_soundtrack.webp",
+    "artist": "Mitch Murder",
+    "rank": 166
+  },
+  {
+    "id": "e2809e33211d0539c44ded8e9c522818",
+    "title": "Current Events",
+    "cover": "mitch_murder__current_events.webp",
+    "artist": "Mitch Murder",
+    "rank": 167
+  },
+  {
+    "id": "01d7abbc5df41248b46553ad2bee8300",
+    "title": "Glass Cities",
+    "cover": "mitch_murder__glass_cities.webp",
+    "artist": "Mitch Murder",
+    "rank": 168
+  },
+  {
+    "id": "f8af8f220e0531aa901158ec18c88c28",
+    "title": "Impact Winter (Original Game Soundtrack)",
+    "cover": "mitch_murder__impact_winter_original_game_soundtrack.webp",
+    "artist": "Mitch Murder",
+    "rank": 169
+  },
+  {
+    "id": "3b8d2be6f4b43de3dc3a5679a5f93870",
+    "title": "Kung Fury (Lost Tapes)",
+    "cover": "mitch_murder__kung_fury_lost_tapes.webp",
+    "artist": "Mitch Murder",
+    "rank": 170
+  },
+  {
+    "id": "e89ee2cfe153849861b91acfe598d4b0",
+    "title": "MECH HUNTER OST",
+    "cover": "mitch_murder__mech_hunter_ost.webp",
+    "artist": "Mitch Murder",
+    "rank": 171
+  },
+  {
+    "id": "3159039c68df4be4dbabf043587ddb20",
+    "title": "Megamagic: Wizards of the Neon Age OST",
+    "cover": "mitch_murder__megamagic_wizards_of_the_neon_age_ost.webp",
+    "artist": "Mitch Murder",
+    "rank": 172
+  },
+  {
+    "id": "741222d03544bca02f145e2c35d1db58",
+    "title": "Pit Stop Hero OST",
+    "cover": "mitch_murder__pit_stop_hero_ost.webp",
+    "artist": "Mitch Murder",
+    "rank": 173
+  },
+  {
+    "id": "35b0759726fcd0545f38f4a1f057203b",
+    "title": "Program 893",
+    "cover": "mitch_murder__program_893.webp",
+    "artist": "Mitch Murder",
+    "rank": 174
+  },
+  {
+    "id": "b07ce53b1e4fbba2b76f26f45048a488",
+    "title": "The Real Deal",
+    "cover": "mitch_murder__the_real_deal.webp",
+    "artist": "Mitch Murder",
+    "rank": 175
+  },
+  {
+    "id": "222617582080e29894f3db1283b56f7b",
+    "title": "Selection 1",
+    "cover": "mitch_murder__selection_1.webp",
+    "artist": "Mitch Murder",
+    "rank": 176
+  },
+  {
+    "id": "a1c1319db5a88b53f539c65ed66e7e15",
+    "title": "Selection 2",
+    "cover": "mitch_murder__selection_2.webp",
+    "artist": "Mitch Murder",
+    "rank": 177
+  },
+  {
+    "id": "2fb87942395a29b234bea8d1af9bed19",
+    "title": "Selection 3",
+    "cover": "mitch_murder__selection_3.webp",
+    "artist": "Mitch Murder",
+    "rank": 178
+  },
+  {
+    "id": "6f0594f0ecef43becf94c5df98d645ae",
+    "title": "Selection 4",
+    "cover": "mitch_murder__selection_4.webp",
+    "artist": "Mitch Murder",
+    "rank": 179
+  },
+  {
+    "id": "c9081fe4160ec15ef6659a3261b8edc0",
+    "title": "Selection 5",
+    "cover": "mitch_murder__selection_5.webp",
+    "artist": "Mitch Murder",
+    "rank": 180
+  },
+  {
+    "id": "9d6918cecacb270154ab24062e1d2de5",
+    "title": "Selection 6",
+    "cover": "mitch_murder__selection_6.webp",
+    "artist": "Mitch Murder",
+    "rank": 181
+  },
+  {
+    "id": "7f0e530ed0b6726e648782f0f0ef54da",
+    "title": "SPRAWL OST",
+    "cover": "mitch_murder__sprawl_ost.webp",
+    "artist": "Mitch Murder",
+    "rank": 182
+  },
+  {
+    "id": "f5ec60ab9a111b818d533bf17fc2ef39",
+    "title": "ZERO STRIKE OST",
+    "cover": "mitch_murder__zero_strike_ost.webp",
+    "artist": "Mitch Murder",
+    "rank": 183
+  },
+  {
+    "id": "b9b07a1083872ca2ba4225c0e1298c1a",
+    "title": "Moe Moe",
+    "cover": "moe_shop__moe_moe.webp",
+    "artist": "Moe Shop",
+    "rank": 184
+  },
+  {
+    "id": "4ed8ce05e66f70488a0626ca5e35b688",
+    "title": "Hotline Summer",
+    "cover": "morgan_willis__hotline_summer.webp",
+    "artist": "Morgan Willis",
+    "rank": 185
+  },
+  {
+    "id": "94e23a7afc796f7b98b42ad3b1f74488",
+    "title": "ESCAPISM",
+    "cover": "neko_milkshake__escapism.webp",
+    "artist": "Neko Milkshake",
+    "rank": 186
+  },
+  {
+    "id": "421ea02e76da1a92e55fc27af05e43da",
+    "title": "Neko Milkshake",
+    "cover": "neko_milkshake__neko_milkshake.webp",
+    "artist": "Neko Milkshake",
+    "rank": 187
+  },
+  {
+    "id": "ce6d0338c979ff030e4c09c807710882",
+    "title": "Bigger Grooves",
+    "cover": "neon_vectors__bigger_grooves.webp",
+    "artist": "Neon Vectors",
+    "rank": 188
+  },
+  {
+    "id": "70f6da342589d9c72d7290d1c057f0b7",
+    "title": "CLUB 84",
+    "cover": "neon_vectors__club_84.webp",
+    "artist": "Neon Vectors",
+    "rank": 189
+  },
+  {
+    "id": "b36af0c39759babf7ce84ef35fbd5152",
+    "title": "Cyber Love",
+    "cover": "neon_vectors__cyber_love.webp",
+    "artist": "Neon Vectors",
+    "rank": 190
+  },
+  {
+    "id": "61ab93d07150f2098b6b68d0727ba308",
+    "title": "Disco’s Revenge",
+    "cover": "neon_vectors__discos_revenge.webp",
+    "artist": "Neon Vectors",
+    "rank": 191
+  },
+  {
+    "id": "30cda5c668a376e2d40d2734c643ca2c",
+    "title": "I AM",
+    "cover": "nicholas_cheung__i_am.webp",
+    "artist": "Nicholas Cheung",
+    "rank": 192
+  },
+  {
+    "id": "f2f11c9077a658b35f459d4ebf6bae65",
+    "title": "Connection",
+    "cover": "night_tempo__connection.webp",
+    "artist": "Night Tempo",
+    "rank": 193
+  },
+  {
+    "id": "7bce3136174dc5dfc2bc6d6ee56cf8b1",
+    "title": "Fantasy",
+    "cover": "night_tempo__fantasy.webp",
+    "artist": "Night Tempo",
+    "rank": 194
+  },
+  {
+    "id": "f1e55e938596071bf61314af878fe072",
+    "title": "Nighty Tape",
+    "cover": "night_tempo__nighty_tape.webp",
+    "artist": "Night Tempo",
+    "rank": 195
+  },
+  {
+    "id": "4f20b85a4abb5f2ecb46b4851a3c388d",
+    "title": "Pure Baby Maker [Rewind]",
+    "cover": "night_tempo__pure_baby_maker_rewind.webp",
+    "artist": "Night Tempo",
+    "rank": 196
+  },
+  {
+    "id": "bd14a453e7fbc41663dd5bf23b382043",
+    "title": "Tokyo Night Drive",
+    "cover": "night_tempo__tokyo_night_drive.webp",
+    "artist": "Night Tempo",
+    "rank": 197
+  },
+  {
+    "id": "33397bbe71d60b9ae2ea5ca332a7592e",
+    "title": "夜韻 Night Tempo",
+    "cover": "night_tempo___night_tempo.webp",
+    "artist": "Night Tempo",
+    "rank": 198
+  },
+  {
+    "id": "456c550cf4746c47ebae94a541f6e5a3",
+    "title": "Dream Pool",
+    "cover": "niveum__dream_pool.webp",
+    "artist": "Niveum",
+    "rank": 199
+  },
+  {
+    "id": "e63fda9dab45c81bc9189cd1495c36d5",
+    "title": "5!ve 5tar",
+    "cover": "panc_pop__5ve_5tar.webp",
+    "artist": "Pan!c Pop",
+    "rank": 200
+  },
+  {
+    "id": "cb266d6f2a3b0ef9ef385a59f2654dde",
+    "title": "Goodbye, 5o 5oon...",
+    "cover": "panc_pop__goodbye_5o_5oon.webp",
+    "artist": "Pan!c Pop",
+    "rank": 201
+  },
+  {
+    "id": "43ac5e31626cb6df6326a85a75bd7278",
+    "title": "Halt and Catch Fire, Vol. 2 (Original Television Series Soundtrack)",
+    "cover": "paul_haslinger__halt_and_catch_fire_vol_2_original_television_series_soundtrack.webp",
+    "artist": "Paul Haslinger",
+    "rank": 202
+  },
+  {
+    "id": "010845c8898bdc092e56a129a482db4f",
+    "title": "Halt and Catch Fire: Original Television Series Soundtrack",
+    "cover": "paul_haslinger__halt_and_catch_fire_original_television_series_soundtrack.webp",
+    "artist": "Paul Haslinger",
+    "rank": 203
+  },
+  {
+    "id": "993d61d870926d7aa44fb74a7f47d252",
+    "title": "Throwback",
+    "cover": "power_glove__throwback.webp",
+    "artist": "Power Glove",
+    "rank": 204
+  },
+  {
+    "id": "b578688e2f64fb4d41eb681891225bc5",
+    "title": "Inform - Educate - Entertain",
+    "cover": "public_service_broadcasting__inform_-_educate_-_entertain.webp",
+    "artist": "PUBLIC SERVICE BROADCASTING",
+    "rank": 205
+  },
+  {
+    "id": "3eed9b27d2a4f0294109766b6216b1ec",
+    "title": "Inform - Educate - Entertain [Instrumentals]",
+    "cover": "public_service_broadcasting__inform_-_educate_-_entertain_instrumentals.webp",
+    "artist": "PUBLIC SERVICE BROADCASTING",
+    "rank": 206
+  },
+  {
+    "id": "df2358b4d8e1e30124be137c6f96b584",
+    "title": "The Last Flight",
+    "cover": "public_service_broadcasting__the_last_flight.webp",
+    "artist": "Public Service Broadcasting",
+    "rank": 207
+  },
+  {
+    "id": "c95eea70bf6449ff6a454bfc0e869cd3",
+    "title": "The Race for Space",
+    "cover": "public_service_broadcasting__the_race_for_space.webp",
+    "artist": "Public Service Broadcasting",
+    "rank": 208
+  },
+  {
+    "id": "df2f40e1ed764c237442e942b096f67d",
+    "title": "Aeris",
+    "cover": "rhodes_rodosu__aeris.webp",
+    "artist": "Rhodes Rodosu",
+    "rank": 209
+  },
+  {
+    "id": "e1c4434615b84ef5add8b3245a27b1bc",
+    "title": "Textures",
+    "cover": "rhodes_rodosu__textures.webp",
+    "artist": "Rhodes Rodosu",
+    "rank": 210
+  },
+  {
+    "id": "4a0c1ee38da1625ed83ea7255e3336fe",
+    "title": "Sexistential",
+    "cover": "robyn__sexistential.webp",
+    "artist": "Robyn",
+    "rank": 211
+  },
+  {
+    "id": "38fbe2bb2b4eadbeb39bfd614782f4a1",
+    "title": "Fanservice",
+    "cover": "s_u_p_e_r_f_l_a_t___fanservice.webp",
+    "artist": "S U P E R F L A T スーパーフラット",
+    "rank": 212
+  },
+  {
+    "id": "4ffb72dd114f30739efc28a8f77aea40",
+    "title": "Insert Coin To Continue",
+    "cover": "s_u_p_e_r_f_l_a_t___insert_coin_to_continue.webp",
+    "artist": "S U P E R F L A T スーパーフラット",
+    "rank": 213
+  },
+  {
+    "id": "9812b5e9536ceee1d7265afcae2df60a",
+    "title": "Junky Memorabilia",
+    "cover": "s_u_p_e_r_f_l_a_t___junky_memorabilia.webp",
+    "artist": "S U P E R F L A T スーパーフラット",
+    "rank": 214
+  },
+  {
+    "id": "3e2070208189df1d943c20bceee83168",
+    "title": "Meant To Be Forgotten",
+    "cover": "s_u_p_e_r_f_l_a_t___meant_to_be_forgotten.webp",
+    "artist": "S U P E R F L A T スーパーフラット",
+    "rank": 215
+  },
+  {
+    "id": "c1c26f16469265fa2164d7f33006dc8e",
+    "title": "Meant To Be Superfluous",
+    "cover": "s_u_p_e_r_f_l_a_t___meant_to_be_superfluous.webp",
+    "artist": "S U P E R F L A T スーパーフラット",
+    "rank": 216
+  },
+  {
+    "id": "34a8825060baa80071b706216c57f2df",
+    "title": "Sailor Team Hits!",
+    "cover": "sailor_team__sailor_team_hits.webp",
+    "artist": "Sailor Team",
+    "rank": 217
+  },
+  {
+    "id": "7040b227ffa4403e6dafa99b2b0de29d",
+    "title": "For Those Who",
+    "cover": "saturn_genesis__for_those_who.webp",
+    "artist": "saturn genesis",
+    "rank": 218
+  },
+  {
+    "id": "811baab5ea3094276217c0110c6aecf3",
+    "title": "sunset / sunrise",
+    "cover": "saturn_genesis__sunset_sunrise.webp",
+    "artist": "saturn genesis",
+    "rank": 219
+  },
+  {
+    "id": "3392a57f7a0180edeb6f25d5bd90e6ec",
+    "title": "Virtual Novel",
+    "cover": "saturn_genesis__virtual_novel.webp",
+    "artist": "Saturn Genesis",
+    "rank": 220
+  },
+  {
+    "id": "a805b024d2c97b931c0012b93759a6f6",
+    "title": "ERA",
+    "cover": "shiruetto__era.webp",
+    "artist": "Shiruetto",
+    "rank": 221
+  },
+  {
+    "id": "151c549c277577d92259590b1138da88",
+    "title": "Neon Shakedown",
+    "cover": "sixtroke__neon_shakedown.webp",
+    "artist": "Sixtroke",
+    "rank": 222
+  },
+  {
+    "id": "28ca6a0b277e4e2903c0d43a2badacc4",
+    "title": "PopSlinger Original Soundtrack",
+    "cover": "skule_toyama__popslinger_original_soundtrack.webp",
+    "artist": "Skule Toyama",
+    "rank": 223
+  },
+  {
+    "id": "3227f4befcf0fa7d8dbb2ef1f6f418f1",
+    "title": "Sexy Times",
+    "cover": "skule_toyama__sexy_times.webp",
+    "artist": "Skule Toyama",
+    "rank": 224
+  },
+  {
+    "id": "f7f9208221fcb00bf5ee58d20609d758",
+    "title": "Desire",
+    "cover": "spazzkid__desire.webp",
+    "artist": "Spazzkid",
+    "rank": 225
+  },
+  {
+    "id": "0a47d6f52e12ab3874a187f017d480da",
+    "title": "Music Sounds Better With You",
+    "cover": "stardust__music_sounds_better_with_you.webp",
+    "artist": "Stardust",
+    "rank": 226
+  },
+  {
+    "id": "b7397fa13487d88ca0738198a03844fe",
+    "title": "Instances",
+    "cover": "stratos_zero__instances.webp",
+    "artist": "Stratos Zero",
+    "rank": 227
+  },
+  {
+    "id": "0a52f53754de4965fa64c974d9514603",
+    "title": "Planet V",
+    "cover": "stratos_zero__planet_v.webp",
+    "artist": "Stratos Zero",
+    "rank": 228
+  },
+  {
+    "id": "beebec4344989bcbe8678c461303a7e8",
+    "title": "Stratos Zero I: 2012–2022",
+    "cover": "stratos_zero__stratos_zero_i_20122022.webp",
+    "artist": "Stratos Zero",
+    "rank": 229
+  },
+  {
+    "id": "3bfb60c97edd173c8462b83654c5b32f",
+    "title": "Talk of the Dancefloor",
+    "cover": "strawberry_station__talk_of_the_dancefloor.webp",
+    "artist": "Strawberry Station",
+    "rank": 230
+  },
+  {
+    "id": "174b1dcf34ca7f866d00c997d26e26dd",
+    "title": "Aesthetic Nights",
+    "cover": "striveau__aesthetic_nights.webp",
+    "artist": "StriveAU",
+    "rank": 231
+  },
+  {
+    "id": "da76d5cdfe1ec8b18c361eefe1bbcbb4",
+    "title": "Mr. Sandman",
+    "cover": "sui_uzi__mr_sandman.webp",
+    "artist": "SUI UZI",
+    "rank": 232
+  },
+  {
+    "id": "d89f4f808b22e027544d43316e478054",
+    "title": "Super Brass 2",
+    "cover": "super_brass__super_brass_2.webp",
+    "artist": "Super Brass",
+    "rank": 233
+  },
+  {
+    "id": "6796b4e7fd69c494edd2b4ccedc06478",
+    "title": "Hiragana Title",
+    "cover": "tanuki__hiragana_title.webp",
+    "artist": "TANUKI",
+    "rank": 234
+  },
+  {
+    "id": "b832471e522433cf47c8944aaadab33c",
+    "title": "カタカナ・タイトル + Kanji Title",
+    "cover": "tanuki___kanji_title.webp",
+    "artist": "TANUKI",
+    "rank": 235
+  },
+  {
+    "id": "e05e5c97e1d32719e2537b2eb04c17c7",
+    "title": "Proof of Youth",
+    "cover": "the_go_team__proof_of_youth.webp",
+    "artist": "The Go! Team",
+    "rank": 236
+  },
+  {
+    "id": "3ed2ab5229bb5efddb0ae9b53ddc024c",
+    "title": "Thunder, Lightning, Strike",
+    "cover": "the_go_team__thunder_lightning_strike.webp",
+    "artist": "The Go! Team",
+    "rank": 237
+  },
+  {
+    "id": "5de13cdde0113909d20dd6144338c483",
+    "title": "Through This Fire Across From Peter Balkan",
+    "cover": "the_mountain_goats__through_this_fire_across_from_peter_balkan.webp",
+    "artist": "the Mountain Goats",
+    "rank": 238
+  },
+  {
+    "id": "f1548abe6f0dfea456eaaac970c56df3",
+    "title": "Generation X",
+    "cover": "the_secret_chord__generation_x.webp",
+    "artist": "The Secret Chord",
+    "rank": 239
+  },
+  {
+    "id": "1dacba15822bac7475bda75a9334ed9f",
+    "title": "The Smiths",
+    "cover": "the_smiths__the_smiths.webp",
+    "artist": "The Smiths",
+    "rank": 240
+  },
+  {
+    "id": "b7c92b0728654d3501c7aa823015682b",
+    "title": "Return From Interrupt",
+    "cover": "the_stop_bits__return_from_interrupt.webp",
+    "artist": "The Stop Bits",
+    "rank": 241
+  },
+  {
+    "id": "cc4e2f122c4e3df52f0bcfc63f67e699",
+    "title": "Assemble with Care",
+    "cover": "thomas_williams__assemble_with_care.webp",
+    "artist": "Thomas Williams",
+    "rank": 242
+  },
+  {
+    "id": "add1a43be62a7dbff62d44f175197bba",
+    "title": "Sleepless",
+    "cover": "tokyo_wanderer__sleepless.webp",
+    "artist": "Tokyo Wanderer",
+    "rank": 243
+  },
+  {
+    "id": "34bc3283a94bf6bd521b75b0c819ac74",
+    "title": "Return to Cookie Mountain",
+    "cover": "tv_on_the_radio__return_to_cookie_mountain.webp",
+    "artist": "TV on the Radio",
+    "rank": 244
+  },
+  {
+    "id": "87daa58215955c8730c351ea7ae2d51d",
+    "title": "黄昏二眠ル街 オリジナルサウンドトラック",
+    "cover": "ujico___.webp",
+    "artist": "Ujico*",
+    "rank": 245
+  },
+  {
+    "id": "2c08724dcee343280b624228574c6375",
+    "title": "Metro City",
+    "cover": "vantage__metro_city.webp",
+    "artist": "Vantage",
+    "rank": 246
+  },
+  {
+    "id": "a55249f3b628ecd5215b3ecd502ce2c9",
+    "title": "Neo Metro City",
+    "cover": "vantage__neo_metro_city.webp",
+    "artist": "Vantage",
+    "rank": 247
+  },
+  {
+    "id": "6c3408328049a0f9d6ed1ed34366fd8a",
+    "title": "Nightlife",
+    "cover": "vantage__nightlife.webp",
+    "artist": "Vantage",
+    "rank": 248
+  },
+  {
+    "id": "6156c0dbb3dfeb28bccc52cbe4d06441",
+    "title": "Skyline Digital +「ƒƒ∆」",
+    "cover": "vantage__skyline_digital_.webp",
+    "artist": "Vantage",
+    "rank": 249
+  },
+  {
+    "id": "b69c70fad6103dd33e474f9f33dbe3ca",
+    "title": "Summer Vibin",
+    "cover": "vantage__summer_vibin.webp",
+    "artist": "Vantage",
+    "rank": 250
+  },
+  {
+    "id": "704006c38860e9a83dd76d83cc2ec7d6",
+    "title": "Sunday Lonely Night",
+    "cover": "vantage__sunday_lonely_night.webp",
+    "artist": "Vantage",
+    "rank": 251
+  },
+  {
+    "id": "7262edf037d6bcf55c0ddce227503d5b",
+    "title": "Lose Your Mind",
+    "cover": "vaporplaid__lose_your_mind.webp",
+    "artist": "Vaporplaid",
+    "rank": 252
+  },
+  {
+    "id": "f30e420cf7d9c63d8d29ff481c19e29d",
+    "title": "Love x Lost",
+    "cover": "vaporplaid__love_x_lost.webp",
+    "artist": "Vaporplaid",
+    "rank": 253
+  },
+  {
+    "id": "73fb141d076aba16305993733197b924",
+    "title": "214XYZ",
+    "cover": "various_artists__214xyz.webp",
+    "artist": "Various Artists",
+    "rank": 254
+  },
+  {
+    "id": "c30b292287e5d890461925fd17b4b623",
+    "title": "2107AD",
+    "cover": "various_artists__2107ad.webp",
+    "artist": "Various Artists",
+    "rank": 255
+  },
+  {
+    "id": "0d8ace16076abfe3e8ee1b64ea8ecab1",
+    "title": "First Person Shooter - The Definitive FPS Documentary (OST)",
+    "cover": "various_artists__first_person_shooter_-_the_definitive_fps_documentary_ost.webp",
+    "artist": "Various Artists",
+    "rank": 256
+  },
+  {
+    "id": "8323cfe69c49a0885dcb18672d893c5c",
+    "title": "get some rest",
+    "cover": "various_artists__get_some_rest.webp",
+    "artist": "Various Artists",
+    "rank": 257
+  },
+  {
+    "id": "00b34c3884ec02655111e7313a9cc570",
+    "title": "In Search of Darkness (1990-1994) [Original Documentary Soundtrack]",
+    "cover": "various_artists__in_search_of_darkness_1990-1994_original_documentary_soundtrack.webp",
+    "artist": "Various Artists",
+    "rank": 258
+  },
+  {
+    "id": "71be29a3e465bb407d5793f05a3b3365",
+    "title": "In Search of Darkness (Original Documentary Soundtrack)",
+    "cover": "various_artists__in_search_of_darkness_original_documentary_soundtrack.webp",
+    "artist": "Various Artists",
+    "rank": 259
+  },
+  {
+    "id": "86c9c1a7955ce79f6d8b69089c37ec0b",
+    "title": "Lofi Girl × Assassin’s Creed Shadows – Stealthy beats to relax to",
+    "cover": "various_artists__lofi_girl_assassins_creed_shadows_stealthy_beats_to_relax_to.webp",
+    "artist": "Various Artists",
+    "rank": 260
+  },
+  {
+    "id": "ea5dd8294e2bbc9a4dc8d89b8cd27dc2",
+    "title": "Neoncity Cruise",
+    "cover": "various_artists__neoncity_cruise.webp",
+    "artist": "Various Artists",
+    "rank": 261
+  },
+  {
+    "id": "52d6fd67a92d8cea9f1f90fd0c35e449",
+    "title": "Neoncity Delights! (7th Anniversary Compilation)",
+    "cover": "various_artists__neoncity_delights_7th_anniversary_compilation.webp",
+    "artist": "Various Artists",
+    "rank": 262
+  },
+  {
+    "id": "c5195087c617c553bf2dcb6edeea3074",
+    "title": "Parisian Romance",
+    "cover": "various_artists__parisian_romance.webp",
+    "artist": "Various Artists",
+    "rank": 263
+  },
+  {
+    "id": "d1ae96a396cd859cfb1434143b37eac8",
+    "title": "The 33rd Split",
+    "cover": "vcrheadaches__the_33rd_split.webp",
+    "artist": "VCRheadaches",
+    "rank": 264
+  },
+  {
+    "id": "eb899e6b01aab8d8e07055957c4b106a",
+    "title": "moisturizer",
+    "cover": "wet_leg__moisturizer.webp",
+    "artist": "Wet Leg",
+    "rank": 265
+  },
+  {
+    "id": "e9fa1e1365de09bd85d8774b8e83f3bd",
+    "title": "Bae",
+    "cover": "yung_bae__bae.webp",
+    "artist": "YUNG BAE",
+    "rank": 266
+  },
+  {
+    "id": "c8e9b74d17747434174723af9dc103cc",
+    "title": "Japanese Disco Edits",
+    "cover": "yung_bae__japanese_disco_edits.webp",
+    "artist": "YUNG BAE",
+    "rank": 267
+  },
+  {
+    "id": "5eae1174b811b0b7b39dd7caedf401ba",
+    "title": "MIDNIGHT MATSURI [夜中の祭り]",
+    "cover": "yuugen__midnight_matsuri_.webp",
+    "artist": "yuugen",
+    "rank": 268
+  },
+  {
+    "id": "23ecd0ac0faf4ed916d15bfefd2fc5f9",
+    "title": "Ocean View",
+    "cover": "zai_kowen__ocean_view.webp",
+    "artist": "Zai Kowen",
+    "rank": 269
+  },
+  {
+    "id": "07e9b95f32870756f842c4c345ed133a",
+    "title": "Paradise Vinyl",
+    "cover": "zai_kowen__paradise_vinyl.webp",
+    "artist": "Zai Kowen",
+    "rank": 270
+  },
+  {
+    "id": "8e094ad3ad12bba7a76953f3dc657fa0",
+    "title": "TIMERIDER 1983",
+    "cover": "drinwve__timerider_1983.webp",
+    "artist": "ΛDRIΛNWΛVE",
+    "rank": 271
+  },
+  {
+    "id": "c0965e577e6e2a24893fccbb73e2d0e8",
+    "title": "You Believe In Satan?",
+    "cover": "_h_o_r_r_o_r_666__you_believe_in_satan.webp",
+    "artist": "アレックス H O R R O R 666",
+    "rank": 272
+  },
+  {
+    "id": "6c65d29893c7e1230755275587135d40",
+    "title": "Love Signal",
+    "cover": "_kotu__love_signal.webp",
+    "artist": "うさこ // kotu",
+    "rank": 273
+  },
+  {
+    "id": "f89994391d3f3e8262edf081aaae0745",
+    "title": "Miracle Romance!",
+    "cover": "_kotu__miracle_romance.webp",
+    "artist": "うさこ // kotu",
+    "rank": 274
+  },
+  {
+    "id": "011a099eedb3c4f736d5aa9ba59ad995",
+    "title": "Slice Of Life OVA",
+    "cover": "_fairy__slice_of_life_ova.webp",
+    "artist": "システム Fairy",
+    "rank": 275
+  },
+  {
+    "id": "5844c4c61295b6f7b1e288a466267929",
+    "title": "わたしのYUME DIARY",
+    "cover": "bigwave__yume_diary.webp",
+    "artist": "ミカヅキBIGWAVE",
+    "rank": 276
+  },
+  {
+    "id": "e12c4320c382c5e6ab10094d6339cf71",
+    "title": "Roses and kisses under the rain",
+    "cover": "_android_apartment__roses_and_kisses_under_the_rain.webp",
+    "artist": "悲しい Android Apartment",
+    "rank": 277
+  },
+  {
+    "id": "8c901e439f99494798c3a5c87ba0df2d",
+    "title": "The Stars Through Your Eyes",
+    "cover": "_android_apartment__the_stars_through_your_eyes.webp",
+    "artist": "悲しい Android Apartment",
+    "rank": 278
+  },
+  {
+    "id": "bdff5147cc028b641ff7684162981936",
+    "title": "We Are The Lights",
+    "cover": "_android_apartment__we_are_the_lights.webp",
+    "artist": "悲しい Android Apartment",
+    "rank": 279
+  },
+  {
+    "id": "17edf383845f3863d4f3b54474828e98",
+    "title": "Luminescent Creatures",
+    "cover": "__luminescent_creatures.webp",
+    "artist": "青葉市子",
+    "rank": 280
+  }
+]
