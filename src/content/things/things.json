@@ -10,7 +10,7 @@
   {
     "id": "texas-slim-jeans",
     "type": "jeans",
-    "item": "Texas Slim Jeans",
+    "item": "Texas Slim",
     "manufacturer": "Wrangler",
     "comments": "Perfect mix of style, comfort, and price.",
     "category": "clothing"
@@ -18,7 +18,7 @@
   {
     "id": "heather-cvc-tshirt",
     "type": "t-shirt",
-    "item": "Heather CVC T-shirt",
+    "item": "Heather CVC",
     "manufacturer": "Bella + Canvas",
     "comments": "Black Heather, buy in bulk.",
     "category": "clothing"
@@ -49,7 +49,7 @@
   },
   {
     "id": "slim-pac-2",
-    "type": "bag",
+    "type": "backpack",
     "item": "Slim Pac 2 x-pac",
     "manufacturer": "Aer",
     "comments": "The smaller dimensions are both a feature and a bug.",
