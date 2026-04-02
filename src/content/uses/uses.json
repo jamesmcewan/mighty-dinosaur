@@ -102,7 +102,7 @@
     "id": "berkeley-mono",
     "type": "font",
     "item": "Berkeley Mono",
-    "manufacturer": "Berkeley Graphics",
+    "manufacturer": "U.S Graphics",
     "comments": "",
     "category": "editor",
     "url": "https://berkeleygraphics.com/typefaces/berkeley-mono/"
@@ -120,7 +120,7 @@
     "id": "opencode",
     "type": "AI harness",
     "item": "OpenCode",
-    "manufacturer": "OpenCode",
+    "manufacturer": "Anomaly",
     "comments": "Current favorite for AI coding assistance",
     "category": "ai",
     "url": "https://opencode.ai/"
@@ -174,7 +174,7 @@
     "id": "pixelmator-pro",
     "type": "graphics editor",
     "item": "Pixelmator Pro",
-    "manufacturer": "Pixelmator Team",
+    "manufacturer": "Apple",
     "comments": "",
     "category": "graphics",
     "url": "https://www.apple.com/pixelmator-pro/"
@@ -210,7 +210,7 @@
     "id": "bun",
     "type": "runtime",
     "item": "Bun",
-    "manufacturer": "Oven",
+    "manufacturer": "Bun",
     "comments": "Everything holds together with Bun",
     "category": "built-with",
     "url": "https://bun.sh"
@@ -219,7 +219,7 @@
     "id": "bunnynet",
     "type": "hosting/CDN/DNS",
     "item": "Bunny.net",
-    "manufacturer": "BunnyWay",
+    "manufacturer": "Bunny",
     "comments": "Fantastic and inexpensive EU based platform",
     "category": "built-with",
     "url": "https://bunny.net"
