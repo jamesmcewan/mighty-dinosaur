@@ -1,0 +1,74 @@
+[
+  {
+    "id": "detroit-jacket",
+    "type": "jacket",
+    "item": "Detroit Jacket",
+    "manufacturer": "Carhartt",
+    "comments": "Great quality canvas jacket, would love a bomber in this style.",
+    "category": "clothing"
+  },
+  {
+    "id": "texas-slim-jeans",
+    "type": "jeans",
+    "item": "Texas Slim Jeans",
+    "manufacturer": "Wrangler",
+    "comments": "Perfect mix of style, comfort, and price.",
+    "category": "clothing"
+  },
+  {
+    "id": "heather-cvc-tshirt",
+    "type": "t-shirt",
+    "item": "Heather CVC T-shirt",
+    "manufacturer": "Bella + Canvas",
+    "comments": "Black Heather, buy in bulk.",
+    "category": "clothing"
+  },
+  {
+    "id": "iphone-17-pro-max",
+    "type": "phone",
+    "item": "iPhone 17 Pro Max",
+    "manufacturer": "Apple",
+    "comments": "Can't quit the ecosystem. Love the camera.",
+    "category": "electronics"
+  },
+  {
+    "id": "ear-3",
+    "type": "earbuds",
+    "item": "Ear(3)",
+    "manufacturer": "Nothing",
+    "comments": "Look great, sound amazing, love the Nothing aesthetic.",
+    "category": "electronics"
+  },
+  {
+    "id": "headphones-1",
+    "type": "headphones",
+    "item": "Headphones(1)",
+    "manufacturer": "Nothing",
+    "comments": "Only over ear I can wear for hours. Noise cancelling could be better.",
+    "category": "electronics"
+  },
+  {
+    "id": "slim-pac-2",
+    "type": "bag",
+    "item": "Slim Pac 2 x-pac",
+    "manufacturer": "Aer",
+    "comments": "The smaller dimensions are both a feature and a bug.",
+    "category": "daily-carry"
+  },
+  {
+    "id": "gbd-200uu-9er",
+    "type": "watch",
+    "item": "GBD-200UU-9ER",
+    "manufacturer": "Casio",
+    "comments": "I wore an Apple watch for a decade. This is pure retro bliss.",
+    "category": "daily-carry"
+  },
+  {
+    "id": "ridge-wallet",
+    "type": "wallet",
+    "item": "Wallet",
+    "manufacturer": "Ridge",
+    "comments": "Good weight, simple but sturdy.",
+    "category": "daily-carry"
+  }
+]
