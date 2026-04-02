@@ -5,6 +5,7 @@ import movies from "./config/movies"
 import music from "./config/music"
 import elsewhere from "./config/elsewhere"
 import things from "./config/things"
+import uses from "./config/uses"
 
 export const collections = {
   posts,
@@ -14,4 +15,5 @@ export const collections = {
   comics,
   elsewhere,
   things,
+  uses,
 }

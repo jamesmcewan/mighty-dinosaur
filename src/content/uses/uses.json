@@ -1,0 +1,227 @@
+[
+  {
+    "id": "macbook-pro",
+    "type": "laptop",
+    "item": "MacBook Pro",
+    "manufacturer": "Apple",
+    "comments": "Work machine",
+    "category": "setup",
+    "url": "https://www.apple.com/macbook-pro/"
+  },
+  {
+    "id": "macbook-air-m2",
+    "type": "laptop",
+    "item": "MacBook Air 15in M2",
+    "manufacturer": "Apple",
+    "comments": "Personal machine",
+    "category": "setup",
+    "url": "https://www.apple.com/macbook-air/"
+  },
+  {
+    "id": "runtipi",
+    "type": "container manager",
+    "item": "Runtipi",
+    "manufacturer": "Runtipi",
+    "comments": "Homelab Docker container management on Raspberry Pi",
+    "category": "setup",
+    "url": "https://runtipi.io"
+  },
+  {
+    "id": "tailscale",
+    "type": "VPN",
+    "item": "Tailscale",
+    "manufacturer": "Tailscale",
+    "comments": "Private VPN for accessing homelab externally",
+    "category": "setup",
+    "url": "https://tailscale.com"
+  },
+  {
+    "id": "neovim",
+    "type": "editor",
+    "item": "Neovim",
+    "manufacturer": "Neovim",
+    "comments": "With LazyVim config",
+    "category": "editor",
+    "url": "https://neovim.io/"
+  },
+  {
+    "id": "lazyvim",
+    "type": "config",
+    "item": "LazyVim",
+    "manufacturer": "LazyVim",
+    "comments": "Neovim configuration",
+    "category": "editor",
+    "url": "https://www.lazyvim.org/"
+  },
+  {
+    "id": "zed",
+    "type": "editor",
+    "item": "Zed",
+    "manufacturer": "Zed Industries",
+    "comments": "Alternative editor",
+    "category": "editor",
+    "url": "https://zed.dev"
+  },
+  {
+    "id": "ghostty",
+    "type": "terminal emulator",
+    "item": "Ghostty",
+    "manufacturer": "Mitchell Hashimoto",
+    "comments": "",
+    "category": "editor",
+    "url": "https://ghostty.org/"
+  },
+  {
+    "id": "zsh",
+    "type": "shell",
+    "item": "zsh",
+    "manufacturer": "Open Source",
+    "comments": "With Oh-My-Zsh and Starship prompt",
+    "category": "editor",
+    "url": "https://www.zsh.org/"
+  },
+  {
+    "id": "oh-my-zsh",
+    "type": "shell framework",
+    "item": "Oh-My-Zsh",
+    "manufacturer": "Oh-My-Zsh",
+    "comments": "Zsh configuration framework",
+    "category": "editor",
+    "url": "https://ohmyz.sh/"
+  },
+  {
+    "id": "starship",
+    "type": "prompt",
+    "item": "Starship",
+    "manufacturer": "Starship",
+    "comments": "Cross-shell prompt",
+    "category": "editor",
+    "url": "https://starship.rs/"
+  },
+  {
+    "id": "berkeley-mono",
+    "type": "font",
+    "item": "Berkeley Mono",
+    "manufacturer": "Berkeley Graphics",
+    "comments": "",
+    "category": "editor",
+    "url": "https://berkeleygraphics.com/typefaces/berkeley-mono/"
+  },
+  {
+    "id": "tokyo-night",
+    "type": "theme",
+    "item": "Tokyo Night - Night",
+    "manufacturer": "Folke",
+    "comments": "Theme of choice",
+    "category": "editor",
+    "url": "https://github.com/folke/tokyonight.nvim"
+  },
+  {
+    "id": "opencode",
+    "type": "AI harness",
+    "item": "OpenCode",
+    "manufacturer": "OpenCode",
+    "comments": "Current favorite for AI coding assistance",
+    "category": "ai",
+    "url": "https://opencode.ai/"
+  },
+  {
+    "id": "kimi-2.5",
+    "type": "LLM",
+    "item": "Kimi 2.5",
+    "manufacturer": "Moonshot AI",
+    "comments": "Current model of choice for coding",
+    "category": "ai",
+    "url": "https://www.moonshot.cn/"
+  },
+  {
+    "id": "devstral-2",
+    "type": "LLM",
+    "item": "devstral 2",
+    "manufacturer": "Mistral AI",
+    "comments": "Small model for quick coding tasks",
+    "category": "ai",
+    "url": "https://mistral.ai/"
+  },
+  {
+    "id": "safari",
+    "type": "browser",
+    "item": "Safari",
+    "manufacturer": "Apple",
+    "comments": "",
+    "category": "browsers",
+    "url": "https://www.apple.com/safari"
+  },
+  {
+    "id": "zen-browser",
+    "type": "browser",
+    "item": "Zen",
+    "manufacturer": "Zen Team",
+    "comments": "",
+    "category": "browsers",
+    "url": "https://zen-browser.app/"
+  },
+  {
+    "id": "helium",
+    "type": "browser",
+    "item": "Helium",
+    "manufacturer": "Helium",
+    "comments": "",
+    "category": "browsers",
+    "url": "https://helium.computer/"
+  },
+  {
+    "id": "pixelmator-pro",
+    "type": "graphics editor",
+    "item": "Pixelmator Pro",
+    "manufacturer": "Pixelmator Team",
+    "comments": "",
+    "category": "graphics",
+    "url": "https://www.apple.com/pixelmator-pro/"
+  },
+  {
+    "id": "figma",
+    "type": "design tool",
+    "item": "Figma",
+    "manufacturer": "Figma",
+    "comments": "",
+    "category": "graphics",
+    "url": "https://www.figma.com"
+  },
+  {
+    "id": "astro",
+    "type": "framework",
+    "item": "Astro",
+    "manufacturer": "Astro",
+    "comments": "Framework of choice for this site",
+    "category": "built-with",
+    "url": "https://astro.build"
+  },
+  {
+    "id": "tailwindcss",
+    "type": "CSS framework",
+    "item": "Tailwind CSS",
+    "manufacturer": "Tailwind Labs",
+    "comments": "Utility-first styling",
+    "category": "built-with",
+    "url": "https://tailwindcss.com"
+  },
+  {
+    "id": "bun",
+    "type": "runtime",
+    "item": "Bun",
+    "manufacturer": "Oven",
+    "comments": "Everything holds together with Bun",
+    "category": "built-with",
+    "url": "https://bun.sh"
+  },
+  {
+    "id": "bunnynet",
+    "type": "hosting/CDN/DNS",
+    "item": "Bunny.net",
+    "manufacturer": "BunnyWay",
+    "comments": "Fantastic and inexpensive EU based platform",
+    "category": "built-with",
+    "url": "https://bunny.net"
+  }
+]

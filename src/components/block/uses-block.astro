@@ -1,0 +1,331 @@
+---
+import { getCollection } from "astro:content"
+
+const uses = await getCollection("uses")
+
+const categoryOrder = [
+  "setup",
+  "editor",
+  "ai",
+  "browsers",
+  "graphics",
+  "built-with",
+] as const
+
+type Category = (typeof categoryOrder)[number]
+
+const categoryLabels: Record<Category, string> = {
+  setup: "Setup",
+  editor: "Editor",
+  ai: "AI",
+  browsers: "Browsers",
+  graphics: "Graphics",
+  "built-with": "Built With",
+}
+
+const groupedUses = categoryOrder.map((category) => ({
+  category,
+  label: categoryLabels[category],
+  items: uses.filter((use) => use.data.category === category),
+}))
+
+const setupItems = groupedUses.find((g) => g.category === "setup")
+const editorItems = groupedUses.find((g) => g.category === "editor")
+const aiItems = groupedUses.find((g) => g.category === "ai")
+const browsersItems = groupedUses.find((g) => g.category === "browsers")
+const graphicsItems = groupedUses.find((g) => g.category === "graphics")
+const builtWithItems = groupedUses.find((g) => g.category === "built-with")
+---
+
+<section class="prose prose-xl font-rethink text-tn-text prose-headings:font-cartridgerough prose-headings:text-tn-text prose-headings:uppercase prose-h2:text-tn-green prose-strong:text-tn-red0 prose-img:rounded-xl space-y-12">
+  <p>
+    For the last twenty or so years, I've been a Mac person, prior to that, a
+    die-hard PC fan, but I fell in love with Unix-flavoured operating systems.
+  </p>
+
+  <img
+    src="https://static.mightydinosaur.dev/posts/macbook-air.avif"
+    alt="Macbook Air Laptop"
+    class="rounded-lg"
+  />
+
+  <p>
+    Recently, I've been experimenting with a homelab setup, I like being
+    able to run certain services in my own environment and using <a
+      href="https://tailscale.com">Tailscale</a
+    > to access externally.
+  </p>
+
+  {
+    setupItems && (
+      <>
+        <h2>{setupItems.label}</h2>
+        <div class="not-prose">
+          <table class="w-full border-collapse font-mono text-sm">
+          <thead>
+            <tr class="border-b-2 border-current">
+              <th class="py-2 pr-4 text-left font-bold">Item</th>
+              <th class="py-2 pr-4 text-left font-bold">Type</th>
+              <th class="py-2 pr-4 text-left font-bold">Manufacturer</th>
+              <th class="py-2 text-left font-bold">Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+            {setupItems.items.map((use) => (
+              <tr class="border-b border-gray-300 dark:border-gray-700">
+                <td class="py-3 pr-4 text-nowrap">
+                  {use.data.url ? (
+                    <a class="text-tn-green/80 hover:text-tn-green transition-colors duration-200" href={use.data.url} target="_blank" rel="noopener noreferrer">
+                      {use.data.item}
+                    </a>
+                  ) : (
+                    use.data.item
+                  )}
+                </td>
+                <td class="py-3 pr-4 text-nowrap">{use.data.type}</td>
+                <td class="py-3 pr-4">{use.data.manufacturer}</td>
+                <td class="py-3 break-keep text-gray-600 dark:text-gray-400">
+                  {use.data.comments}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        </div>
+      </>
+    )
+  }
+
+  {
+    editorItems && (
+      <>
+        <h2>{editorItems.label}</h2>
+
+        <img
+          src="https://static.mightydinosaur.dev/posts/neovim-rose-pine.avif"
+          alt="Macintosh desktop with a terminal window containing the neovim editor"
+        />
+
+        <p>
+          I live in the terminal. My editor of choice is Vim, more specifically
+          Neovim. After I got over the learning curve (which admittedly was{" "}
+          <em>years</em>), the modal style of editing is the most efficient way
+          for me to work with text.
+        </p>
+
+        <div class="not-prose">
+          <table class="w-full border-collapse font-mono text-sm">
+          <thead>
+            <tr class="border-b-2 border-current">
+              <th class="py-2 pr-4 text-left font-bold">Item</th>
+              <th class="py-2 pr-4 text-left font-bold">Type</th>
+              <th class="py-2 pr-4 text-left font-bold">Manufacturer</th>
+              <th class="py-2 text-left font-bold">Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+            {editorItems.items.map((use) => (
+              <tr class="border-b border-gray-300 dark:border-gray-700">
+                <td class="py-3 pr-4 text-nowrap">
+                  {use.data.url ? (
+                    <a class="text-tn-green/80 hover:text-tn-green transition-colors duration-200" href={use.data.url} target="_blank" rel="noopener noreferrer">
+                      {use.data.item}
+                    </a>
+                  ) : (
+                    use.data.item
+                  )}
+                </td>
+                <td class="py-3 pr-4 text-nowrap">{use.data.type}</td>
+                <td class="py-3 pr-4">{use.data.manufacturer}</td>
+                <td class="py-3 break-keep text-gray-600 dark:text-gray-400">
+                  {use.data.comments}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        </div>
+      </>
+    )
+  }
+
+  {
+    aiItems && (
+      <>
+        <h2>{aiItems.label}</h2>
+
+        <p>
+          It's a fairly controversial topic, so I thought I'd dedicate a section
+          to talking about how I approach AI in my day-to-day work.
+        </p>
+
+        <p>
+          <strong>
+      For art and illustrations, I do not use AI for anything that I
+            publish.
+          </strong>
+        </p>
+
+        <p>
+          For coding and development work I do reach for AI as a tool,
+          previously I used Claude as my model of choice, but now I find myself
+          using smaller models like Kimi 2.5, and devstral 2.
+        </p>
+
+        <div class="not-prose">
+          <table class="w-full border-collapse font-mono text-sm">
+          <thead>
+            <tr class="border-b-2 border-current">
+              <th class="py-2 pr-4 text-left font-bold">Item</th>
+              <th class="py-2 pr-4 text-left font-bold">Type</th>
+              <th class="py-2 pr-4 text-left font-bold">Manufacturer</th>
+              <th class="py-2 text-left font-bold">Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+            {aiItems.items.map((use) => (
+              <tr class="border-b border-gray-300 dark:border-gray-700">
+                <td class="py-3 pr-4 text-nowrap">
+                  {use.data.url ? (
+                    <a class="text-tn-green/80 hover:text-tn-green transition-colors duration-200" href={use.data.url} target="_blank" rel="noopener noreferrer">
+                      {use.data.item}
+                    </a>
+                  ) : (
+                    use.data.item
+                  )}
+                </td>
+                <td class="py-3 pr-4 text-nowrap">{use.data.type}</td>
+                <td class="py-3 pr-4">{use.data.manufacturer}</td>
+                <td class="py-3 break-keep text-gray-600 dark:text-gray-400">
+                  {use.data.comments}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        </div>
+      </>
+    )
+  }
+
+  {
+    browsersItems && (
+      <>
+        <h2>{browsersItems.label}</h2>
+        <div class="not-prose">
+          <table class="w-full border-collapse font-mono text-sm">
+          <thead>
+            <tr class="border-b-2 border-current">
+              <th class="py-2 pr-4 text-left font-bold">Item</th>
+              <th class="py-2 pr-4 text-left font-bold">Type</th>
+              <th class="py-2 pr-4 text-left font-bold">Manufacturer</th>
+              <th class="py-2 text-left font-bold">Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+            {browsersItems.items.map((use) => (
+              <tr class="border-b border-gray-300 dark:border-gray-700">
+                <td class="py-3 pr-4 text-nowrap">
+                  {use.data.url ? (
+                    <a class="text-tn-green/80 hover:text-tn-green transition-colors duration-200" href={use.data.url} target="_blank" rel="noopener noreferrer">
+                      {use.data.item}
+                    </a>
+                  ) : (
+                    use.data.item
+                  )}
+                </td>
+                <td class="py-3 pr-4 text-nowrap">{use.data.type}</td>
+                <td class="py-3 pr-4">{use.data.manufacturer}</td>
+                <td class="py-3 break-keep text-gray-600 dark:text-gray-400">
+                  {use.data.comments}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        </div>
+      </>
+    )
+  }
+
+  {
+    graphicsItems && (
+      <>
+        <h2>{graphicsItems.label}</h2>
+        <div class="not-prose">
+          <table class="w-full border-collapse font-mono text-sm">
+          <thead>
+            <tr class="border-b-2 border-current">
+              <th class="py-2 pr-4 text-left font-bold">Item</th>
+              <th class="py-2 pr-4 text-left font-bold">Type</th>
+              <th class="py-2 pr-4 text-left font-bold">Manufacturer</th>
+              <th class="py-2 text-left font-bold">Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+            {graphicsItems.items.map((use) => (
+              <tr class="border-b border-gray-300 dark:border-gray-700">
+                <td class="py-3 pr-4 text-nowrap">
+                  {use.data.url ? (
+                    <a class="text-tn-green/80 hover:text-tn-green transition-colors duration-200" href={use.data.url} target="_blank" rel="noopener noreferrer">
+                      {use.data.item}
+                    </a>
+                  ) : (
+                    use.data.item
+                  )}
+                </td>
+                <td class="py-3 pr-4 text-nowrap">{use.data.type}</td>
+                <td class="py-3 pr-4">{use.data.manufacturer}</td>
+                <td class="py-3 break-keep text-gray-600 dark:text-gray-400">
+                  {use.data.comments}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        </div>
+      </>
+    )
+  }
+
+  {
+    builtWithItems && (
+      <>
+        <h2>{builtWithItems.label}</h2>
+
+        <div class="not-prose">
+          <table class="w-full border-collapse font-mono text-sm">
+          <thead>
+            <tr class="border-b-2 border-current">
+              <th class="py-2 pr-4 text-left font-bold">Item</th>
+              <th class="py-2 pr-4 text-left font-bold">Type</th>
+              <th class="py-2 pr-4 text-left font-bold">Manufacturer</th>
+              <th class="py-2 text-left font-bold">Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+            {builtWithItems.items.map((use) => (
+              <tr class="border-b border-gray-300 dark:border-gray-700">
+                <td class="py-3 pr-4 text-nowrap">
+                  {use.data.url ? (
+                    <a class="text-tn-green/80 hover:text-tn-green transition-colors duration-200" href={use.data.url} target="_blank" rel="noopener noreferrer">
+                      {use.data.item}
+                    </a>
+                  ) : (
+                    use.data.item
+                  )}
+                </td>
+                <td class="py-3 pr-4 text-nowrap">{use.data.type}</td>
+                <td class="py-3 pr-4">{use.data.manufacturer}</td>
+                <td class="py-3 break-keep text-gray-600 dark:text-gray-400">
+                  {use.data.comments}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        </div>
+      </>
+    )
+  }
+</section>
