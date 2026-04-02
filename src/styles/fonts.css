@@ -33,3 +33,12 @@
 	font-style: normal;
 	font-display: swap;
 }
+
+@font-face {
+	font-family: "Space Mono";
+	src: url("https://static.mightydinosaur.dev/webfonts/spacemono.woff")
+		format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
