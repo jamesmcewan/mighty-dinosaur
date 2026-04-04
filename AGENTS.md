@@ -4,13 +4,12 @@ This file provides guidance to AI coding agents when working with code in this r
 
 ## Project Overview
 
-- **Framework**: Astro 5.x with static output
+- **Framework**: Astro 6.x with static output
 - **Language**: TypeScript with strict null checks
 - **Styling**: TailwindCSS 4.x with @tailwindcss/vite plugin
 - **Content**: Astro Content Collections with JSON data sources
-- **Node.js**: 22+ (`engines.node: >=22.0.0`) — runtime requirement
 - **Bun**: 1.3.9 (`packageManager: bun@1.3.9`) — primary package manager and script runner
-- **Package Manager**: Bun (preferred), npm (fallback)
+- **Package Manager**: Bun
 
 ## Quick Commands
 
@@ -134,7 +133,8 @@ Available collections: `posts`, `pages`, `movies`, `music`, `comics`, `elsewhere
 3. Don't forget path aliases - always use `@/` prefix
 4. Don't modify files in `dist/` or `.astro/` - these are build outputs
 5. Don't skip pre-commit hooks - they ensure code quality
-6. Don't use pnpm commands for project tasks - use Bun scripts (npm is fallback)
+6. Don't use pnpm commands for project tasks - use Bun scripts
+7. Don't use gh commands for repository use fj
 
 ## Build Output
 
