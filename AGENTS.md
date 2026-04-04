@@ -15,11 +15,13 @@ This file provides guidance to AI coding agents when working with code in this r
 ## Quick Commands
 
 ### Development
+
 - Dev server: `bun run dev` (fallback: `npm run dev`)
 - Build: `bun run build` (fallback: `npm run build`)
 - Preview: `bun run preview` (fallback: `npm run preview`)
 
 ### Code Quality
+
 - Lint check: `bun run lint:check` (fallback: `npm run lint:check`, uses oxlint)
 - Lint fix: `bun run lint:fix` (fallback: `npm run lint:fix`)
 - Format check: `bun run format:check` (fallback: `npm run format:check`, uses oxfmt)
@@ -27,6 +29,7 @@ This file provides guidance to AI coding agents when working with code in this r
 - Astro check: `bun run astro:check` (fallback: `npm run astro:check`)
 
 ### Maintenance
+
 - Update dependencies: `bun run update-dependencies` (fallback: `npm run update-dependencies`)
 
 ## Code Style (Enforced by oxfmt/oxlint)
@@ -42,6 +45,7 @@ This file provides guidance to AI coding agents when working with code in this r
 ## Project Architecture
 
 ### Directory Structure
+
 ```
 src/
 ├── components/
@@ -64,7 +68,9 @@ src/
 ```
 
 ### Path Aliases (tsconfig.json)
+
 Always use `@/` prefix for imports:
+
 - `@/components/*` → `src/components/*`
 - `@/layouts/*` → `src/layouts/*`
 - `@/content/*` → `src/content/*`
@@ -75,16 +81,19 @@ Always use `@/` prefix for imports:
 ### Component Patterns
 
 **Block Components** (`src/components/block/`):
+
 - Reusable content sections
 - Use descriptive names: `{purpose}-block.astro`
 - Example: `article-block.astro`, `movies-block.astro`
 
 **Inline Components** (`src/components/inline/`):
+
 - Small, inline elements
 - Use descriptive names: `{purpose}-inline.astro`
 - Example: `category-inline.astro`
 
 **Structure Components** (`src/components/structure/`):
+
 - HTML head, meta, body elements
 - Example: `head.astro`, `body.astro`, `meta.astro`
 
@@ -130,5 +139,26 @@ Available collections: `posts`, `pages`, `movies`, `music`, `comics`, `elsewhere
 ## Build Output
 
 - Static site generated in `dist/`
-- Site URL: https://mightydinosaur.dev/
+- Site URL: <https://mightydinosaur.dev/>
 - HTML compression and inline stylesheets enabled
+
+## Forgejo CLI (`fj`)
+
+Use `fj` (Forgejo CLI) instead of `gh` or `github` CLI for interacting with Forgejo/Codeberg instances.
+
+- **Project:** <https://codeberg.org/forgejo-contrib/forgejo-cli>
+- **Wiki:** <https://codeberg.org/forgejo-contrib/forgejo-cli/wiki>
+
+`fj` is a CLI client for Forgejo (similar to `gh` for GitHub) that enables managing issues, pull requests, repositories, organizations, and releases from the command line.
+
+### Common Commands
+
+- `fj auth login` — Authenticate with a Forgejo instance
+- `fj repo create` — Create a new repository
+- `fj issue list` — List issues
+- `fj pr create` — Create a pull request (supports AGit, no fork required)
+- `fj release create` — Publish a new release
+
+### Installation
+
+Pre-built binaries available for x86_64 Linux (GNU) and Windows via the [releases page](https://codeberg.org/forgejo-contrib/forgejo-cli/releases/latest). See the [wiki Installation page](https://codeberg.org/forgejo-contrib/forgejo-cli/wiki/Installation) for more options including Nix and building from source.
