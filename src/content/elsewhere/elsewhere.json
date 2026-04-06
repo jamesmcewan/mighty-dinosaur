@@ -1,5 +1,10 @@
 [
   {
+    "id": "codeberg",
+    "handle": "mcwn",
+    "url": "https://codeberg.org/mcwn"
+  },
+  {
     "id": "source.tube",
     "handle": "mcwn",
     "url": "https://source.tube/mcwn"
