@@ -2,25 +2,62 @@
 import LinkBlock from "@/components/block/link-block.astro"
 import getPages from "@/data/get-pages"
 
+interface Props {
+  horizontal?: boolean
+}
+
+const { horizontal = false } = Astro.props
 const pages = await getPages()
+
+const currentPath = Astro.url.pathname
+
+const navItems = [
+  { href: "/", label: "Home" },
+  ...pages.map((p) => ({ href: `/${p.data.permalink}/`, label: p.data.title })),
+]
 ---
 
-<nav>
-  <ul class="grid gap-6">
-    {
-      pages.map((page) => (
-        <li>
-          <LinkBlock
-            href={`/${page.data.permalink}/`}
-            cta
-            center
-            color="text-tn-blue0/80"
-            hover="hover:text-tn-blue0"
-          >
-            {page.data.title}
-          </LinkBlock>
-        </li>
-      ))
-    }
-  </ul>
-</nav>
+{horizontal ? (
+  <nav>
+    <ul class="flex flex-wrap gap-x-5 gap-y-1">
+      {navItems.map(({ href, label }) => {
+        const active = currentPath === href
+        return (
+          <li>
+            <a
+              href={href}
+              class:list={[
+                "font-cartridgerough uppercase text-sm transition-colors duration-200",
+                active
+                  ? "text-tn-orange border-b border-tn-orange/50"
+                  : "text-tn-blue0/70 hover:text-tn-blue0",
+              ]}
+            >
+              {label}
+            </a>
+          </li>
+        )
+      })}
+    </ul>
+  </nav>
+) : (
+  <nav>
+    <ul class="grid gap-6">
+      {
+        pages.map((page) => (
+          <li>
+            <LinkBlock
+              href={`/${page.data.permalink}/`}
+              cta
+              center
+              color="text-tn-blue0/80"
+              hover="hover:text-tn-blue0"
+            >
+              {page.data.title}
+            </LinkBlock>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+)}

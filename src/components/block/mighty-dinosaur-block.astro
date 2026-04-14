@@ -1,4 +1,10 @@
-<header>
+---
+interface Props {
+  compact?: boolean
+}
+const { compact = false } = Astro.props
+---
+<header class:list={[compact && "w-[140px] shrink-0"]}>
   <a href="/" title="Mighty Dinosaur">
     <svg
       width="350"

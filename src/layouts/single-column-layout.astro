@@ -1,7 +1,7 @@
 ---
 import FooterBlock from "@/components/block/footer-block.astro"
 import GridBlock from "@/components/block/grid-block.astro"
-import MightyDinosaurBlock from "@/components/block/mighty-dinosaur-block.astro"
+import PageHeaderBlock from "@/components/block/page-header-block.astro"
 import WrapperBlock from "@/components/block/wrapper-block.astro"
 import Body from "@/components/structure/body.astro"
 
@@ -17,7 +17,7 @@ const { title, description, url }: Props = Astro.props
 <Body {title} {description} {url}>
   <WrapperBlock>
     <GridBlock>
-      <MightyDinosaurBlock />
+      <PageHeaderBlock />
       <slot />
       <FooterBlock />
     </GridBlock>
