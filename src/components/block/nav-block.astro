@@ -12,7 +12,7 @@ const pages = await getPages()
 const currentPath = Astro.url.pathname
 
 const navItems = [
-  { href: "/", label: "Home" },
+  { href: "/posts/", label: "Posts" },
   ...pages.map((p) => ({ href: `/${p.data.permalink}/`, label: p.data.title })),
 ]
 ---
@@ -21,7 +21,9 @@ const navItems = [
   <nav>
     <ul class="flex flex-wrap gap-x-5 gap-y-1">
       {navItems.map(({ href, label }) => {
-        const active = currentPath === href
+        const active = href === "/posts/"
+          ? currentPath === "/posts/" || currentPath.startsWith("/post/")
+          : currentPath === href
         return (
           <li>
             <a
