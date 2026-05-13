@@ -1,0 +1,34 @@
+{
+	"tasks": {
+		"build": "deno run -A npm:astro build",
+		"dev": "deno run -A npm:astro dev",
+		"check": "deno task format:check && deno task lint:check && deno task astro:check",
+		"fix": "deno task lint:fix && deno task format:write",
+		"astro:check": "deno run -A npm:astro check",
+		"lint:check": "deno run -A npm:oxlint --ignore-path=.gitignore",
+		"lint:fix": "deno run -A npm:oxlint --fix --ignore-path=.gitignore",
+		"format:write": "deno run -A npm:oxfmt",
+		"format:check": "deno run -A npm:oxfmt --check",
+		"prepare": "deno run -A npm:is-ci || deno run -A npm:lefthook install",
+		"preview": "deno run -A npm:astro preview",
+		"update-dependencies": "deno run -A npm:@astrojs/upgrade"
+	},
+	"imports": {
+		"@astrojs/check": "npm:@astrojs/check@0.9.9",
+		"@astrojs/mdx": "npm:@astrojs/mdx@5.0.2",
+		"@astrojs/rss": "npm:@astrojs/rss@4.0.17",
+		"@tailwindcss/typography": "npm:@tailwindcss/typography@0.5.19",
+		"@tailwindcss/vite": "npm:@tailwindcss/vite@4.2.4",
+		"@types/markdown-it": "npm:@types/markdown-it@14.1.2",
+		"astro": "npm:astro@6.0.7",
+		"is-ci": "npm:is-ci@4.1.0",
+		"lefthook": "npm:lefthook@2.0.7",
+		"markdown-it": "npm:markdown-it@14.1.1",
+		"oxfmt": "npm:oxfmt@0.15.0",
+		"oxlint": "npm:oxlint@1.31.0",
+		"tailwindcss": "npm:tailwindcss@4.1.17",
+		"typescript": "npm:typescript@5.9.3"
+	},
+	"nodeModulesDir": "auto",
+	"allowScripts": ["npm:esbuild@0.27.7", "npm:fsevents@2.3.3", "npm:lefthook@2.0.7", "npm:sharp@0.34.5"]
+}
