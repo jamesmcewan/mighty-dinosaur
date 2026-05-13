@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content"
 
 type Elsewhere = CollectionEntry<"elsewhere">
 
-async function getElsewhere(): Promise<Elsewhere[]> {
+function getElsewhere(): Promise<Elsewhere[]> {
   return getCollection("elsewhere")
 }
 

@@ -14,6 +14,7 @@ export default defineConfig({
 
   vite: {
     // Astro and Tailwind currently resolve Vite types from different module paths.
+    // deno-lint-ignore no-explicit-any
     plugins: [tailwindcss() as any],
   },
 

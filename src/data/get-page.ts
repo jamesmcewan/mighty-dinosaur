@@ -14,7 +14,7 @@ async function getPage(page: string): Promise<PageResult> {
 
   if (!contentPage) {
     throw new Error(
-      `Home page content not found. Make sure src/content/pages/${page}.md exists.`
+      `Home page content not found. Make sure src/content/pages/${page}.md exists.`,
     )
   }
 

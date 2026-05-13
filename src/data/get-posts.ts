@@ -6,7 +6,7 @@ type Post = CollectionEntry<"posts">
 async function getPosts(max?: number): Promise<Post[]> {
   const postsCollection = await getCollection(
     "posts",
-    ({ data }) => data.draft !== true
+    ({ data }) => data.draft !== true,
   )
 
   const posts = postsCollection.toSorted((a, b) => {
