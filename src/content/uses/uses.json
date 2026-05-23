@@ -135,15 +135,6 @@
     "url": "https://www.moonshot.cn/"
   },
   {
-    "id": "devstral-2",
-    "type": "LLM",
-    "item": "devstral 2",
-    "manufacturer": "Mistral AI",
-    "comments": "Small model for quick coding tasks",
-    "category": "ai",
-    "url": "https://mistral.ai/"
-  },
-  {
     "id": "safari",
     "type": "browser",
     "item": "Safari",
@@ -153,22 +144,13 @@
     "url": "https://www.apple.com/safari"
   },
   {
-    "id": "zen-browser",
+    "id": "vivaldi",
     "type": "browser",
-    "item": "Zen",
-    "manufacturer": "Zen Team",
+    "item": "Vivaldi",
+    "manufacturer": "Vivaldi Technologies",
     "comments": "",
     "category": "browsers",
-    "url": "https://zen-browser.app/"
-  },
-  {
-    "id": "helium",
-    "type": "browser",
-    "item": "Helium",
-    "manufacturer": "Helium",
-    "comments": "",
-    "category": "browsers",
-    "url": "https://helium.computer/"
+    "url": "https://vivaldi.com/"
   },
   {
     "id": "pixelmator-pro",
