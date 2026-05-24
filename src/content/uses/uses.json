@@ -148,18 +148,18 @@
     "type": "browser",
     "item": "Vivaldi",
     "manufacturer": "Vivaldi Technologies",
-    "comments": "",
+    "comments": "Version 8 is fantastic.",
     "category": "browsers",
     "url": "https://vivaldi.com/"
   },
   {
-    "id": "pixelmator-pro",
-    "type": "graphics editor",
-    "item": "Pixelmator Pro",
-    "manufacturer": "Apple",
+    "id": "firefox",
+    "type": "browser",
+    "item": "Firefox",
+    "manufacturer": "Mozilla",
     "comments": "",
-    "category": "graphics",
-    "url": "https://www.apple.com/pixelmator-pro/"
+    "category": "browsers",
+    "url": "https://firefox.com/"
   },
   {
     "id": "figma",
@@ -189,13 +189,13 @@
     "url": "https://tailwindcss.com"
   },
   {
-    "id": "bun",
+    "id": "deno",
     "type": "runtime",
-    "item": "Bun",
-    "manufacturer": "Bun",
-    "comments": "Everything holds together with Bun",
+    "item": "deno",
+    "manufacturer": "deno",
+    "comments": "Recently switched from Bun to Deno",
     "category": "built-with",
-    "url": "https://bun.sh"
+    "url": "https://deno.com"
   },
   {
     "id": "bunnynet",
