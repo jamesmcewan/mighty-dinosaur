@@ -2,12 +2,12 @@
   "version": "5",
   "specifiers": {
     "npm:@astrojs/check@0.9.9": "0.9.9_typescript@6.0.3",
-    "npm:@astrojs/mdx@5.0.6": "5.0.6_astro@6.3.7",
+    "npm:@astrojs/mdx@5.0.6": "5.0.6_astro@6.3.8",
     "npm:@astrojs/rss@4.0.18": "4.0.18",
     "npm:@tailwindcss/typography@0.5.19": "0.5.19_tailwindcss@4.3.0",
     "npm:@tailwindcss/vite@4.3.0": "4.3.0_vite@7.3.3",
     "npm:@types/markdown-it@14.1.2": "14.1.2",
-    "npm:astro@6.3.7": "6.3.7",
+    "npm:astro@6.3.8": "6.3.8",
     "npm:is-ci@4.1.0": "4.1.0",
     "npm:lefthook@2.1.8": "2.1.8",
     "npm:markdown-it@14.2.0": "14.2.0",
@@ -88,7 +88,7 @@
         "vfile"
       ]
     },
-    "@astrojs/mdx@5.0.6_astro@6.3.7": {
+    "@astrojs/mdx@5.0.6_astro@6.3.8": {
       "integrity": "sha512-4dKe0ZMmqujofPNDHahzClkwinn9f8jHPcaXcgdGvPAlboD2mjzkUCofli2cBnxYAkdfhC6d50gBJ8i/cH8gHw==",
       "dependencies": [
         "@astrojs/markdown-remark",
@@ -1041,8 +1041,8 @@
       "integrity": "sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==",
       "bin": true
     },
-    "astro@6.3.7": {
-      "integrity": "sha512-zIeDRrI0qNgN1lcCjNqt6/IVCVej7VwSa326cO8uP9BOk1cg4QuffhLnOn2gCgWQr32/wxpSRFfXiLKHglu1Tw==",
+    "astro@6.3.8": {
+      "integrity": "sha512-xH2UA8Z17IS+JaqSlSkBor7jO6gd7zXTLdmu06nKpfpDDJFbi/7KZEy3NDmWxmier+6XrCZ9Z4aitO8jhC9oiA==",
       "dependencies": [
         "@astrojs/compiler@4.0.0",
         "@astrojs/internal-helpers",
@@ -3406,7 +3406,7 @@
       "npm:@tailwindcss/typography@0.5.19",
       "npm:@tailwindcss/vite@4.3.0",
       "npm:@types/markdown-it@14.1.2",
-      "npm:astro@6.3.7",
+      "npm:astro@6.3.8",
       "npm:is-ci@4.1.0",
       "npm:lefthook@2.1.8",
       "npm:markdown-it@14.2.0",

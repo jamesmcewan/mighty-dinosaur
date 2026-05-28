@@ -129,13 +129,12 @@ Available collections: `posts`, `pages`, `movies`, `music`, `comics`, `elsewhere
 
 ## Common Pitfalls to Avoid
 
-1. Don't use Biome commands - use oxlint/oxfmt instead
-2. Don't assume tab indentation - use 2 spaces
-3. Don't forget path aliases - always use `@/` prefix
-4. Don't modify files in `dist/` or `.astro/` - these are build outputs
-5. Don't skip pre-commit hooks - they ensure code quality
-6. Don't use npm/pnpm/bun commands for project tasks - use `deno task`
-7. Don't use gh commands for repository use fj
+1. Don't assume tab indentation - use 2 spaces
+2. Don't forget path aliases - always use `@/` prefix
+3. Don't modify files in `dist/` or `.astro/` - these are build outputs
+4. Don't skip pre-commit hooks - they ensure code quality
+5. Don't use npm/pnpm/bun commands for project tasks - use `deno task`
+6. Don't use gh commands for repository use fj
 
 ## Build Output
 
