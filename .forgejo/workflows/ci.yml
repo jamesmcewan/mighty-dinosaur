@@ -22,7 +22,7 @@ jobs:
 
       - name: Install Deno
         run: |
-          curl -fsSL https://deno.land/install.sh | sh -s -- --yes v2.7.14
+          curl -fsSL https://deno.land/install.sh | sh -s -- --yes v2.9.1
           echo "$HOME/.deno/bin" >> $GITHUB_PATH
 
       - name: Cache dependencies
@@ -49,7 +49,7 @@ jobs:
 
       - name: Install Deno
         run: |
-          curl -fsSL https://deno.land/install.sh | sh -s -- --yes v2.7.14
+          curl -fsSL https://deno.land/install.sh | sh -s -- --yes v2.9.1
           echo "$HOME/.deno/bin" >> $GITHUB_PATH
 
       - name: Cache dependencies
