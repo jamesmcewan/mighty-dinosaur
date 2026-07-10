@@ -117,24 +117,6 @@
     "url": "https://github.com/folke/tokyonight.nvim"
   },
   {
-    "id": "opencode",
-    "type": "AI harness",
-    "item": "OpenCode",
-    "manufacturer": "Anomaly",
-    "comments": "Current favorite for AI coding assistance",
-    "category": "ai",
-    "url": "https://opencode.ai/"
-  },
-  {
-    "id": "kimi-2.5",
-    "type": "LLM",
-    "item": "Kimi 2.5",
-    "manufacturer": "Moonshot AI",
-    "comments": "Current model of choice for coding",
-    "category": "ai",
-    "url": "https://www.moonshot.cn/"
-  },
-  {
     "id": "safari",
     "type": "browser",
     "item": "Safari",
@@ -144,22 +126,31 @@
     "url": "https://www.apple.com/safari"
   },
   {
-    "id": "vivaldi",
+    "id": "zen",
     "type": "browser",
-    "item": "Vivaldi",
-    "manufacturer": "Vivaldi Technologies",
-    "comments": "Version 8 is fantastic.",
+    "item": "zen",
+    "manufacturer": "Zen Team",
+    "comments": "Profile isolation in spaces is really useful for work",
     "category": "browsers",
-    "url": "https://vivaldi.com/"
+    "url": "https://zen-browser.app"
   },
   {
-    "id": "firefox",
-    "type": "browser",
-    "item": "Firefox",
-    "manufacturer": "Mozilla",
+    "id": "acorn",
+    "type": "Photo editor",
+    "item": "Acorn",
+    "manufacturer": "Flying Meat",
     "comments": "",
-    "category": "browsers",
-    "url": "https://firefox.com/"
+    "category": "graphics",
+    "url": "https://flyingmeat.com/acorn"
+  },
+  {
+    "id": "pixelmator-pro",
+    "type": "Photo editor",
+    "item": "Pixelmator Pro",
+    "manufacturer": "Apple",
+    "comments": "",
+    "category": "graphics",
+    "url": "https://www.apple.com/pixelmator-pro"
   },
   {
     "id": "figma",
