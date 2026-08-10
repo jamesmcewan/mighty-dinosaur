@@ -16,7 +16,7 @@ parser.renderer.rules.image = (tokens, idx, options, _env, self) => {
   if (srcIndex === -1 || !token.attrs) {
     return self.renderToken(tokens, idx, options)
   }
-  const src = token.attrs[srcIndex][1]
+  const src = String(token.attrs[srcIndex][1])
   const alt = token.content || ""
 
   const absoluteSrc = src.startsWith("http")

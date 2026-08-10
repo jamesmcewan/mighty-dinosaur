@@ -13,7 +13,7 @@ const { pages }: Props = Astro.props
   <SectionHeadingBlock> Pages </SectionHeadingBlock>
   <ul class="grid grid-cols-2 gap-x-6 gap-y-2">
     {
-      pages.map((page, pageIndex) => {
+      pages.map((page) => {
         const { title, permalink } = page.data
         const titleWords = title.split(" ")
         return (
