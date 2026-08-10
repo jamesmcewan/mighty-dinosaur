@@ -28,18 +28,18 @@
     }
   },
   "imports": {
-    "@astrojs/check": "npm:@astrojs/check@0.9.9",
-    "@astrojs/mdx": "npm:@astrojs/mdx@7.0.2",
+    "@astrojs/check": "npm:@astrojs/check@0.9.10",
+    "@astrojs/mdx": "npm:@astrojs/mdx@7.0.5",
     "@astrojs/rss": "npm:@astrojs/rss@4.0.19",
     "@tailwindcss/typography": "npm:@tailwindcss/typography@0.5.20",
-    "@tailwindcss/vite": "npm:@tailwindcss/vite@4.3.2",
+    "@tailwindcss/vite": "npm:@tailwindcss/vite@4.3.3",
     "@types/markdown-it": "npm:@types/markdown-it@14.1.2",
-    "astro": "npm:astro@7.0.7",
+    "astro": "npm:astro@7.2.0",
     "is-ci": "npm:is-ci@4.1.0",
-    "lefthook": "npm:lefthook@2.1.8",
-    "markdown-it": "npm:markdown-it@14.3.0",
-    "tailwindcss": "npm:tailwindcss@4.3.2",
-    "typescript": "npm:typescript@6.0.3"
+    "lefthook": "npm:lefthook@2.1.10",
+    "markdown-it": "npm:markdown-it@15.0.0",
+    "tailwindcss": "npm:tailwindcss@4.3.3",
+    "typescript": "npm:typescript@7.0.2"
   },
   "nodeModulesDir": "auto",
   "allowScripts": [
