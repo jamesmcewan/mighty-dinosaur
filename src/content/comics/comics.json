@@ -64,14 +64,53 @@
     "link": "https://leagueofcomicgeeks.com/comics/series/178012/absolute-batman"
   },
   {
-    "id": "absolute-wonder-woman",
-    "title": "Absolute Wonder Woman",
-    "cover": "absolute-wonder-woman.webp",
-    "creativeTeam": ["Kelly Thompson", "Hayden Sherman"],
+    "id": "absolute-catwoman",
+    "title": "Absolute Catwoman",
+    "cover": "absolute-catwoman.webp",
+    "creativeTeam": ["Che Grayson", "Scott Snyder", "Bengal"],
     "description": "",
     "category": "pull-list",
     "rank": 2,
-    "link": "https://leagueofcomicgeeks.com/comics/series/178014/absolute-wonder-woman"
+    "link": "https://leagueofcomicgeeks.com/comics/series/198467/absolute-catwoman"
+  },
+  {
+    "id": "absolute-green-arrow",
+    "title": "Absolute Green Arrow",
+    "cover": "absolute-green-arrow.webp",
+    "creativeTeam": ["Pornsak Pichetshote", "Rafael Albuquerque"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 3,
+    "link": "https://leagueofcomicgeeks.com/comics/series/193454/absolute-green-arrow"
+  },
+  {
+    "id": "archie",
+    "title": "Archie",
+    "cover": "archie.webp",
+    "creativeTeam": ["Ben H. Winters", "Fábio Moon"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 4
+  },
+  {
+    "id": "avengers",
+    "title": "Avengers",
+    "cover": "avengers.webp",
+    "creativeTeam": ["Chip Zdarsky", "Marco Checchetto"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 5,
+    "link": "https://leagueofcomicgeeks.com/comics/series/213365/avengers"
+  },
+  {
+    "id": "avengers-armageddon",
+    "title": "Avengers: Armageddon",
+    "cover": "avengers-armageddon.webp",
+    "creativeTeam": ["Chip Zdarsky", "Delio Diaz", "Frank Alpizar"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 6,
+    "link": "https://leagueofcomicgeeks.com/comics/series/199963/avengers-armageddon"
   },
   {
     "id": "batman",
@@ -80,208 +119,37 @@
     "creativeTeam": ["Matt Fraction", "Jorge Jiménez"],
     "description": "",
     "category": "pull-list",
-    "rank": 6,
+    "rank": 7,
     "link": "https://leagueofcomicgeeks.com/comics/series/186408/batman"
   },
   {
-    "id": "exquisite-corpses",
-    "title": "Exquisite Corpses",
-    "cover": "exquisite-corpses.webp",
-    "creativeTeam": ["James Tynion IV", "Michael Walsh"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 9,
-    "link": "https://leagueofcomicgeeks.com/comics/series/186340/exquisite-corpses"
-  },
-  {
-    "id": "supergirl",
-    "title": "Supergirl",
-    "cover": "supergirl.webp",
-    "creativeTeam": ["Sophie Campbell"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 16,
-    "link": "https://leagueofcomicgeeks.com/comics/series/186409/supergirl"
-  },
-  {
-    "id": "w0rldtr33",
-    "title": "W0rldtr33",
-    "cover": "w0rldtr33.webp",
-    "creativeTeam": ["James Tynion IV", "Fernando Blanco"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 18,
-    "link": "https://leagueofcomicgeeks.com/comics/series/162873/w0rldtr33"
-  },
-  {
-    "id": "absolute-martian-manhunter",
-    "title": "Absolute Martian Manhunter",
-    "cover": "absolute-martian-manhunter.webp",
-    "creativeTeam": ["Deniz Camp", "Javier Rodríguez"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 3,
-    "link": "https://leagueofcomicgeeks.com/comics/series/181014/absolute-martian-manhunter"
-  },
-  {
-    "id": "invincible-universe-battle-beast",
-    "title": "Invincible Universe Battle Beast",
-    "cover": "invincible-universe-battle-beast.webp",
-    "creativeTeam": ["Robert Kirkman", "Ryan Ottley"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 22,
-    "link": "https://leagueofcomicgeeks.com/comics/series/183093/invincible-universe-battle-beast"
-  },
-  {
-    "id": "the-future-is",
-    "title": "The Future is ******",
-    "cover": "the-future-is.webp",
-    "creativeTeam": ["Fred Van Lente", "Ennio Bufi"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 23,
-    "link": "https://leagueofcomicgeeks.com/comics/series/186428/the-future-is"
-  },
-  {
-    "id": "gi-joe",
-    "title": "GI Joe",
-    "cover": "gi-joe.webp",
-    "creativeTeam": ["Joshua Williamson", "Tom Reilly"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 24,
-    "link": "https://leagueofcomicgeeks.com/comics/series/177429/gi-joe"
-  },
-  {
-    "id": "void-rivals",
-    "title": "Void Rivals",
-    "cover": "void-rivals.webp",
-    "creativeTeam": ["Robert Kirkman", "Lorenzo De Felici"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 25,
-    "link": "https://leagueofcomicgeeks.com/comics/series/165227/void-rivals"
-  },
-  {
-    "id": "transformers",
-    "title": "Transformers",
-    "cover": "transformers.webp",
-    "creativeTeam": ["Daniel Warren Johnson", "Jorge Corona"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 26,
-    "link": "https://leagueofcomicgeeks.com/comics/series/168170/transformers"
-  },
-  {
-    "id": "godzilla",
-    "title": "Godzilla",
-    "cover": "godzilla.webp",
-    "creativeTeam": ["Tim Seeley", "Nikola Cizmesija"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 27,
-    "link": "https://leagueofcomicgeeks.com/comics/series/186367/godzilla"
-  },
-  {
-    "id": "starship-godzilla",
-    "title": "Starship Godzilla",
-    "cover": "starship-godzilla.webp",
-    "creativeTeam": ["Chris Gooch", "Oliver Ono"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 28,
-    "link": "https://leagueofcomicgeeks.com/comics/series/186392/starship-godzilla"
-  },
-  {
-    "id": "inferno-girl-red",
-    "title": "Inferno Girl Red",
-    "cover": "inferno-girl-red.webp",
-    "creativeTeam": ["Mat Groom", "Erica D'Urso"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 29,
-    "link": "https://leagueofcomicgeeks.com/comics/series/191464/inferno-girl-red-book-two"
-  },
-  {
-    "id": "assorted-crisis-events",
-    "title": "Assorted Crisis Events",
-    "cover": "assorted-crisis-events.webp",
-    "creativeTeam": ["Deniz Camp", "Eric Zawadzki"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 32,
-    "link": "https://leagueofcomicgeeks.com/comics/series/182103/assorted-crisis-events"
-  },
-  {
-    "id": "absolute-flash",
-    "title": "Absolute Flash",
-    "cover": "absolute-flash.webp",
-    "creativeTeam": ["Jeff Lemire", "Nick Robles"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 4,
-    "link": "https://leagueofcomicgeeks.com/comics/series/178283/absolute-flash"
-  },
-  {
-    "id": "bleeding-hearts",
-    "title": "Bleeding Hearts",
-    "cover": "bleeding-hearts.webp",
-    "creativeTeam": ["Deniz Camp", "Stipan Morian"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 2,
-    "link": "https://leagueofcomicgeeks.com/comics/series/198365/bleeding-hearts"
-  },
-  {
-    "id": "just-brutal",
-    "title": "Just Brutal",
-    "cover": "just-brutal.webp",
-    "creativeTeam": ["Dennis Hopeless", "Brahm Revel"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 3,
-    "link": "https://leagueofcomicgeeks.com/comics/series/201706/just-brutal"
-  },
-  {
-    "id": "muppets-noir",
-    "title": "Muppets Noir",
-    "cover": "muppets-noir.webp",
-    "creativeTeam": ["Roger Langridge"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 4,
-    "link": "https://leagueofcomicgeeks.com/comics/series/201306/the-muppets-noir"
-  },
-  {
-    "id": "end-of-life",
-    "title": "End of Life",
-    "cover": "end-of-life.webp",
-    "creativeTeam": ["Kyle Starks", "Steve Pugh"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 5,
-    "link": "https://leagueofcomicgeeks.com/comics/series/198366/end-of-life"
-  },
-  {
-    "id": "batwoman",
-    "title": "Batwoman",
-    "cover": "batwoman.webp",
-    "creativeTeam": ["Greg Rucka", "DaNi"],
-    "description": "",
-    "category": "pull-list",
-    "rank": 6,
-    "link": "https://leagueofcomicgeeks.com/comics/series/198518/batwoman"
-  },
-  {
-    "id": "lobo",
-    "title": "Lobo",
-    "cover": "lobo.webp",
-    "creativeTeam": ["Skottie Young", "Jorge Corona"],
+    "id": "captain-america",
+    "title": "Captain America",
+    "cover": "captain-america.webp",
+    "creativeTeam": ["Chip Zdarsky", "Valerio Schiti"],
     "description": "",
     "category": "pull-list",
     "rank": 8,
-    "link": "https://leagueofcomicgeeks.com/comics/series/198520/lobo"
+    "link": "https://leagueofcomicgeeks.com/comics/series/186397/captain-america"
+  },
+  {
+    "id": "chachu",
+    "title": "Chachu",
+    "cover": "chachu.webp",
+    "creativeTeam": ["Iman Vellani", "Marianna Ignazzi"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 9,
+    "link": "https://leagueofcomicgeeks.com/comics/series/212197/chachu"
+  },
+  {
+    "id": "comics-the-magazine",
+    "title": "Comics! The Magazine",
+    "cover": "comics-the-magazine.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 10
   },
   {
     "id": "deathstroke-the-terminator",
@@ -290,7 +158,404 @@
     "creativeTeam": ["Tony Fleecs", "Carmine Di Giandomenico"],
     "description": "",
     "category": "pull-list",
-    "rank": 9,
+    "rank": 11,
     "link": "https://leagueofcomicgeeks.com/comics/series/198522/deathstroke-the-terminator"
+  },
+  {
+    "id": "dinner-date",
+    "title": "Dinner Date",
+    "cover": "dinner-date.webp",
+    "creativeTeam": ["Joanne Starer", "Khary Randolph"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 12
+  },
+  {
+    "id": "do-a-powerbomb-black-white",
+    "title": "Do a Powerbomb: Black & White",
+    "cover": "do-a-powerbomb-black-white.webp",
+    "creativeTeam": ["Daniel Warren Johnson"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 13,
+    "link": "https://leagueofcomicgeeks.com/comics/series/210219/do-a-powerbomb-black-white"
+  },
+  {
+    "id": "exquisite-corpses-fox-mask-killer",
+    "title": "Exquisite Corpses: Fox Mask Killer",
+    "cover": "exquisite-corpses-fox-mask-killer.webp",
+    "creativeTeam": ["Che Grayson", "Adam Gorham"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 14
+  },
+  {
+    "id": "fantastic-four",
+    "title": "Fantastic Four",
+    "cover": "fantastic-four.webp",
+    "creativeTeam": ["Ryan North", "Humberto Ramos"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 15,
+    "link": "https://leagueofcomicgeeks.com/comics/series/187342/fantastic-four"
+  },
+  {
+    "id": "fort-psycho",
+    "title": "Fort Psycho",
+    "cover": "fort-psycho.webp",
+    "creativeTeam": ["Matt Kindt", "Brian Hurtt"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 16
+  },
+  {
+    "id": "gi-joe",
+    "title": "GI Joe",
+    "cover": "gi-joe.webp",
+    "creativeTeam": ["Joshua Williamson", "Tom Reilly"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 17,
+    "link": "https://leagueofcomicgeeks.com/comics/series/177429/gi-joe"
+  },
+  {
+    "id": "invincible-universe-battle-beast",
+    "title": "Invincible Universe Battle Beast",
+    "cover": "invincible-universe-battle-beast.webp",
+    "creativeTeam": ["Robert Kirkman", "Ryan Ottley"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 18,
+    "link": "https://leagueofcomicgeeks.com/comics/series/183093/invincible-universe-battle-beast"
+  },
+  {
+    "id": "jonah-hex-and-the-shadow-of-death",
+    "title": "Jonah Hex and the Shadow of Death",
+    "cover": "jonah-hex-and-the-shadow-of-death.webp",
+    "creativeTeam": ["Michael Walsh"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 19
+  },
+  {
+    "id": "just-brutal",
+    "title": "Just Brutal",
+    "cover": "just-brutal.webp",
+    "creativeTeam": ["Dennis Hopeless", "Brahm Revel"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 20,
+    "link": "https://leagueofcomicgeeks.com/comics/series/201706/just-brutal"
+  },
+  {
+    "id": "legion-of-super-heroes",
+    "title": "Legion of Super-Heroes",
+    "cover": "legion-of-super-heroes.webp",
+    "creativeTeam": ["Joshua Williamson", "Hayden Sherman"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 21
+  },
+  {
+    "id": "mask",
+    "title": "M.A.S.K.",
+    "cover": "mask.webp",
+    "creativeTeam": ["Dan Watters", "Simon Parr"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 22,
+    "link": "https://leagueofcomicgeeks.com/comics/series/207129/mask"
+  },
+  {
+    "id": "mad",
+    "title": "Mad",
+    "cover": "mad.webp",
+    "creativeTeam": [],
+    "description": "",
+    "category": "pull-list",
+    "rank": 23,
+    "link": "https://leagueofcomicgeeks.com/comics/series/137845/mad"
+  },
+  {
+    "id": "mad-science-division",
+    "title": "Mad Science Division",
+    "cover": "mad-science-division.webp",
+    "creativeTeam": ["Dan Watters", "Brian Level"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 24
+  },
+  {
+    "id": "midnight-fantastic-four",
+    "title": "Midnight Fantastic Four",
+    "cover": "midnight-fantastic-four.webp",
+    "creativeTeam": ["Benjamin Percy", "Kev Walker"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 25,
+    "link": "https://leagueofcomicgeeks.com/comics/series/211670/midnight-fantastic-four"
+  },
+  {
+    "id": "midnight-spider-man",
+    "title": "Midnight Spider-Man",
+    "cover": "midnight-spider-man.webp",
+    "creativeTeam": ["Phillip Kennedy Johnson", "ScieTronc"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 26,
+    "link": "https://leagueofcomicgeeks.com/comics/series/211671/midnight-spider-man"
+  },
+  {
+    "id": "midnight-x-men",
+    "title": "Midnight X-Men",
+    "cover": "midnight-x-men.webp",
+    "creativeTeam": ["Jonathan Hickman", "Matteo Della Fonte"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 27,
+    "link": "https://leagueofcomicgeeks.com/comics/series/211669/midnight-x-men"
+  },
+  {
+    "id": "miles-morales-spider-man",
+    "title": "Miles Morales: Spider-Man",
+    "cover": "miles-morales-spider-man.webp",
+    "creativeTeam": ["Cody Ziglar", "Federico Vicentini"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 28,
+    "link": "https://leagueofcomicgeeks.com/comics/series/161613/miles-morales-spider-man"
+  },
+  {
+    "id": "prima-apparata",
+    "title": "Prima Apparata",
+    "cover": "prima-apparata.webp",
+    "creativeTeam": ["Olivia Dufault", "Rebekah Isaacs"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 29,
+    "link": "https://leagueofcomicgeeks.com/comics/series/212304/prima-apparata"
+  },
+  {
+    "id": "sabrina-the-teenage-witch",
+    "title": "Sabrina the Teenage Witch",
+    "cover": "sabrina-the-teenage-witch.webp",
+    "creativeTeam": ["Corinna Bechko", "Kano"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 30
+  },
+  {
+    "id": "satanic-panic",
+    "title": "Satanic Panic",
+    "cover": "satanic-panic.webp",
+    "creativeTeam": ["Matt Miner", "Clayton McCormack"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 31
+  },
+  {
+    "id": "six-of-us",
+    "title": "Six of Us",
+    "cover": "six-of-us.webp",
+    "creativeTeam": ["Tom King", "Gabriel Hernández Walta"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 32,
+    "link": "https://leagueofcomicgeeks.com/comics/series/212246/six-of-us"
+  },
+  {
+    "id": "super-mondo-mega-mutts",
+    "title": "Super Mondo Mega Mutts",
+    "cover": "super-mondo-mega-mutts.webp",
+    "creativeTeam": ["Curt Pires", "Juan Gedeon"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 33,
+    "link": "https://leagueofcomicgeeks.com/comics/series/209476/super-mondo-mega-mutts"
+  },
+  {
+    "id": "tales-of-wonder",
+    "title": "Tales of Wonder",
+    "cover": "tales-of-wonder.webp",
+    "creativeTeam": ["Steve Skroce"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 34
+  },
+  {
+    "id": "teen-titans",
+    "title": "Teen Titans",
+    "cover": "teen-titans.webp",
+    "creativeTeam": ["Kyle Higgins", "Daniele Di Nicuolo"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 35,
+    "link": "https://leagueofcomicgeeks.com/comics/series/207023/teen-titans"
+  },
+  {
+    "id": "terminal",
+    "title": "Terminal",
+    "cover": "terminal.webp",
+    "creativeTeam": ["Robert Kirkman", "Joe Casey", "Andy Kubert"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 36,
+    "link": "https://leagueofcomicgeeks.com/comics/series/207139/terminal"
+  },
+  {
+    "id": "the-amazing-spider-man",
+    "title": "The Amazing Spider-Man",
+    "cover": "the-amazing-spider-man.webp",
+    "creativeTeam": ["Joe Kelly", "John Romita Jr."],
+    "description": "",
+    "category": "pull-list",
+    "rank": 37,
+    "link": "https://leagueofcomicgeeks.com/comics/series/155422/the-amazing-spider-man"
+  },
+  {
+    "id": "the-big-shakedown",
+    "title": "The Big Shakedown",
+    "cover": "the-big-shakedown.webp",
+    "creativeTeam": ["Jordan Blum", "Tim Seeley", "Scott Koblish"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 38
+  },
+  {
+    "id": "the-demon",
+    "title": "The Demon",
+    "cover": "the-demon.webp",
+    "creativeTeam": ["James Harren"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 39,
+    "link": "https://leagueofcomicgeeks.com/comics/series/198525/the-demon"
+  },
+  {
+    "id": "the-doom-patrol",
+    "title": "The Doom Patrol",
+    "cover": "the-doom-patrol.webp",
+    "creativeTeam": ["Darcy Van Poelgeest", "Niko Henrichon"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 40,
+    "link": "https://leagueofcomicgeeks.com/comics/series/207029/the-doom-patrol"
+  },
+  {
+    "id": "the-flash",
+    "title": "The Flash",
+    "cover": "the-flash.webp",
+    "creativeTeam": ["Mark Waid", "Christopher Cantwell", "Vasco Georgiev"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 41,
+    "link": "https://leagueofcomicgeeks.com/comics/series/165707/the-flash"
+  },
+  {
+    "id": "the-fury-of-firestorm",
+    "title": "The Fury of Firestorm",
+    "cover": "the-fury-of-firestorm.webp",
+    "creativeTeam": ["Jeff Lemire", "Rafael de Latorre"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 42,
+    "link": "https://leagueofcomicgeeks.com/comics/series/198523/the-fury-of-firestorm"
+  },
+  {
+    "id": "the-last-driver",
+    "title": "The Last Driver",
+    "cover": "the-last-driver.webp",
+    "creativeTeam": ["Sean Gordon Murphy"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 43,
+    "link": "https://leagueofcomicgeeks.com/comics/series/211483/the-last-driver"
+  },
+  {
+    "id": "the-rocketfellers",
+    "title": "The Rocketfellers",
+    "cover": "the-rocketfellers.webp",
+    "creativeTeam": ["Peter J. Tomasi", "Francis Manapul"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 44,
+    "link": "https://leagueofcomicgeeks.com/comics/series/171493/the-rocketfellers"
+  },
+  {
+    "id": "transformers",
+    "title": "Transformers",
+    "cover": "transformers.webp",
+    "creativeTeam": ["Daniel Warren Johnson", "Jorge Corona"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 45,
+    "link": "https://leagueofcomicgeeks.com/comics/series/168170/transformers"
+  },
+  {
+    "id": "uncanny-x-men",
+    "title": "Uncanny X-Men",
+    "cover": "uncanny-x-men.webp",
+    "creativeTeam": ["Gail Simone", "David Marquez"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 46,
+    "link": "https://leagueofcomicgeeks.com/comics/series/174842/uncanny-x-men"
+  },
+  {
+    "id": "universal-monsters-frankenstein-black-white-special",
+    "title": "Universal Monsters: Frankenstein Black & White Special",
+    "cover": "universal-monsters-frankenstein-black-white-special.webp",
+    "creativeTeam": ["Michael Walsh"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 47
+  },
+  {
+    "id": "universal-monsters-the-bride-of-frankenstein-lives",
+    "title": "Universal Monsters: The Bride of Frankenstein Lives",
+    "cover": "universal-monsters-the-bride-of-frankenstein-lives.webp",
+    "creativeTeam": ["Kelly Thompson", "Mattia De Iulis"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 48
+  },
+  {
+    "id": "void-rivals",
+    "title": "Void Rivals",
+    "cover": "void-rivals.webp",
+    "creativeTeam": ["Robert Kirkman", "Lorenzo De Felici"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 49,
+    "link": "https://leagueofcomicgeeks.com/comics/series/165227/void-rivals"
+  },
+  {
+    "id": "w0rldtr33",
+    "title": "W0rldtr33",
+    "cover": "w0rldtr33.webp",
+    "creativeTeam": ["James Tynion IV", "Fernando Blanco"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 50,
+    "link": "https://leagueofcomicgeeks.com/comics/series/162873/w0rldtr33"
+  },
+  {
+    "id": "witchblade",
+    "title": "Witchblade",
+    "cover": "witchblade.webp",
+    "creativeTeam": ["Marguerite Bennett", "Giuseppe Cafaro"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 51,
+    "link": "https://leagueofcomicgeeks.com/comics/series/152313/witchblade"
+  },
+  {
+    "id": "wolverine-paradise",
+    "title": "Wolverine: Paradise",
+    "cover": "wolverine-paradise.webp",
+    "creativeTeam": ["Dan Panosian"],
+    "description": "",
+    "category": "pull-list",
+    "rank": 52
   }
 ]
