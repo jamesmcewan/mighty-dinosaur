@@ -2,9 +2,9 @@ pre-commit:
   commands:
     lint:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc,css,astro}"
-      run: deno task lint:fix
+      run: bun run lint:fix
       stage_fixed: true
     format:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc,css,astro}"
-      run: deno task format:write
+      run: bun run format:write
       stage_fixed: true

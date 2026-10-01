@@ -30,37 +30,37 @@ This site is hosted on [Bunny.net](https://bunny.net) - a fantastic EU-based pla
 ## Getting started
 
 ```bash
-# requires Deno >= 2.7
+# requires Bun >= 1.4
 
 # optional: install pinned toolchain via mise
 mise install
 
 # install dependencies
-deno install
+bun install
 
 # run dev server
-deno task dev
+bun run dev
 
 # build for production
-deno task build
+bun run build
 
 # lint and format
-deno task lint:check
-deno task lint:fix
-deno task format:check
-deno task format:write
-deno task check
-deno task fix
+bun run lint:check
+bun run lint:fix
+bun run format:check
+bun run format:write
+bun run check
+bun run fix
 
 # Astro diagnostics
-deno task astro:check
+bun run astro:check
 
 # update dependencies
-deno task update-dependencies
+bun run update-dependencies
 ```
 
 ## Tech Stack
 
 [![Astro](https://img.shields.io/badge/Astro-6.0.7-FF5C00?logo=astro)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.17-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
-[![Deno](https://img.shields.io/badge/Deno-2.7-000000?logo=deno)](https://deno.com)
+[![Bun](https://img.shields.io/badge/Bun-1.4-000000?logo=bun)](https://bun.sh)

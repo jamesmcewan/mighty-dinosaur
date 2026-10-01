@@ -8,28 +8,28 @@ This file provides guidance to AI coding agents when working with code in this r
 - **Language**: TypeScript with strict null checks
 - **Styling**: TailwindCSS 4.x with @tailwindcss/vite plugin
 - **Content**: Astro Content Collections with JSON data sources
-- **Runtime**: Deno 2.7.x — primary script runner; tasks defined in `deno.json`
-- **Package Manager**: Deno (npm dependencies via `npm:` specifiers in `deno.json`)
+- **Runtime**: Bun 1.4.x (`packageManager: bun@1.4.2`) — primary package manager and script runner
+- **Package Manager**: Bun
 
 ## Quick Commands
 
 ### Development
 
-- Dev server: `deno task dev`
-- Build: `deno task build`
-- Preview: `deno task preview`
+- Dev server: `bun run dev`
+- Build: `bun run build`
+- Preview: `bun run preview`
 
 ### Code Quality
 
-- Lint check: `deno task lint:check` (uses oxlint)
-- Lint fix: `deno task lint:fix`
-- Format check: `deno task format:check` (uses oxfmt)
-- Format write: `deno task format:write`
-- Astro check: `deno task astro:check`
+- Lint check: `bun run lint:check` (uses oxlint)
+- Lint fix: `bun run lint:fix`
+- Format check: `bun run format:check` (uses oxfmt)
+- Format write: `bun run format:write`
+- Astro check: `bun run astro:check`
 
 ### Maintenance
 
-- Update dependencies: `deno task update-dependencies`
+- Update dependencies: `bun run update-dependencies`
 
 ## Code Style (Enforced by oxfmt/oxlint)
 
@@ -120,8 +120,8 @@ Available collections: `posts`, `pages`, `movies`, `music`, `comics`, `elsewhere
 
 - `astro.config.ts` - Astro configuration (static output, site URL, integrations)
 - `tsconfig.json` - TypeScript paths and strict settings
-- `deno.json` - Deno tasks, npm imports, and tooling config
-- `mise.toml` - Toolchain versions (Deno)
+- `package.json` - Scripts and dependencies
+- `mise.toml` - Toolchain versions (Bun)
 - `lefthook.yml` - Git hook configuration
 - `.oxlintrc.json` - Lint rules (unused vars and triple-slash refs disabled)
 - `.oxfmtrc.json` - Formatter configuration
@@ -133,7 +133,7 @@ Available collections: `posts`, `pages`, `movies`, `music`, `comics`, `elsewhere
 2. Don't forget path aliases - always use `@/` prefix
 3. Don't modify files in `dist/` or `.astro/` - these are build outputs
 4. Don't skip pre-commit hooks - they ensure code quality
-5. Don't use npm/pnpm/bun commands for project tasks - use `deno task`
+5. Don't use npm/pnpm/deno commands for project tasks - use Bun scripts
 6. Don't use gh commands for repository use fj
 
 ## Build Output

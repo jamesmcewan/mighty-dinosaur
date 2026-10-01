@@ -20,25 +20,25 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v7
 
-      - name: Install Deno
-        run: |
-          curl -fsSL https://deno.land/install.sh | sh -s -- --yes v2.9.1
-          echo "$HOME/.deno/bin" >> $GITHUB_PATH
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.2
 
       - name: Cache dependencies
         uses: actions/cache@v6
         with:
           path: |
-            ~/.cache/deno
-          key: ${{ runner.os }}-deno-${{ hashFiles('deno.lock') }}
+            ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
           restore-keys: |
-            ${{ runner.os }}-deno-
+            ${{ runner.os }}-bun-
 
       - name: Install dependencies
-        run: deno install --frozen
+        run: bun ci
 
       - name: Run checks
-        run: deno run check
+        run: bun run check
 
   build:
     name: Build
@@ -47,25 +47,25 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v7
 
-      - name: Install Deno
-        run: |
-          curl -fsSL https://deno.land/install.sh | sh -s -- --yes v2.9.1
-          echo "$HOME/.deno/bin" >> $GITHUB_PATH
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.2
 
       - name: Cache dependencies
         uses: actions/cache@v6
         with:
           path: |
-            ~/.cache/deno
-          key: ${{ runner.os }}-deno-${{ hashFiles('deno.lock') }}
+            ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
           restore-keys: |
-            ${{ runner.os }}-deno-
+            ${{ runner.os }}-bun-
 
       - name: Install dependencies
-        run: deno install --frozen
+        run: bun ci
 
       - name: Build
-        run: deno run build
+        run: bun run build
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v7

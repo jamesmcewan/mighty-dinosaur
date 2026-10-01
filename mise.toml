@@ -1,14 +1,14 @@
 [tools]
-deno = "2.9"
+bun = "1.4"
 
 [tasks.setup]
 description = "Install project dependencies"
-run = "deno install"
+run = "bun install"
 
 [tasks.check]
 description = "Run format, lint, and Astro checks"
-run = "deno run check"
+run = "bun run check"
 
 [tasks.build]
 description = "Build static site"
-run = "deno run build"
+run = "bun run build"
