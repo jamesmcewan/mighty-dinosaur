@@ -134,31 +134,9 @@ Available collections: `posts`, `pages`, `movies`, `music`, `comics`, `elsewhere
 3. Don't modify files in `dist/` or `.astro/` - these are build outputs
 4. Don't skip pre-commit hooks - they ensure code quality
 5. Don't use npm/pnpm/deno commands for project tasks - use Bun scripts
-6. Don't use gh commands for repository use fj
 
 ## Build Output
 
 - Static site generated in `dist/`
 - Site URL: <https://mightydinosaur.dev/>
 - HTML compression and inline stylesheets enabled
-
-## Forgejo CLI (`fj`)
-
-Use `fj` (Forgejo CLI) instead of `gh` or `github` CLI for interacting with Forgejo/Codeberg instances.
-
-- **Project:** <https://codeberg.org/forgejo-contrib/forgejo-cli>
-- **Wiki:** <https://codeberg.org/forgejo-contrib/forgejo-cli/wiki>
-
-`fj` is a CLI client for Forgejo (similar to `gh` for GitHub) that enables managing issues, pull requests, repositories, organizations, and releases from the command line.
-
-### Common Commands
-
-- `fj auth login` — Authenticate with a Forgejo instance
-- `fj repo create` — Create a new repository
-- `fj issue list` — List issues
-- `fj pr create` — Create a pull request (supports AGit, no fork required)
-- `fj release create` — Publish a new release
-
-### Installation
-
-Pre-built binaries available for x86_64 Linux (GNU) and Windows via the [releases page](https://codeberg.org/forgejo-contrib/forgejo-cli/releases/latest). See the [wiki Installation page](https://codeberg.org/forgejo-contrib/forgejo-cli/wiki/Installation) for more options including Nix and building from source.
