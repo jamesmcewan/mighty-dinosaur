@@ -4,11 +4,11 @@ This file provides guidance to AI coding agents when working with code in this r
 
 ## Project Overview
 
-- **Framework**: Astro 6.x with static output
+- **Framework**: Astro 7.x with static output
 - **Language**: TypeScript with strict null checks
 - **Styling**: TailwindCSS 4.x with @tailwindcss/vite plugin
 - **Content**: Astro Content Collections with JSON data sources
-- **Runtime**: Bun 1.4.x (`packageManager: bun@1.4.2`) — primary package manager and script runner
+- **Runtime**: Bun 1.4.x (`packageManager: bun@1.4.4`) — primary package manager and script runner
 - **Package Manager**: Bun
 
 ## Quick Commands
