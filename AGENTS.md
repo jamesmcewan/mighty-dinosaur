@@ -29,7 +29,7 @@ This file provides guidance to AI coding agents when working with code in this r
 
 ### Maintenance
 
-- Update dependencies: `bun run update-dependencies`
+- Update dependencies: `bun run update-dependencies` (Dependabot also opens weekly PRs for Bun packages and GitHub Actions; see `.github/dependabot.yml`)
 
 ## Code Style (Enforced by oxfmt/oxlint)
 
