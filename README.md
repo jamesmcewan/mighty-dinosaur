@@ -61,6 +61,6 @@ bun run update-dependencies
 
 ## Tech Stack
 
-[![Astro](https://img.shields.io/badge/Astro-6.0.7-FF5C00?logo=astro)](https://astro.build)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.17-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
+[![Astro](https://img.shields.io/badge/Astro-7.4.2-FF5C00?logo=astro)](https://astro.build)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.3.3-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
 [![Bun](https://img.shields.io/badge/Bun-1.4-000000?logo=bun)](https://bun.sh)
