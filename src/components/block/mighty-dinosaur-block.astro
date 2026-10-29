@@ -61,10 +61,20 @@ const { compact = false } = Astro.props
 </header>
 <style>
   .mighty {
-    fill: var(--color-tn-purple0);
+    fill: #9a80b9;
   }
 
   .dinosaur {
-    fill: var(--color-tn-pink);
+    fill: #c26d85;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .mighty {
+      fill: #bb9af7;
+    }
+
+    .dinosaur {
+      fill: #ff007c;
+    }
   }
 </style>
