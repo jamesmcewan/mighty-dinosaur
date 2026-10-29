@@ -11,6 +11,11 @@ updates:
     open-pull-requests-limit: 5
     commit-message:
       prefix: "chore(deps)"
+    ignore:
+      # astro check does not support TypeScript 7.0; revisit once a stable
+      # 7.1 lands and type-checking can move to @astrojs/ts-content-mapper.
+      - dependency-name: "typescript"
+        versions: ["7.0.x"]
     groups:
       astro:
         patterns:
